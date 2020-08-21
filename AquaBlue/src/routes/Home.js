@@ -95,7 +95,6 @@ class Home extends Component {
     return (
       <Layout {...this.props} className="home">
         <div className="promotion-wrapper">
-          <Slider>
             <PromotionItem
               imageUrl={promotionItemImageUrl}
               title={promotionItemTitle}
@@ -103,7 +102,6 @@ class Home extends Component {
               buttonText={promotionItemButtonText}
               url={this.state.promotionItemButtonUrl}
             />
-          </Slider>
         </div>
 
         <div className="middle-section">

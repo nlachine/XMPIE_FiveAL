@@ -17,6 +17,8 @@ import React, {Component} from "react"
 import theme from '$styles/_theme.scss'
 import {throttle} from 'throttle-debounce'
 
+import Box_LineArt1 from "../assets/images/Stage_a.png";
+
 class PromotionItem extends Component
 {
   constructor() {
@@ -76,12 +78,17 @@ class PromotionItem extends Component
           imageUrl && <img className="promotion-image" src={`${imageUrl}`} alt=""/>
         }
         <div className="main">
-          <div className="title-area">
-            <div className="title text">{title}</div>
-            <div className="subtitle text">{subTitle}</div>
-            <div className="button button-primary truncate" onClick={() => this.goTo(url) }>{buttonText}</div>
+          <div className="promotion-container">
+            <div className="image-area">
+              <img src={Box_LineArt1} alt="box-lineart"></img>
+            </div>
+            <div className="title-area">
+              <div className="title text">{title}</div>
+                <div className="subtitle text">{subTitle}</div>
+                <div className="button button-primary truncate" onClick={() => this.goTo(url) }>{buttonText}</div>
+              </div>
+            </div>
           </div>
-        </div>
       </div>
     )
   }
