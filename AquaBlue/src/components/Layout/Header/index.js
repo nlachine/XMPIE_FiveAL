@@ -170,7 +170,8 @@ class Header extends Component {
             categoriesTree && categoriesTree.length > 0 &&
             <CategoriesNavbar categoriesTree={categoriesTree} />
           }
-          <Search />
+          {/*<Search />*/}
+          <div className="nav-spacer" />
           <div className="right-icons">
             {culturesViewModel && culturesViewModel.length > 0 &&
               <Switcher
