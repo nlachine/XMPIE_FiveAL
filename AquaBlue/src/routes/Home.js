@@ -21,7 +21,7 @@ import theme from '$styles/_theme.scss'
 import { throttle } from 'throttle-debounce'
 import { getIsNGProduct } from '../services/utils'
 import { decodeStringForURL } from '$ustoreinternal/services/utils'
-import Steps1 from '../components/steps/steps1'
+import Steps1 from '../core-components/steps/steps1'
 
 class Home extends Component {
 
