@@ -4,6 +4,7 @@
   z-index: 2;
   width: 100%;
   position: fixed;
+  padding-bottom: var(--header-height-desktop);
   @media (max-width: $md) {
     position: relative;
   }
