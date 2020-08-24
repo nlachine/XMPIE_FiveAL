@@ -21,6 +21,7 @@ import theme from '$styles/_theme.scss'
 import { throttle } from 'throttle-debounce'
 import { getIsNGProduct } from '../services/utils'
 import { decodeStringForURL } from '$ustoreinternal/services/utils'
+import Steps1 from '../core-components/steps/steps1'
 
 class Home extends Component {
 
@@ -95,13 +96,13 @@ class Home extends Component {
     return (
       <Layout {...this.props} className="home">
         <div className="promotion-wrapper">
-            <PromotionItem
-              imageUrl={promotionItemImageUrl}
-              title={promotionItemTitle}
-              subTitle={promotionItemSubtitle}
-              buttonText={promotionItemButtonText}
-              url={this.state.promotionItemButtonUrl}
-            />
+          <PromotionItem
+            imageUrl={promotionItemImageUrl}
+            title={promotionItemTitle}
+            subTitle={promotionItemSubtitle}
+            buttonText={promotionItemButtonText}
+            url={this.state.promotionItemButtonUrl}
+          />
         </div>
 
         <div className="middle-section">
@@ -118,9 +119,7 @@ class Home extends Component {
               </Slider>
             </div>
           }
-
-          <div className="divider" />
-          {homeFeaturedCategory && homeFeaturedProducts &&
+          {/* homeFeaturedCategory && homeFeaturedProducts &&
             <div className="featured-products-wrapper">
               <Gallery title={homeFeaturedCategory.Name}
                 seeAllUrl={urlGenerator.get({ page: 'category', id: homeFeaturedCategory.FriendlyID, name: decodeStringForURL(homeFeaturedCategory.Name) })}
@@ -148,7 +147,13 @@ class Home extends Component {
                 }
               </Gallery>
             </div>
-          }
+              */}
+
+          <div className="steps-wrapper">
+            <Steps1 title="Step 1" subtitle="This is where you explain" />
+            <Steps1 title="Step 2" subtitle="This is where you explain more" />
+            <Steps1 title="Step 3" subtitle="This is where you explain even more" />
+          </div>
         </div>
       </Layout>
     )
