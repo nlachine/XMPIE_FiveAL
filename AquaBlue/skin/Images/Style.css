@@ -2162,7 +2162,8 @@ div.proofLink a
 
 .dtiStringTextBox
 {
-    width: 252px;
+    border: black;
+    width: 300px;
 }
 
 .dddlValue select
@@ -2459,7 +2460,7 @@ div.XmpImageDropDownList:hover
 }
 .ThemedPagedFullWidthMaster #searcharea,
 .ThemedPageMaster #searcharea{
-    margin-top: 30px;
+    margin-top: 60px;
     margin-bottom: 10px;
     text-align:center;
 }
@@ -2627,7 +2628,7 @@ a.AccountLinks, a.AccountLinks:hover,
 }
 
 .formbox {
-    border: solid 1px #C6CCD9;
+    border: solid 1px #cac6d9;
 }
 
 .formprompt {
@@ -2637,11 +2638,12 @@ a.AccountLinks, a.AccountLinks:hover,
 
 input, select, textarea,
 html body .riSingle .riTextBox[type="text"]{
-    border: 1px solid var(--color-line)!important;
+    border: 1px solid var(--color-line) !important;
     border-radius:var(--form-input-border-radius)!important;
     padding:3px 10px 3px 10px!important;
     line-height:26px!important;
 }
+
 html body .riSingle .riTextBox[type="text"] ,
 select
 {
@@ -2652,8 +2654,8 @@ input:focus,
 select:focus,
 textarea:focus,
 .form-control:focus {
-    border-color:var(--color-line);
-    outline-color:var(--color-line);
+    border-color:black;
+    outline-color:black;
     box-shadow:inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(214, 214, 214, 0.6);
 }
 

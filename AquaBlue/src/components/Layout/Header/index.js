@@ -173,7 +173,7 @@ class Header extends Component {
           {/*<Search />*/}
           <div className="nav-spacer" />
           <div className="right-icons">
-            {culturesViewModel && culturesViewModel.length > 0 &&
+            {/* {culturesViewModel && culturesViewModel.length > 0 &&
               <Switcher
                 className="culture"
                 items={culturesViewModel}
@@ -188,7 +188,7 @@ class Header extends Component {
                 selected={currentCurrency && currenciesViewModel.find((element) => { return currentCurrency.ID === element.ID })}
                 label={t('Header.Currency')}
                 onSelected={currencySelected} />
-            }
+            } */}
             {currentUser && <Profile currentUser={currentUser} userOrdersSummary={userOrdersSummary} />}
             <Cart />
           </div>
