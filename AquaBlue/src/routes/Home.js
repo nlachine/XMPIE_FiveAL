@@ -22,6 +22,7 @@ import { throttle } from 'throttle-debounce'
 import { getIsNGProduct } from '../services/utils'
 import { decodeStringForURL } from '$ustoreinternal/services/utils'
 import Steps1 from '../core-components/steps/steps1'
+import Steps2 from '../core-components/steps/Steps2'
 
 class Home extends Component {
 
@@ -153,6 +154,8 @@ class Home extends Component {
             <Steps1 title="Step 1" subtitle="This is where you explain" />
             <Steps1 title="Step 2" subtitle="This is where you explain more" />
             <Steps1 title="Step 3" subtitle="This is where you explain even more" />
+            <Steps2 />
+            <Steps2 />
           </div>
         </div>
       </Layout>
