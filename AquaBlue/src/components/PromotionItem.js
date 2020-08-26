@@ -85,8 +85,8 @@ class PromotionItem extends Component {
               <div className="title text">{title}</div>
               <div className="subtitle text">{subTitle}</div>
               <div className="button-area">
-                <div className="button button-primary truncate" onClick={() => this.goTo(url)}>How It Works</div>
-                <div className="button button-primary truncate" onClick={() => this.goTo(url)}>Pick An Occasion</div>
+                <div className="button button-primary truncate" onClick={() => this.goTo("/home/#howitworks")}>How It Works</div>
+                <div className="button button-primary truncate" onClick={() => this.goTo("/uStore/?StoreId=7/home/#howitworks")}>Pick An Occasion</div>
               </div>
             </div>
           </div>

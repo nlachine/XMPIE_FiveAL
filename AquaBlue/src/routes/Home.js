@@ -150,7 +150,7 @@ class Home extends Component {
             </div>
               */}
 
-          <div className="steps-wrapper">
+          <div className="steps-wrapper" id="howitworks">
             <Steps1 title="Step 1" subtitle="This is where you explain" />
             <Steps1 title="Step 2" subtitle="This is where you explain more" />
             <Steps1 title="Step 3" subtitle="This is where you explain even more" />
