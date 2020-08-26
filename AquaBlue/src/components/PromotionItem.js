@@ -11,16 +11,15 @@
  * @param {string} url - the url to redirect to when clicking the button
  * @param {string} className - the css class to add to main div
  */
-import {Router} from '$routes'
+import { Router } from '$routes'
 import './PromotionItem.scss'
-import React, {Component} from "react"
+import React, { Component } from "react"
 import theme from '$styles/_theme.scss'
-import {throttle} from 'throttle-debounce'
+import { throttle } from 'throttle-debounce'
 
 import Box_LineArt1 from "../assets/images/Stage_a.png";
 
-class PromotionItem extends Component
-{
+class PromotionItem extends Component {
   constructor() {
     super();
     this.promotionItem = React.createRef();
@@ -37,8 +36,8 @@ class PromotionItem extends Component
     window.removeEventListener('resize', this.onResize)
   }
 
-  goTo(url){
-    if(!url){
+  goTo(url) {
+    if (!url) {
       return
     }
     if (url.startsWith('http')) {
@@ -53,8 +52,8 @@ class PromotionItem extends Component
     this.setButtonSize()
   }
 
-  setButtonSize(){
-    if(!this.promotionItem) {
+  setButtonSize() {
+    if (!this.promotionItem) {
       return
     }
 
@@ -64,18 +63,18 @@ class PromotionItem extends Component
     if (window.matchMedia(`(max-width: ${theme.md})`).matches) {
       button.style['max-width'] = `${width - (2 * 20)}px`
     }
-    else{
+    else {
       button.style['max-width'] = ''
     }
   }
 
   render() {
-    const {imageUrl, title, subTitle, buttonText, url, className} = this.props;
+    const { imageUrl, title, subTitle, buttonText, url, className } = this.props;
 
     return (
-      <div className={`promotion-item ${ className || ''}`} ref={(ref) =>this.promotionItem = ref}>
+      <div className={`promotion-item ${className || ''}`} ref={(ref) => this.promotionItem = ref}>
         {
-          imageUrl && <img className="promotion-image" src={`${imageUrl}`} alt=""/>
+          imageUrl && <img className="promotion-image" src={`${imageUrl}`} alt="" />
         }
         <div className="main">
           <div className="promotion-container">
@@ -84,11 +83,14 @@ class PromotionItem extends Component
             </div>
             <div className="title-area">
               <div className="title text">{title}</div>
-                <div className="subtitle text">{subTitle}</div>
-                <div className="button button-primary truncate" onClick={() => this.goTo(url) }>{buttonText}</div>
+              <div className="subtitle text">{subTitle}</div>
+              <div className="button-area">
+                <div className="button button-primary truncate" onClick={() => this.goTo(url)}>How It Works</div>
+                <div className="button button-primary truncate" onClick={() => this.goTo(url)}>Pick An Occasion</div>
               </div>
             </div>
           </div>
+        </div>
       </div>
     )
   }
