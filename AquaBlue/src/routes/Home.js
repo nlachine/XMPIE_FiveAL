@@ -154,8 +154,8 @@ class Home extends Component {
             <Steps1 title="Step 1" subtitle="This is where you explain" />
             <Steps1 title="Step 2" subtitle="This is where you explain more" />
             <Steps1 title="Step 3" subtitle="This is where you explain even more" />
-            <Steps2 />
-            <Steps2 />
+            {/*<Steps2 />
+            <Steps2 />*/}
           </div>
         </div>
       </Layout>
