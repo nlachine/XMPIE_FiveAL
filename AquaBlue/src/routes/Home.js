@@ -23,6 +23,9 @@ import { getIsNGProduct } from '../services/utils'
 import { decodeStringForURL } from '$ustoreinternal/services/utils'
 import Steps1 from '../core-components/steps/steps1'
 import Steps2 from '../core-components/steps/Steps2'
+import MaterialUIBanner from '../core-components/MaterialUIBanner/materialUIBanner'
+import MaterialUISplitContainerLeft from '../core-components/MaterialUISplitContainer/materialUISplitContainerLeft'
+import MaterialUISplitContainerRight from '../core-components/MaterialUISplitContainer/materialUISplitContainerRight'
 
 class Home extends Component {
 
@@ -97,12 +100,28 @@ class Home extends Component {
     return (
       <Layout {...this.props} className="home">
         <div className="promotion-wrapper">
-          <PromotionItem
+          {/* <PromotionItem
             imageUrl={promotionItemImageUrl}
             title={promotionItemTitle}
             subTitle={promotionItemSubtitle}
             buttonText={promotionItemButtonText}
             url={this.state.promotionItemButtonUrl}
+          /> */}
+          <MaterialUIBanner 
+            title="This is a Headline"
+            titleInfo="A subtitle to go with that, woohoo!"
+            subtitle="Pick one of these..."
+
+          />
+          <MaterialUISplitContainerLeft
+            title="Look at that image"
+            subtitle="more info on why you are looking there"
+            buttonTxt="Click Me"
+          />
+          <MaterialUISplitContainerRight
+            title="Look at that image"
+            subtitle="more info on why you are looking there"
+            buttonTxt="Click Me"
           />
         </div>
 

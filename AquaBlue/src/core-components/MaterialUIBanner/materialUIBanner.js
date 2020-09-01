@@ -1,14 +1,14 @@
-import React, { Component } from 'react';
-import { Grid, Box, Container, ButtonBase, Typography } from '@material-ui/core';
-import ImgOne from '../../images/Icons/Birthday.png';
-import ImgTwo from '../../images/Icons/Baby.png';
-import ImgThree from '../../images/Icons/Bridesmaids.png';
-import ImgFour from '../../images/Icons/Christmas.png';
-import ImgFive from '../../images/Icons/Easter.png';
-import ImgSix from '../../images/Icons/Corporate.png';
-import ImgSeven from '../../images/Icons/Friendship.png';
-import ImgEight from '../../images/Icons/Graduation.png';
-import BoxOne from '../../images/HighlightedBox/BoxStages-01.png';
+import React from 'react';
+import { Grid, Box, ButtonBase, Typography } from '@material-ui/core';
+import ImgOne from '../../assets/images/Birthday.png';
+import ImgTwo from '../../assets/images/Baby.png';
+import ImgThree from '../../assets/images/Bridesmaids.png';
+import ImgFour from '../../assets/images/Christmas.png';
+import ImgFive from '../../assets/images/Easter.png';
+import ImgSix from '../../assets/images/Corporate.png';
+import ImgSeven from '../../assets/images/Friendship.png';
+import ImgEight from '../../assets/images/Graduation.png';
+import BoxOne from '../../assets/images/BoxStages-01.png';
 
 import './materialUIBanner.css';
 
