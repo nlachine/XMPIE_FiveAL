@@ -23,6 +23,10 @@ import { getIsNGProduct } from '../services/utils'
 import { decodeStringForURL } from '$ustoreinternal/services/utils'
 import Steps1 from '../core-components/steps/steps1'
 import Steps2 from '../core-components/steps/Steps2'
+import MaterialUIBanner from '../core-components/MaterialUIBanner/materialUIBanner'
+import MaterialUISplitContainerLeft from '../core-components/MaterialUISplitContainer/materialUISplitContainerLeft'
+import MaterialUISplitContainerRight from '../core-components/MaterialUISplitContainer/materialUISplitContainerRight'
+import SimpleQuoteDiv from '../core-components/SimpleQuoteDiv/simpleQuoteDiv'
 
 class Home extends Component {
 
@@ -97,16 +101,34 @@ class Home extends Component {
     return (
       <Layout {...this.props} className="home">
         <div className="promotion-wrapper">
-          <PromotionItem
+          {/* <PromotionItem
             imageUrl={promotionItemImageUrl}
             title={promotionItemTitle}
             subTitle={promotionItemSubtitle}
             buttonText={promotionItemButtonText}
             url={this.state.promotionItemButtonUrl}
+          /> */}
+
+          <MaterialUIBanner
+            title="GREETING CARD BOXES THAT SURPRISE AND DELIGHT"
+            titleInfo="FOR THAT SPECIAL SOMEONE ON THEIR SPECIAL OCCASION"
+            subtitle="Choose your occasion"
+
+          />
+          <SimpleQuoteDiv quote={<q>You miss 100% of the shots you don't take.</q>} author="-Wayne Gretzky"/>
+          <MaterialUISplitContainerLeft
+            title="Look at that image"
+            subtitle="more info on why you are looking there"
+            buttonTxt="Click Me"
+          />
+          <MaterialUISplitContainerRight
+            title="Look at that image"
+            subtitle="more info on why you are looking there"
+            buttonTxt="Click Me"
           />
         </div>
 
-        <div className="middle-section">
+        {/*<div className="middle-section">
           {categories && categories.length > 0 &&
             <div className="categories-wrapper">
               <Slider multi>
@@ -120,7 +142,7 @@ class Home extends Component {
               </Slider>
             </div>
           }
-          {/* homeFeaturedCategory && homeFeaturedProducts &&
+          {homeFeaturedCategory && homeFeaturedProducts &&
             <div className="featured-products-wrapper">
               <Gallery title={homeFeaturedCategory.Name}
                 seeAllUrl={urlGenerator.get({ page: 'category', id: homeFeaturedCategory.FriendlyID, name: decodeStringForURL(homeFeaturedCategory.Name) })}
@@ -148,16 +170,15 @@ class Home extends Component {
                 }
               </Gallery>
             </div>
-              */}
 
-          <div className="steps-wrapper" id="howitworks">
-            <Steps1 title="Step 1" subtitle="This is where you explain" />
-            <Steps1 title="Step 2" subtitle="This is where you explain more" />
-            <Steps1 title="Step 3" subtitle="This is where you explain even more" />
-            {/*<Steps2 />
-            <Steps2 />*/}
-          </div>
-        </div>
+            <div className="steps-wrapper" id="howitworks">
+              <Steps1 title="Step 1" subtitle="This is where you explain" />
+              <Steps1 title="Step 2" subtitle="This is where you explain more" />
+              <Steps1 title="Step 3" subtitle="This is where you explain even more" />
+              <Steps2 />
+              <Steps2 />
+            </div>
+              </div>*/}
       </Layout>
     )
   }
