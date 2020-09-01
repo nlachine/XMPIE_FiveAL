@@ -17,8 +17,6 @@ function materialUIBanner(props) {
     return (
         <Box className="hero-image">
             <Grid className="hero-container" container spacing={3} direction="row" justify="center" alignItems="center">
-                {/* Left Gutter */}
-                <Grid item xs={0} />
                 {/* Main Content Container */}
                 <Grid container item xs={12} direction="row" justify="center" alignItems="center">
                     {/* Main Content Left */}
@@ -93,8 +91,6 @@ function materialUIBanner(props) {
                         <img src={BoxOne} alt="Occassion" />
                     </Grid>
                 </Grid>
-                {/* Right Gutter */}
-                <Grid item xs={0} />
             </Grid>
         </Box >
     );

@@ -1,5 +1,6 @@
 .hero-image {
-    background-Image: url(https://www.imagemagick.org/Usage/photos/nikon18-70dx_18mm_f3.5.jpg);
+    /* background-Image: url(https://www.imagemagick.org/Usage/photos/nikon18-70dx_18mm_f3.5.jpg); */
+    background-color: rgb(249,249,249);
     min-height: 800px;
     background-position: center;
     background-repeat: no-repeat;

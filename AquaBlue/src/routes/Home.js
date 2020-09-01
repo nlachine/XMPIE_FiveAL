@@ -26,6 +26,7 @@ import Steps2 from '../core-components/steps/Steps2'
 import MaterialUIBanner from '../core-components/MaterialUIBanner/materialUIBanner'
 import MaterialUISplitContainerLeft from '../core-components/MaterialUISplitContainer/materialUISplitContainerLeft'
 import MaterialUISplitContainerRight from '../core-components/MaterialUISplitContainer/materialUISplitContainerRight'
+import SimpleQuoteDiv from '../core-components/SimpleQuoteDiv/simpleQuoteDiv'
 
 class Home extends Component {
 
@@ -107,14 +108,14 @@ class Home extends Component {
             buttonText={promotionItemButtonText}
             url={this.state.promotionItemButtonUrl}
           /> */}
-          
-          <MaterialUIBanner 
+
+          <MaterialUIBanner
             title="GREETING CARD BOXES THAT SURPRISE AND DELIGHT"
             titleInfo="FOR THAT SPECIAL SOMEONE ON THEIR SPECIAL OCCASION"
             subtitle="Choose your occasion"
 
           />
-          <div className="spacer"/>
+          <SimpleQuoteDiv quote={<q>You miss 100% of the shots you don't take.</q>} author="-Wayne Gretzky"/>
           <MaterialUISplitContainerLeft
             title="Look at that image"
             subtitle="more info on why you are looking there"
@@ -127,10 +128,10 @@ class Home extends Component {
           />
         </div>
 
-        <div className="middle-section">
+        {/*<div className="middle-section">
           {categories && categories.length > 0 &&
             <div className="categories-wrapper">
-              {/* <Slider multi>
+              <Slider multi>
                 {
                   categories.map((model) => {
                     return <CategoryItem key={model.ID} model={model}
@@ -138,10 +139,10 @@ class Home extends Component {
                   }
                   )
                 }
-              </Slider> */}
+              </Slider>
             </div>
           }
-          {/* homeFeaturedCategory && homeFeaturedProducts &&
+          {homeFeaturedCategory && homeFeaturedProducts &&
             <div className="featured-products-wrapper">
               <Gallery title={homeFeaturedCategory.Name}
                 seeAllUrl={urlGenerator.get({ page: 'category', id: homeFeaturedCategory.FriendlyID, name: decodeStringForURL(homeFeaturedCategory.Name) })}
@@ -169,16 +170,15 @@ class Home extends Component {
                 }
               </Gallery>
             </div>
-              */}
 
-          <div className="steps-wrapper" id="howitworks">
-            {/*<Steps1 title="Step 1" subtitle="This is where you explain" />
-            <Steps1 title="Step 2" subtitle="This is where you explain more" />
-            <Steps1 title="Step 3" subtitle="This is where you explain even more" />
-            <Steps2 />
-            <Steps2 />*/}
-          </div>
-        </div>
+            <div className="steps-wrapper" id="howitworks">
+              <Steps1 title="Step 1" subtitle="This is where you explain" />
+              <Steps1 title="Step 2" subtitle="This is where you explain more" />
+              <Steps1 title="Step 3" subtitle="This is where you explain even more" />
+              <Steps2 />
+              <Steps2 />
+            </div>
+              </div>*/}
       </Layout>
     )
   }
