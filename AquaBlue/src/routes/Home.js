@@ -108,9 +108,9 @@ class Home extends Component {
             url={this.state.promotionItemButtonUrl}
           /> */}
           <MaterialUIBanner 
-            title="This is a Headline"
-            titleInfo="A subtitle to go with that, woohoo!"
-            subtitle="Pick one of these..."
+            title="GREETING CARD BOXES THAT SURPRISE AND DELIGHT"
+            titleInfo="FOR THAT SPECIAL SOMEONE ON THEIR SPECIAL OCCASION"
+            subtitle="Choose your occasion"
 
           />
           <MaterialUISplitContainerLeft
@@ -128,7 +128,7 @@ class Home extends Component {
         <div className="middle-section">
           {categories && categories.length > 0 &&
             <div className="categories-wrapper">
-              <Slider multi>
+              {/* <Slider multi>
                 {
                   categories.map((model) => {
                     return <CategoryItem key={model.ID} model={model}
@@ -136,7 +136,7 @@ class Home extends Component {
                   }
                   )
                 }
-              </Slider>
+              </Slider> */}
             </div>
           }
           {/* homeFeaturedCategory && homeFeaturedProducts &&
@@ -170,10 +170,10 @@ class Home extends Component {
               */}
 
           <div className="steps-wrapper" id="howitworks">
-            <Steps1 title="Step 1" subtitle="This is where you explain" />
+            {/*<Steps1 title="Step 1" subtitle="This is where you explain" />
             <Steps1 title="Step 2" subtitle="This is where you explain more" />
             <Steps1 title="Step 3" subtitle="This is where you explain even more" />
-            {/*<Steps2 />
+            <Steps2 />
             <Steps2 />*/}
           </div>
         </div>

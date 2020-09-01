@@ -22,12 +22,12 @@ function materialUIBanner(props) {
                 {/* Main Content Container */}
                 <Grid container item xs={12} direction="row" justify="center" alignItems="center">
                     {/* Main Content Left */}
-                    <Grid item xs={12} md={6} spacing={3} textAlign="center">
+                    <Grid item xs={12} md={7} spacing={3} textAlign="center">
                         <Typography className="title-h3" variant="h3">{props.title}</Typography>
                         <Typography className="title-h5" variant="h5" gutterBottom="true">{props.titleInfo}</Typography>
                         <Typography className="title-h6" variant="h6" gutterBottom="true">{props.subtitle}</Typography>
                         {/* Occasion Grid */}
-                        <Grid container direction="row" justify="flex-start" spacing={6}>
+                        <Grid container item md={12} direction="row" justify="flex-start" spacing={8}>
                             <Grid item xs={6} sm={3}>
                                 <ButtonBase>
                                     <div className="icon-btn-container">
@@ -87,9 +87,9 @@ function materialUIBanner(props) {
                         </Grid>
                     </Grid>
                     {/* Main Content Spacer */}
-                    <Grid item xs={0} md={2} />
+                    <Grid item xs={0} md={0} />
                     {/* Main Content Right */}
-                    <Grid className="bannerInfo" item xs={0} md={4} spacing={3}>
+                    <Grid className="bannerInfo" item xs={0} md={5} spacing={3}>
                         <img src={BoxOne} alt="Occassion" />
                     </Grid>
                 </Grid>

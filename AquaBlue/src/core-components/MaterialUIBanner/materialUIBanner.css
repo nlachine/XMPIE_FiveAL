@@ -25,8 +25,9 @@
     padding-bottom: 30px;
 }
 .title-h6.MuiTypography-h6{
-    color: black;
-    padding-bottom: 0px;
+    color: salmon;
+    padding-bottom: 10px;
+    font-style: italic;
 }
 
 /* .icon-btn-container {
