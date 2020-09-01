@@ -173,22 +173,7 @@ class Header extends Component {
           {/*<Search />*/}
           <div className="nav-spacer" />
           <div className="right-icons">
-            {/* {culturesViewModel && culturesViewModel.length > 0 &&
-              <Switcher
-                className="culture"
-                items={culturesViewModel}
-                selected={currentCulture && culturesViewModel.find((element) => { return currentCulture.ID === element.ID })}
-                label={t('Header.Language')}
-                onSelected={cultureSelected} />
-            }
-            {currenciesViewModel && currenciesViewModel.length > 0 &&
-              <Switcher
-                className="currency"
-                items={currenciesViewModel}
-                selected={currentCurrency && currenciesViewModel.find((element) => { return currentCurrency.ID === element.ID })}
-                label={t('Header.Currency')}
-                onSelected={currencySelected} />
-            } */}
+            <Link to={urlGenerator.get({ page: 'AboutUs' })}>About Us</Link>
             {currentUser && <Profile currentUser={currentUser} userOrdersSummary={userOrdersSummary} />}
             <Cart />
           </div>

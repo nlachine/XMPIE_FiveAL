@@ -27,6 +27,7 @@ import OrderApprovalList from './OrderApprovalList'
 import CustomMain from './CustomMain'
 import ClearingUnknownOrder from './ClearingUnknownOrder'
 import ProductDetails from './ProductDetails'
+import AboutUs from './AboutUs'
 
 export default {
   Home,
@@ -57,5 +58,6 @@ export default {
   OrderApprovalList,
   CustomMain,
   ClearingUnknownOrder,
-  ProductDetails
+  ProductDetails,
+  AboutUs
 }
