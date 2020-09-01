@@ -8,7 +8,7 @@ import ImgFive from '../../assets/images/Easter.png';
 import ImgSix from '../../assets/images/Corporate.png';
 import ImgSeven from '../../assets/images/Friendship.png';
 import ImgEight from '../../assets/images/Graduation.png';
-import BoxOne from '../../assets/images/BoxStages-01.png';
+import BoxOne from '../../assets/images/BoxBannerGif.gif';
 
 import './materialUIBanner.css';
 
