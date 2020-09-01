@@ -107,12 +107,14 @@ class Home extends Component {
             buttonText={promotionItemButtonText}
             url={this.state.promotionItemButtonUrl}
           /> */}
+          
           <MaterialUIBanner 
             title="GREETING CARD BOXES THAT SURPRISE AND DELIGHT"
             titleInfo="FOR THAT SPECIAL SOMEONE ON THEIR SPECIAL OCCASION"
             subtitle="Choose your occasion"
 
           />
+          <div className="spacer"/>
           <MaterialUISplitContainerLeft
             title="Look at that image"
             subtitle="more info on why you are looking there"
