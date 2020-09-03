@@ -113,7 +113,6 @@ class Home extends Component {
             title="GREETING CARD BOXES THAT SURPRISE AND DELIGHT"
             titleInfo="FOR THAT SPECIAL SOMEONE ON THEIR SPECIAL OCCASION"
             subtitle="Choose your occasion"
-
           />
           <SimpleQuoteDiv quote={<q>You miss 100% of the shots you don't take.</q>} author="-Wayne Gretzky"/>
           <MaterialUISplitContainerLeft
