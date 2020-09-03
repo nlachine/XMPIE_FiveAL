@@ -47,6 +47,7 @@
     "react-custom-scrollbars": "file:./npm_packages/react-custom-scrollbars-4.2.1.tgz",
     "react-dom": "file:./npm_packages/react-dom-16.11.tgz",
     "react-helmet": "file:./npm_packages/react-helmet-5.2.0.tgz",
+    "react-hover-image": "^2.0.1",
     "react-infinite-scroller": "file:./npm_packages/react-infinite-scroller-1.2.4.tgz",
     "react-lines-ellipsis": "file:./npm_packages/react-lines-ellipsis-0.14.0.tgz",
     "react-markdown": "file:./npm_packages/react-markdown-3.3.0.tgz",
