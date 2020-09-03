@@ -43,6 +43,11 @@
 }
 
 
+.grid-btn-base {
+    outline: none !important;
+}
+
+
 .bannerInfo img {
     width: 100%;
     height: auto;

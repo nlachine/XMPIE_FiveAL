@@ -1,5 +1,6 @@
 import React from 'react';
 import { Grid, Box, ButtonBase, Typography } from '@material-ui/core';
+import HoverImage from 'react-hover-image';
 import ImgOne from '../../assets/images/Birthday.png';
 import ImgTwo from '../../assets/images/Baby.png';
 import ImgThree from '../../assets/images/Bridesmaids.png';
@@ -8,8 +9,17 @@ import ImgFive from '../../assets/images/Easter.png';
 import ImgSix from '../../assets/images/Corporate.png';
 import ImgSeven from '../../assets/images/Friendship.png';
 import ImgEight from '../../assets/images/Graduation.png';
-import BoxOne from '../../assets/images/BoxBannerGif.gif';
 
+import ImgOneHover from '../../assets/images/Birthday_Active.png';
+import ImgTwoHover from '../../assets/images/Baby_Active.png';
+import ImgThreeHover from '../../assets/images/Bridesmaids_Active.png';
+import ImgFourHover from '../../assets/images/Christmas_Active.png';
+import ImgFiveHover from '../../assets/images/Easter_Active.png';
+import ImgSixHover from '../../assets/images/Corporate_Active.png';
+import ImgSevenHover from '../../assets/images/Friendship_Active.png';
+import ImgEightHover from '../../assets/images/Graduation_Active.png';
+
+import BoxOne from '../../assets/images/BoxBannerGif.gif';
 import './materialUIBanner.css';
 
 
@@ -27,58 +37,58 @@ function materialUIBanner(props) {
                         {/* Occasion Grid */}
                         <Grid container item md={12} direction="row" justify="flex-start" spacing={8}>
                             <Grid item xs={6} sm={3}>
-                                <ButtonBase>
+                                <ButtonBase className="grid-btn-base">
                                     <div className="icon-btn-container">
-                                        <img className="grid-img" src={ImgOne} alt="Occassion" />
+                                        <HoverImage className="grid-img" src={ImgOne} hoverSrc={ImgOneHover}></HoverImage>
                                     </div>
                                 </ButtonBase>
                             </Grid>
                             <Grid item xs={6} sm={3}>
-                                <ButtonBase>
+                                <ButtonBase className="grid-btn-base">
                                     <div className="icon-btn-container">
-                                        <img className="grid-img" src={ImgTwo} alt="Occassion" />
+                                        <HoverImage className="grid-img" src={ImgTwo} hoverSrc={ImgTwoHover}></HoverImage>
                                     </div>
                                 </ButtonBase>
                             </Grid>
                             <Grid item xs={6} sm={3}>
-                                <ButtonBase>
+                                <ButtonBase className="grid-btn-base">
                                     <div className="icon-btn-container">
-                                        <img className="grid-img" src={ImgThree} alt="Occassion" />
+                                        <HoverImage className="grid-img" src={ImgThree} hoverSrc={ImgThreeHover}></HoverImage>
                                     </div>
                                 </ButtonBase>
                             </Grid>
                             <Grid item xs={6} sm={3}>
-                                <ButtonBase>
+                                <ButtonBase className="grid-btn-base">
                                     <div className="icon-btn-container">
-                                        <img className="grid-img" src={ImgFour} alt="Occassion" />
+                                        <HoverImage className="grid-img" src={ImgFour} hoverSrc={ImgFourHover}></HoverImage>
                                     </div>
                                 </ButtonBase>
                             </Grid>
                             <Grid item xs={6} sm={3}>
-                                <ButtonBase>
+                                <ButtonBase className="grid-btn-base">
                                     <div className="icon-btn-container">
-                                        <img className="grid-img" src={ImgFive} alt="Occassion" />
+                                        <HoverImage className="grid-img" src={ImgFive} hoverSrc={ImgFiveHover}></HoverImage>
                                     </div>
                                 </ButtonBase>
                             </Grid>
                             <Grid item xs={6} sm={3}>
-                                <ButtonBase>
+                                <ButtonBase className="grid-btn-base">
                                     <div className="icon-btn-container">
-                                        <img className="grid-img" src={ImgSix} alt="Occassion" />
+                                        <HoverImage className="grid-img" src={ImgSix} hoverSrc={ImgSixHover}></HoverImage>
                                     </div>
                                 </ButtonBase>
                             </Grid>
                             <Grid item xs={6} sm={3}>
-                                <ButtonBase>
+                                <ButtonBase className="grid-btn-base">
                                     <div className="icon-btn-container">
-                                        <img className="grid-img" src={ImgSeven} alt="Occassion" />
+                                        <HoverImage className="grid-img" src={ImgSeven} hoverSrc={ImgSevenHover}></HoverImage>
                                     </div>
                                 </ButtonBase>
                             </Grid>
                             <Grid item xs={6} sm={3}>
-                                <ButtonBase>
+                                <ButtonBase className="grid-btn-base">
                                     <div className="icon-btn-container">
-                                        <img className="grid-img" src={ImgEight} alt="Occassion" />
+                                        <HoverImage className="grid-img" src={ImgEight} hoverSrc={ImgEightHover}></HoverImage>
                                     </div>
                                 </ButtonBase>
                             </Grid>
