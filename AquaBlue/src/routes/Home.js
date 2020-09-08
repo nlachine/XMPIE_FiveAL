@@ -21,12 +21,8 @@ import theme from '$styles/_theme.scss'
 import { throttle } from 'throttle-debounce'
 import { getIsNGProduct } from '../services/utils'
 import { decodeStringForURL } from '$ustoreinternal/services/utils'
-import Steps1 from '../core-components/steps/steps1'
-import Steps2 from '../core-components/steps/Steps2'
-import MaterialUIBanner from '../core-components/MaterialUIBanner/materialUIBanner'
-import MaterialUISplitContainerLeft from '../core-components/MaterialUISplitContainer/materialUISplitContainerLeft'
-import MaterialUISplitContainerRight from '../core-components/MaterialUISplitContainer/materialUISplitContainerRight'
 import SimpleQuoteDiv from '../core-components/SimpleQuoteDiv/simpleQuoteDiv'
+import LandingPage from '../core-components/LandingPage/LandingPage'
 
 class Home extends Component {
 
@@ -100,84 +96,7 @@ class Home extends Component {
 
     return (
       <Layout {...this.props} className="home">
-        <div className="promotion-wrapper">
-          {/* <PromotionItem
-            imageUrl={promotionItemImageUrl}
-            title={promotionItemTitle}
-            subTitle={promotionItemSubtitle}
-            buttonText={promotionItemButtonText}
-            url={this.state.promotionItemButtonUrl}
-          /> */}
-
-          <MaterialUIBanner
-            title="GREETING CARD BOXES THAT SURPRISE AND DELIGHT"
-            titleInfo="FOR THAT SPECIAL SOMEONE ON THEIR SPECIAL OCCASION"
-            subtitle="Choose your occasion"
-          />
-          <SimpleQuoteDiv quote={<q>You miss 100% of the shots you don't take.</q>} author="-Wayne Gretzky"/>
-          <MaterialUISplitContainerLeft
-            title="Look at that image"
-            subtitle="more info on why you are looking there"
-            buttonTxt="Click Me"
-          />
-          <MaterialUISplitContainerRight
-            title="Look at that image"
-            subtitle="more info on why you are looking there"
-            buttonTxt="Click Me"
-          />
-        </div>
-
-        {/*<div className="middle-section">
-          {categories && categories.length > 0 &&
-            <div className="categories-wrapper">
-              <Slider multi>
-                {
-                  categories.map((model) => {
-                    return <CategoryItem key={model.ID} model={model}
-                      url={urlGenerator.get({ page: 'category', id: model.FriendlyID, name: decodeStringForURL(model.Name) })} />
-                  }
-                  )
-                }
-              </Slider>
-            </div>
-          }
-          {homeFeaturedCategory && homeFeaturedProducts &&
-            <div className="featured-products-wrapper">
-              <Gallery title={homeFeaturedCategory.Name}
-                seeAllUrl={urlGenerator.get({ page: 'category', id: homeFeaturedCategory.FriendlyID, name: decodeStringForURL(homeFeaturedCategory.Name) })}
-                gridRows="2">
-                {
-                  homeFeaturedProducts.map((model) => {
-                    const hideProduct =
-                      this.state.isMobile &&
-                      model.Attributes &&
-                      model.Attributes.find(attr => attr.Name === 'UEditEnabled' && attr.Value === 'true') !== undefined
-
-                    return !hideProduct &&
-                      <ProductItem
-                        key={model.ID}
-                        model={model}
-                        productNameLines="2"
-                        descriptionLines="4"
-                        url={getIsNGProduct(model.Type, currentStore) ?
-                          urlGenerator.get({ page: 'products', id: model.FriendlyID, name: decodeStringForURL(model.Name) })
-                          :
-                          urlGenerator.get({ page: 'product', id: model.FriendlyID, name: decodeStringForURL(model.Name) })
-                        }
-                      />
-                  })
-                }
-              </Gallery>
-            </div>
-
-            <div className="steps-wrapper" id="howitworks">
-              <Steps1 title="Step 1" subtitle="This is where you explain" />
-              <Steps1 title="Step 2" subtitle="This is where you explain more" />
-              <Steps1 title="Step 3" subtitle="This is where you explain even more" />
-              <Steps2 />
-              <Steps2 />
-            </div>
-              </div>*/}
+        <LandingPage />
       </Layout>
     )
   }

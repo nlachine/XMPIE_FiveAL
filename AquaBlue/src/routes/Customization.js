@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import { Legacy } from './Legacy'
 
-import MaterialUIBanner from '../core-components/MaterialUIBanner/materialUIBanner';
-
 export default class extends Component {
   render() {
     return (

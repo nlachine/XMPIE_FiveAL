@@ -1,8 +1,8 @@
-import React from 'react'
-import { Box, Grid, Typography } from '../../node_modules/@material-ui/core'
-import './simpleQuoteDiv.scss'
+import React from 'react';
+import {Grid, Box, Typography} from '@material-ui/core'
+import './SimpleQuote.scss';
 
-function simpleQuoteDiv(props) {
+function SimpleQuote(props) {
     return (
         <Box className="quote-div">
             <Grid container>
@@ -17,4 +17,4 @@ function simpleQuoteDiv(props) {
     );
 }
 
-export default simpleQuoteDiv;
+export default SimpleQuote;

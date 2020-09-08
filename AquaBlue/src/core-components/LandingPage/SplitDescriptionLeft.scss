@@ -1,0 +1,42 @@
+.split-box-left {
+    .split-box-image-container {
+        overflow: hidden;
+        object-fit: cover;
+        object-position: center;
+        height: 600px;
+        .split-box-image {
+            max-width: 125%;
+            //background-image: url(https://images.pexels.com/photos/1797428/pexels-photo-1797428.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+        }
+    }
+    .split-box-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 600px;
+        background: #ec5f58;
+    }
+
+    .split-box-text .MuiTypography-h3 {
+        padding: 0px 10%;
+        text-align: center;
+    }
+
+    .split-box-text .MuiTypography-h6 {
+        padding: 0px 10%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 959px) {
+    .split-box-text .MuiTypography-h3 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .split-box {
+        display: none;
+    }
+}
