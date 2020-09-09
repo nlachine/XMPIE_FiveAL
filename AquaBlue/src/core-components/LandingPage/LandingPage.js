@@ -18,8 +18,8 @@ export default class LandingPage extends Component {
         return (
             <div className="Landing-Page-Wrapper">
                 <Jumbotron2
-                    title="Custom Boxes"
-                    subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    title="GREETING CARD AND BOXES THAT SURPRISE AND DELIGHT"
+                    subtitle="A TEXT IS GOOD BUT A PERSONALIZED CARD AND BOX IS BETTER"
                     buttonText="Get Started"
                 />
                 <TopCategories />

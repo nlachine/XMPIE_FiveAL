@@ -7,7 +7,8 @@ import { withStyles } from '@material-ui/core/styles';
 const SplitDescriptionButton = withStyles((theme) => ({
     root: {
         fontSize: '1rem',
-        width: '300px',
+        fontFamily: 'Montserrat, Arial, sans-serif',
+        width: '40%',
         marginTop: '100px',
         color: '#fff',
         backgroundColor: "#f9dc2f",
@@ -17,8 +18,31 @@ const SplitDescriptionButton = withStyles((theme) => ({
             color: theme.palette.getContrastText("#c7b025"),
         },
         border: 'none',
+
     },
+    '@media (max-width: 600px)': {
+        root: {
+            fontSize: '0.75rem',
+            marginTop: '25px',
+        },
+    }
 }))(Button);
+
+const BoxTitle = withStyles((theme) => ({
+    root: {
+        fontSize: '4rem',
+        fontFamily: 'Montserrat, Arial, sans-serif',
+        color: 'black',
+        paddingBottom: '0px',
+        maxWidth: '70%',
+        textAlign: 'center'
+    },
+    '@media (max-width: 600px)': {
+        root: {
+            fontSize: '1.5rem',
+        },
+    }
+}))(Typography);
 
 function SplitDescriptionLeft(props) {
     return (
@@ -26,7 +50,7 @@ function SplitDescriptionLeft(props) {
             <Grid className="split-container" container spacing={0} direction="row" justify="center" alignItems="center">
                 <Grid item xs={6}>
                     <Box className="split-box-text">
-                        <Typography variant="h3" gutterBottom="true">{props.title}</Typography>
+                        <BoxTitle gutterBottom="true">{props.title}</BoxTitle>
                         <SplitDescriptionButton
                             variant="outlined"
                             fullWidth="false"

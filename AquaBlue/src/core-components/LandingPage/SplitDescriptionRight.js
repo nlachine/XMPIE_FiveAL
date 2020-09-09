@@ -6,7 +6,7 @@ import { withStyles } from '@material-ui/core/styles';
 const SplitDescriptionButton = withStyles((theme) => ({
     root: {
         fontSize: '1rem',
-        width: '300px',
+        width: '40%',
         marginTop: '100px',
         color: '#fff',
         backgroundColor: "#ec5f58",
@@ -16,7 +16,30 @@ const SplitDescriptionButton = withStyles((theme) => ({
         },
         border: 'none',
     },
+    '@media (max-width: 600px)': {
+        root: {
+            fontSize: '0.75rem',
+            marginTop: '25px',
+        },
+    }
 }))(Button);
+
+const BoxTitle = withStyles((theme) => ({
+    root: {
+        fontSize: '4rem',
+        fontFamily: 'Montserrat, Arial, sans-serif',
+        color: 'black',
+        paddingBottom: '0px',
+        maxWidth: '70%',
+        textAlign: 'center'
+    },
+    '@media (max-width: 600px)': {
+        root: {
+            fontSize: '1.5rem',
+        },
+    }
+}))(Typography);
+
 
 function SplitDescriptionRight(props) {
     return (
@@ -29,7 +52,7 @@ function SplitDescriptionRight(props) {
                 </Grid>
                 <Grid item xs={6}>
                     <Box className="split-box-text">
-                        <Typography variant="h3" gutterBottom="true">{props.title}</Typography>
+                        <BoxTitle gutterBottom="true">{props.title}</BoxTitle>
                         <SplitDescriptionButton
                             variant="outlined"
                             fullWidth="false"
