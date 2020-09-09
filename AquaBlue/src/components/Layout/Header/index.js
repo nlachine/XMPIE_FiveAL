@@ -166,11 +166,11 @@ class Header extends Component {
               </a>
             </Link>
           </div>
+          <a className="navbar-link" href={urlGenerator.get({ page: 'Favourites' })}>Favourites</a>
+          <a className="navbar-link" href={urlGenerator.get({ page: 'Occasions' })}>Occasions</a>
+          <a className="navbar-link" href={urlGenerator.get({ page: 'Business' })}>Business</a>
           <a className="navbar-link" href={urlGenerator.get({ page: 'AboutUs' })}>About Us</a>
-          <a className="navbar-link" href={urlGenerator.get({ page: 'AboutUs' })}>About Us</a>
-          <a className="navbar-link" href={urlGenerator.get({ page: 'AboutUs' })}>About Us</a>
-          <a className="navbar-link" href={urlGenerator.get({ page: 'AboutUs' })}>About Us</a>
-          <a className="navbar-link" href={urlGenerator.get({ page: 'AboutUs' })}>About Us</a>
+          <a className="navbar-link" href={urlGenerator.get({ page: 'faq' })}>FAQ</a>
           <div className="nav-spacer" />
           <div className="right-icons">
             {currentUser && <Profile currentUser={currentUser} userOrdersSummary={userOrdersSummary} />}
@@ -179,11 +179,11 @@ class Header extends Component {
           <div className="drawer-wrapper">
             {currentUser && currentUser.IsAnonymous ? <SignIn showTitle={false} /> : <SignOut currentUser={currentUser} />}
             <div className="sidebar-link-container">
+              <a className="sidebar-link" href={urlGenerator.get({ page: 'Favourites' })}>Favourites</a>
+              <a className="sidebar-link" href={urlGenerator.get({ page: 'Occasions' })}>Occasions</a>
+              <a className="sidebar-link" href={urlGenerator.get({ page: 'Business' })}>Business</a>
               <a className="sidebar-link" href={urlGenerator.get({ page: 'AboutUs' })}>About Us</a>
-              <a className="sidebar-link" href={urlGenerator.get({ page: 'AboutUs' })}>About Us</a>
-              <a className="sidebar-link" href={urlGenerator.get({ page: 'AboutUs' })}>About Us</a>
-              <a className="sidebar-link" href={urlGenerator.get({ page: 'AboutUs' })}>About Us</a>
-              <a className="sidebar-link" href={urlGenerator.get({ page: 'AboutUs' })}>About Us</a>
+              <a className="sidebar-link" href={urlGenerator.get({ page: 'FAQ' })}>FAQ</a>
             </div>
           </div>
           <Overlay isActive={this.state.overlayActive} overlayClicked={this.overlayClicked.bind(this)} />
