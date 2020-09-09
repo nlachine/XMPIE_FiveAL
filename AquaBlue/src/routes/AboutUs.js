@@ -6,7 +6,6 @@ export default class AboutUs extends Component {
     render() {
         return (
             <Layout {...this.props}>
-                <LandingPage />
             </Layout>
         )
     }

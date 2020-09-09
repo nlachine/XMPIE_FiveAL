@@ -166,39 +166,25 @@ class Header extends Component {
               </a>
             </Link>
           </div>
-          {
-            categoriesTree && categoriesTree.length > 0 &&
-            <CategoriesNavbar categoriesTree={categoriesTree} />
-          }
-          {/*<Search />*/}
+          <a className="navbar-link" href={urlGenerator.get({ page: 'AboutUs' })}>About Us</a>
+          <a className="navbar-link" href={urlGenerator.get({ page: 'AboutUs' })}>About Us</a>
+          <a className="navbar-link" href={urlGenerator.get({ page: 'AboutUs' })}>About Us</a>
+          <a className="navbar-link" href={urlGenerator.get({ page: 'AboutUs' })}>About Us</a>
+          <a className="navbar-link" href={urlGenerator.get({ page: 'AboutUs' })}>About Us</a>
           <div className="nav-spacer" />
           <div className="right-icons">
-            <Link to={urlGenerator.get({ page: 'AboutUs' })}>About Us</Link>
             {currentUser && <Profile currentUser={currentUser} userOrdersSummary={userOrdersSummary} />}
             <Cart />
           </div>
           <div className="drawer-wrapper">
-            {currenciesViewModel && currenciesViewModel.length > 0 &&
-              <Switcher
-                className="currency"
-                items={currenciesViewModel}
-                selected={currentCurrency && currenciesViewModel.find((element) => { return currentCurrency.ID === element.ID })}
-                label={t('Header.Currency')}
-                onSelected={currencySelected} />
-            }
-            {culturesViewModel && culturesViewModel.length > 0 &&
-              <Switcher
-                className="culture"
-                items={culturesViewModel}
-                selected={currentCulture && culturesViewModel.find((element) => { return currentCulture.ID === element.ID })}
-                label={t('Header.Language')}
-                onSelected={cultureSelected} />
-            }
-            {
-              categoriesTree && categoriesTree.length > 0 &&
-              <CategoriesSidebar categoriesTree={categoriesTree} onRedirect={sidebarRedirect} />
-            }
             {currentUser && currentUser.IsAnonymous ? <SignIn showTitle={false} /> : <SignOut currentUser={currentUser} />}
+            <div className="sidebar-link-container">
+              <a className="sidebar-link" href={urlGenerator.get({ page: 'AboutUs' })}>About Us</a>
+              <a className="sidebar-link" href={urlGenerator.get({ page: 'AboutUs' })}>About Us</a>
+              <a className="sidebar-link" href={urlGenerator.get({ page: 'AboutUs' })}>About Us</a>
+              <a className="sidebar-link" href={urlGenerator.get({ page: 'AboutUs' })}>About Us</a>
+              <a className="sidebar-link" href={urlGenerator.get({ page: 'AboutUs' })}>About Us</a>
+            </div>
           </div>
           <Overlay isActive={this.state.overlayActive} overlayClicked={this.overlayClicked.bind(this)} />
         </div>

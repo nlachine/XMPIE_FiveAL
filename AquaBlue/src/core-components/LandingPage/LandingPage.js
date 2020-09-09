@@ -41,10 +41,10 @@ export default class LandingPage extends Component {
                     buttonText="Get Started"
                     image={BGimg3}
                 />
-                <SimpleQuote
+                {/* <SimpleQuote
                     quote={<q>This is a quote to fill this space</q>}
                     author="-Noah Lachine"
-                />
+                /> */}
                 <InformationImage 
                     image = {BoxGif}
                 />
