@@ -18,6 +18,12 @@ const SplitDescriptionButton = withStyles((theme) => ({
     },
     '@media (max-width: 600px)': {
         root: {
+            fontSize: '0.9rem',
+            marginTop: '25px',
+        },
+    },
+    '@media (max-width: 600px)': {
+        root: {
             fontSize: '0.75rem',
             marginTop: '25px',
         },
@@ -32,6 +38,11 @@ const BoxTitle = withStyles((theme) => ({
         paddingBottom: '0px',
         maxWidth: '70%',
         textAlign: 'center'
+    },
+    '@media (max-width: 959px)': {
+        root: {
+            fontSize: '2.25rem',
+        },
     },
     '@media (max-width: 600px)': {
         root: {
