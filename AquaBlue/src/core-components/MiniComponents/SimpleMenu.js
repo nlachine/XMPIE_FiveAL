@@ -8,7 +8,7 @@ import './SimpleMenu.scss'
 const ButtonDropDown = withStyles((theme) => ({
     root: {
         padding: '0',
-        color: '#ec5f58',
+        color: '#666',
         fontSize: '1rem',
         fontFamily: 'Montserrat, Arial, sans-serif',
         fontWeight: 'bold',
