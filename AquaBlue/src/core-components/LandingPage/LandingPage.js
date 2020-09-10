@@ -11,6 +11,7 @@ import BGimg1 from '../../assets/images/randImage1.jpeg';
 import BGimg2 from '../../assets/images/randImage2.jpeg';
 import BGimg3 from '../../assets/images/randImage3.jpeg';
 import InformationImage from './InformationImage';
+import SubEmail from './SubEmail';
 
 export default class LandingPage extends Component {
     
@@ -48,6 +49,8 @@ export default class LandingPage extends Component {
                 <InformationImage 
                     image = {BoxGif}
                 />
+
+                <SubEmail />
             </div>
         )
     }
