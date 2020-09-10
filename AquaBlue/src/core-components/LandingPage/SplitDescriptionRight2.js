@@ -6,10 +6,14 @@ import { withStyles } from '@material-ui/core/styles';
 const SplitDescriptionButton = withStyles((theme) => ({
     root: {
         fontSize: '1rem',
+        fontFamily: 'Montserrat, Arial, sans-serif',
+        fontWeight: 'bold',
+        typeTransform: 'uppercase',
         width: '40%',
         marginTop: '100px',
         color: '#fff',
         backgroundColor: "#f3d0a3",
+        color: theme.palette.getContrastText("#f3d0a3"),
         '&:hover': {
             backgroundColor: "#eaad5f",
             color: theme.palette.getContrastText("#eaad5f"),
@@ -32,8 +36,10 @@ const SplitDescriptionButton = withStyles((theme) => ({
 
 const BoxTitle = withStyles((theme) => ({
     root: {
-        fontSize: '4rem',
+        fontSize: '3rem',
         fontFamily: 'Montserrat, Arial, sans-serif',
+        fontWeight: 'bold',
+        typeTransform: 'uppercase',
         color: 'white',
         paddingBottom: '0px',
         maxWidth: '70%',

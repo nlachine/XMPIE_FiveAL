@@ -26,29 +26,29 @@ export default class LandingPage extends Component {
                 />
                 <TopCategories />
                 <SplitDescriptionRight1
-                    title="Custom Boxes"
-                    subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-                    buttonText="Get Started"
+                    title="Celebrate their favourite day of the year."
+                    subtitle=""
+                    buttonText="Start Here"
                     image={BGimg2}
                 />
                 <SplitDescriptionLeft1
-                    title="Custom Boxes"
-                    subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-                    buttonText="Get Started"
+                    title="Help them get through this rough patch."
+                    subtitle=""
+                    buttonText="Sympathy Cards"
                     image={BGimg1}
                 />
                 <SplitDescriptionRight2
-                    title="Custom Boxes"
-                    subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-                    buttonText="Get Started"
+                    title="Make this valentine's day one to remember."
+                    subtitle=""
+                    buttonText="For Her"
                     image={BGimg2}
                 />
-                <SplitDescriptionLeft2
+                {/* <SplitDescriptionLeft2
                     title="Custom Boxes"
                     subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
                     buttonText="Get Started"
                     image={BGimg3}
-                />
+                /> */}
                 {/* <SimpleQuote
                     quote={<q>This is a quote to fill this space</q>}
                     author="-Noah Lachine"
