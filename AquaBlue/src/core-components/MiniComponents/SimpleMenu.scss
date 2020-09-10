@@ -1,0 +1,8 @@
+.dropdown-wrapper {
+    @media (max-width: 959px) {
+        .menu,
+        .button {
+            display: none;
+        }
+    }
+}

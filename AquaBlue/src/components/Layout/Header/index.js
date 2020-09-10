@@ -45,6 +45,7 @@ import { getVariableValue } from "$ustoreinternal/services/cssVariables";
 import theme from '$styles/_theme.scss'
 import Icon from '$core-components/Icon'
 import themeContext from '$ustoreinternal/services/themeContext'
+import SimpleMenu from '../../../core-components/MiniComponents/SimpleMenu'
 
 class Header extends Component {
   constructor() {
@@ -167,7 +168,7 @@ class Header extends Component {
             </Link>
           </div>
           <a className="navbar-link" href={urlGenerator.get({ page: 'Favourites' })}>Favourites</a>
-          <a className="navbar-link" href={urlGenerator.get({ page: 'Occasions' })}>Occasions</a>
+          <SimpleMenu className="navbar-link"/>
           <a className="navbar-link" href={urlGenerator.get({ page: 'Business' })}>Business</a>
           <a className="navbar-link" href={urlGenerator.get({ page: 'AboutUs' })}>About Us</a>
           <a className="navbar-link" href={urlGenerator.get({ page: 'faq' })}>FAQ</a>

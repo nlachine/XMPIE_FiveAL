@@ -21,7 +21,6 @@ import theme from '$styles/_theme.scss'
 import { throttle } from 'throttle-debounce'
 import { getIsNGProduct } from '../services/utils'
 import { decodeStringForURL } from '$ustoreinternal/services/utils'
-import SimpleQuoteDiv from '../core-components/SimpleQuoteDiv/simpleQuoteDiv'
 import LandingPage from '../core-components/LandingPage/LandingPage'
 
 class Home extends Component {
