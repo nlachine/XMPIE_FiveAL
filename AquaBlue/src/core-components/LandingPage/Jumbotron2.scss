@@ -1,7 +1,7 @@
 .jumbotron-wrapper {
     height: 700px;
     //background: linear-gradient(#e66465, #9198e5);
-    background: #fdf6e6;
+    background: url('../../assets/images/Banner.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,4 +9,15 @@
     display: flex;
     flex-direction: column;
     color: #fff;
+
+    .title span {
+            font-family: 'Arial';
+            font-weight: bold;
+        .surprise {
+            color: #f3d0a3;
+        }
+        .delight {
+            color: #f9dc2f;
+        }
+    }
 }

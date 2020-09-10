@@ -3,8 +3,10 @@ import Jumbotron from './Jumbotron';
 import Jumbotron2 from './Jumbotron2';
 import TopCategories from './TopCategories';
 import SimpleQuote from './SimpleQuote';
-import SplitDescriptionLeft from './SplitDescriptionLeft';
-import SplitDescriptionRight from './SplitDescriptionRight';
+import SplitDescriptionLeft1 from './SplitDescriptionLeft1';
+import SplitDescriptionRight1 from './SplitDescriptionRight1';
+import SplitDescriptionLeft2 from './SplitDescriptionLeft2';
+import SplitDescriptionRight2 from './SplitDescriptionRight2';
 import BoxGif from '../../assets/images/BoxBannerGif.gif';
 
 import BGimg1 from '../../assets/images/randImage1.jpeg';
@@ -14,29 +16,34 @@ import InformationImage from './InformationImage';
 import SubEmail from './SubEmail';
 
 export default class LandingPage extends Component {
-    
+
     render() {
         return (
             <div className="Landing-Page-Wrapper">
                 <Jumbotron2
-                    title="GREETING CARD AND BOXES THAT SURPRISE AND DELIGHT"
-                    subtitle="A TEXT IS GOOD BUT A PERSONALIZED CARD AND BOX IS BETTER"
+                    subtitle="Start by choosing your occasion."
                     buttonText="Get Started"
                 />
                 <TopCategories />
-                <SplitDescriptionLeft
-                    title="Custom Boxes"
-                    subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-                    buttonText="Get Started"
-                    image={BGimg1}
-                />
-                <SplitDescriptionRight
+                <SplitDescriptionRight1
                     title="Custom Boxes"
                     subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
                     buttonText="Get Started"
                     image={BGimg2}
                 />
-                <SplitDescriptionLeft
+                <SplitDescriptionLeft1
+                    title="Custom Boxes"
+                    subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    buttonText="Get Started"
+                    image={BGimg1}
+                />
+                <SplitDescriptionRight2
+                    title="Custom Boxes"
+                    subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    buttonText="Get Started"
+                    image={BGimg2}
+                />
+                <SplitDescriptionLeft2
                     title="Custom Boxes"
                     subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
                     buttonText="Get Started"
@@ -46,10 +53,9 @@ export default class LandingPage extends Component {
                     quote={<q>This is a quote to fill this space</q>}
                     author="-Noah Lachine"
                 /> */}
-                <InformationImage 
-                    image = {BoxGif}
+                <InformationImage
+                    image={BoxGif}
                 />
-
                 <SubEmail />
             </div>
         )

@@ -168,7 +168,7 @@ class Header extends Component {
             </Link>
           </div>
           <a className="navbar-link" href={urlGenerator.get({ page: 'Favourites' })}>Favourites</a>
-          <SimpleMenu className="navbar-link"/>
+          <SimpleMenu className="navbar-link" />
           <a className="navbar-link" href={urlGenerator.get({ page: 'Business' })}>Business</a>
           <a className="navbar-link" href={urlGenerator.get({ page: 'AboutUs' })}>About Us</a>
           <a className="navbar-link" href={urlGenerator.get({ page: 'faq' })}>FAQ</a>

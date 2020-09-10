@@ -55,7 +55,9 @@ const JumbotronSubtitle = withStyles((theme) => ({
 export default function Jumbotron(props) {
     return (
         <div className="jumbotron-wrapper">
-            <JumbotronTitle className="title">{props.title}</JumbotronTitle>
+            <JumbotronTitle className="title">
+                Greeting Card Boxes That<br/><span className="surprise">Surprise</span> & <span className="delight">Delight</span>
+            </JumbotronTitle>
             <JumbotronSubtitle className="subtitle">{props.subtitle}</JumbotronSubtitle>
             <JumbotronButton variant="contained" color="primary" className="button">{props.buttonText}</JumbotronButton>
         </div>

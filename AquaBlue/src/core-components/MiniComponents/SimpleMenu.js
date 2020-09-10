@@ -7,7 +7,7 @@ import './SimpleMenu.scss'
 
 const ButtonDropDown = withStyles((theme) => ({
     root: {
-        padding: '1.5%',
+        padding: '0',
         color: '#ec5f58',
         fontSize: '1rem',
         fontFamily: 'Montserrat, Arial, sans-serif',
@@ -51,7 +51,7 @@ class SimpleMenu extends React.Component {
 
     render() {
         return (
-            <div className="Dropdown-wrapper">
+            <div className="dropdown-wrapper">
                 <ButtonDropDown
                     className="button"
                     aria-owns={this.state.open ? 'simple-menu' : null}
