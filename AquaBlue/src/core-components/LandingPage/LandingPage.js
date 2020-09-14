@@ -9,9 +9,9 @@ import SplitDescriptionLeft2 from './SplitDescriptionLeft2';
 import SplitDescriptionRight2 from './SplitDescriptionRight2';
 import BoxGif from '../../assets/images/BoxBannerGif.gif';
 
-import BGimg1 from '../../assets/images/randImage1.jpeg';
-import BGimg2 from '../../assets/images/randImage2.jpeg';
-import BGimg3 from '../../assets/images/randImage3.jpeg';
+import BGimg1 from '../../assets/images/Split_Birthday.png';
+import BGimg2 from '../../assets/images/Split_Sympathy.png';
+import BGimg3 from '../../assets/images/Split_Valentines.png';
 import InformationImage from './InformationImage';
 import SubEmail from './SubEmail';
 
@@ -29,19 +29,19 @@ export default class LandingPage extends Component {
                     title="Celebrate their favourite day of the year."
                     subtitle=""
                     buttonText="Start Here"
-                    image={BGimg2}
+                    image={BGimg1}
                 />
                 <SplitDescriptionLeft1
                     title="Help them get through this rough patch."
                     subtitle=""
                     buttonText="Sympathy Cards"
-                    image={BGimg1}
+                    image={BGimg2}
                 />
                 <SplitDescriptionRight2
                     title="Make this valentine's day one to remember."
                     subtitle=""
                     buttonText="For Her"
-                    image={BGimg2}
+                    image={BGimg3}
                 />
                 {/* <SplitDescriptionLeft2
                     title="Custom Boxes"

@@ -28,6 +28,9 @@ import CustomMain from './CustomMain'
 import ClearingUnknownOrder from './ClearingUnknownOrder'
 import ProductDetails from './ProductDetails'
 import AboutUs from './AboutUs'
+import FAQ from './FAQ'
+import Business from './Business'
+import Occasions from './Occasions'
 
 export default {
   Home,
@@ -59,5 +62,8 @@ export default {
   CustomMain,
   ClearingUnknownOrder,
   ProductDetails,
-  AboutUs
+  AboutUs,
+  FAQ,
+  Business,
+  Occasions
 }
