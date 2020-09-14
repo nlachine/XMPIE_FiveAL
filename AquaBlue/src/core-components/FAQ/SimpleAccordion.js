@@ -6,7 +6,7 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 const useStyles = makeStyles((theme) => ({
     root: {
         width: '30%',
-        paddingTop: '50px',
+        padding: '50px 0px',
         margin: 'auto',
     },
     heading: {
