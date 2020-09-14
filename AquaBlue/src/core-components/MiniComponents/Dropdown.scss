@@ -17,4 +17,7 @@
         text-decoration: none;
         color: #666;
     }
+    @media (max-width: 1200px) {
+        display: none !important;
+    }
 }

@@ -31,6 +31,7 @@ import AboutUs from './AboutUs'
 import FAQ from './FAQ'
 import Business from './Business'
 import Occasions from './Occasions'
+import Favourites from './Favourites'
 
 export default {
   Home,
@@ -65,5 +66,6 @@ export default {
   AboutUs,
   FAQ,
   Business,
-  Occasions
+  Occasions,
+  Favourites
 }

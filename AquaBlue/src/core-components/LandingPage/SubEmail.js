@@ -1,5 +1,5 @@
 import React from 'react'
-import { TextField, Grid, Button, Box } from '@material-ui/core';
+import { TextField, Grid, Button, Box, Typography } from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles';
 import './SubEmail.scss';
 
@@ -38,12 +38,43 @@ const SubscribeInput = withStyles((theme) => ({
             },
         },
     },
+
+    '@media (max-width: 600px)': {
+        root: {
+            maxWidth: '250px',
+        },
+    }
 }))(TextField);
+
+const Title = withStyles((theme) => ({
+    root: {
+        fontSize: '3rem',
+        fontFamily: 'Montserrat, Arial, sans-serif',
+        fontWeight: 'bold',
+        typeTransform: 'uppercase',
+        color: 'black',
+        paddingTop: '30px',
+        textAlign: 'center'
+    },
+
+    '@media (max-width: 959px)': {
+        root: {
+            fontSize: '2.25rem',
+        },
+    },
+
+    '@media (max-width: 600px)': {
+        root: {
+            fontSize: '1.5rem',
+        },
+    }
+}))(Typography);
 
 
 export default function SubEmail() {
     return (
         <div className="email-subscription-wrapper">
+            <Title>Join the early risers!</Title>
             <div className="email-subscription-container">
                 <form noValidate autoComplete="off">
                     <SubscribeInput id="outlined-basic" label="Email" variant="outlined" color="black" />

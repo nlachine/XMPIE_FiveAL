@@ -1,7 +1,7 @@
 import React from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import { Grid, Button, Typography, Box } from '@material-ui/core';
-
+import urlGenerator from '$ustoreinternal/services/urlGenerator'
 import './Jumbotron2.scss';
 
 const JumbotronButton = withStyles((theme) => ({
@@ -59,7 +59,7 @@ export default function Jumbotron(props) {
                 Personalized Gift Boxes<br/>That <span className="surprise">Surprise</span> & <span className="delight">Delight</span>
             </JumbotronTitle>
             <JumbotronSubtitle className="subtitle">{props.subtitle}</JumbotronSubtitle>
-            <JumbotronButton variant="contained" color="primary" className="button">{props.buttonText}</JumbotronButton>
+            <JumbotronButton variant="contained" color="primary" className="button" href={urlGenerator.get({ page: 'Occasions' })}>{props.buttonText}</JumbotronButton>
         </div>
     )
 }
