@@ -1,6 +1,7 @@
-import React, {Component} from 'react'
-import {Legacy} from './Legacy'
-import {UStoreProvider} from "@ustore/core";
+import React, { Component } from 'react'
+import { Legacy } from './Legacy'
+import { UStoreProvider } from "@ustore/core";
+
 
 export default class Product extends Component {
   static getInitialProps = async (ctx) => {
@@ -17,6 +18,8 @@ export default class Product extends Component {
   }
 
   render() {
-    return <Legacy {...this.props}/>
+    return (
+        <Legacy {...this.props} />
+    )
   }
 }

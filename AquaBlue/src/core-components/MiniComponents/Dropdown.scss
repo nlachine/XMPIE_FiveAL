@@ -1,0 +1,23 @@
+.dropdown {
+    padding: 1.5%;
+    .dropdown-button {
+        color: #666;
+        font-size: 1rem;
+        font-weight: bold;
+        font-family: Montserrat, Arial, sans-serif;
+        text-transform: uppercase;
+        background: none;
+    }
+    .dropdown-button:hover {
+        color: black;
+        background: none;
+    }
+
+    .dropdown-link {
+        text-decoration: none;
+        color: #666;
+    }
+    @media (max-width: 1200px) {
+        display: none !important;
+    }
+}

@@ -5,9 +5,7 @@ export default class AboutUs extends Component {
     render() {
         return (
             <Layout {...this.props}>
-                <div>
-                    AboutUs Page
-                </div>
+                About Us
             </Layout>
         )
     }

@@ -1,0 +1,36 @@
+.topcategories-wrapper {
+    background: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    padding: 5px 0px;
+
+    .topcategories-container {
+        background: #fff;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        max-width: 1000px;
+        margin: auto;
+        padding: 20px;
+
+        .grid-button-base {
+            .icon-button-container {
+                .icon {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
+
+.MuiButtonBase-root{
+    outline: none !important;
+}

@@ -27,6 +27,7 @@
     "@fortawesome/fontawesome-svg-core": "file:./npm_packages/@fortawesome/fontawesome-svg-core-1.2.18.tgz",
     "@fortawesome/free-solid-svg-icons": "file:./npm_packages/@fortawesome/free-solid-svg-icons-5.8.2.tgz",
     "@fortawesome/react-fontawesome": "file:./npm_packages/@fortawesome/react-fontawesome-0.1.4.tgz",
+    "@material-ui/icons": "^4.9.1",
     "@storybook/addon-actions": "file:./npm_packages/@storybook/addon-actions-5.2.7.tgz",
     "@storybook/addon-knobs": "file:./npm_packages/@storybook/addon-knobs-5.2.7.tgz",
     "@ustore/core": "file:./npm_packages/ustore-core-1.0.0.tgz",
