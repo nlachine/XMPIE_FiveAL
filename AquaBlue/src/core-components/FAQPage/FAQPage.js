@@ -3,7 +3,7 @@ import {withStyles} from '@material-ui/core/styles'
 import { Grid, Button, Typography, Box } from '@material-ui/core';
 import SimpleAccordion from './SimpleAccordion'
 
-const FAQTitle = withStyles((theme) => ({
+const FAQTitle = withStyles(() => ({
     root: {
         fontSize: '3rem',
         fontFamily: 'Montserrat, Arial, sans-serif',

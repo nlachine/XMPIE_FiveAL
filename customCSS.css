@@ -1,0 +1,166 @@
+/*Type here to edit*/
+
+/* PRODUCT Title Area */
+
+.ThemedPagedFullWidthMaster #searcharea, .ThemedPageMaster #searcharea {
+    margin-top: 0px;
+    margin-bottom:0px;
+    text-align: center;
+}
+
+.subtitleProductName {
+	display: none;
+}
+
+
+
+/* CUSTOMIZE AND FINALIZE steps */
+
+#ctl00_cphMainContent_trWizardStepsNav{
+	display: none;
+}
+
+
+
+/* PRODUCT STEPS */
+
+
+
+.btnUnselected {
+    color: #000000!important;
+    background-color: #f2f2f2;
+    border-radius: 5px!important;
+    width: 92%!important;
+}
+.CustomizationSteps span {
+    float: left;
+    margin-bottom: 3px;
+    margin-right: 10px;
+    width: 200px;
+}
+
+
+
+
+/*FLAP Customization Yes/No */
+
+#Dial_10532, 
+#Dial_10669,
+#Dial_10597,
+#Dial_10615,
+#Dial_10651,
+#Dial_10633
+{
+    width: 550px;
+}
+
+
+
+/* RESIZE IMAGE UPLOAD */
+
+
+#first_10530,
+#first_10531,
+#first_10670,
+#first_10671,
+#first_10598,
+#first_10599,
+#first_10616,
+#first_10617,
+#first_10652,
+#first_10653,
+#first_10634,
+#first_10635
+{
+height: 250px;
+width: 250px;
+}
+
+
+#divImagePreview_10530,
+#divImagePreview_10531,
+#divImagePreview_10670,
+#divImagePreview_10671,
+#divImagePreview_10598,
+#divImagePreview_10599,
+#divImagePreview_10616,
+#divImagePreview_10617,
+#divImagePreview_10652,
+#divImagePreview_10653,
+#divImagePreview_10634,
+#divImagePreview_10635
+
+{
+    height: 250px;
+    width: 250px!important;
+}
+
+
+/*resize image upload SLIDER */
+
+#divImageGalleryBody_10530,
+#divImageGalleryBody_10531,
+#divImageGalleryBody_10670,
+#divImageGalleryBody_10671,
+#divImageGalleryBody_10598,
+#divImageGalleryBody_10599,
+#divImageGalleryBody_10616,
+#divImageGalleryBody_10617,
+#divImageGalleryBody_10652,
+#divImageGalleryBody_10653,
+#divImageGalleryBody_10634,
+#divImageGalleryBody_10635
+{
+    height: 250px;
+    width: 250px!important;
+}
+
+/*LEFT UPLOAD FLAP IMG*/
+#second_10530,
+#second_10670,
+#second_10598,
+#second_10616,
+#second_10652,
+#second_10634
+{
+    left: 570px!important;
+}
+
+
+
+/*RIGHT UPLOAD FLAP IMG*/
+#second_10531, 
+#second_10671,
+#second_10599,
+#second_10617,
+#second_10653,
+#second_10635
+{
+    left: 270px!important;
+
+}
+
+
+/*LEFT UPLOAD FLAP IMG*/
+#Dial_10530,
+#Dial_10670,
+#Dial_10598,
+#Dial_10616,
+#Dial_10652,
+#Dial_10634
+{
+    float: left;
+    margin-right: 50px;
+}
+
+
+/*RIGHT UPLOAD FLAP IMG*/
+#Dial_10531,
+#Dial_10671,
+#Dial_10599,
+#Dial_10617,
+#Dial_10653,
+#Dial_10635
+{
+    float: left;
+}

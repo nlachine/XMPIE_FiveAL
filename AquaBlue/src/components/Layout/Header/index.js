@@ -167,11 +167,17 @@ class Header extends Component {
               </a>
             </Link>
           </div>
+
           <a className="navbar-link" href={urlGenerator.get({ page: 'Favourites' })}>Favourites</a>
           <Dropdown />
           <a className="navbar-link" href={urlGenerator.get({ page: 'Business' })}>Business</a>
           <a className="navbar-link" href={urlGenerator.get({ page: 'AboutUs' })}>About Us</a>
           <a className="navbar-link" href={urlGenerator.get({ page: 'FAQ' })}>FAQ</a>
+          {/* <a className="navbar-link" href="http://localhost:5000/ustorethemes/AquaBlue/7/en-US/Favourites/">Favourites</a>
+          <Dropdown />
+          <a className="navbar-link" href="http://localhost:5000/ustorethemes/AquaBlue/7/en-US/Business/">Business</a>
+          <a className="navbar-link" href="http://localhost:5000/ustorethemes/AquaBlue/7/en-US/AboutUs/">About Us</a>
+          <a className="navbar-link" href="http://localhost:5000/ustorethemes/AquaBlue/7/en-US/FAQ/">FAQ</a> */}
           <div className="nav-spacer" />
           <div className="right-icons">
             {currentUser && <Profile currentUser={currentUser} userOrdersSummary={userOrdersSummary} />}
