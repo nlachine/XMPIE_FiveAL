@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Layout from '../components/Layout';
-import FAQPage from '../core-components/FAQ/FAQPage';
+import FAQPage from '../core-components/FAQPage/FAQPage';
 
 export default class FAQ extends Component {
     render() {
