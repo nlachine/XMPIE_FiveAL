@@ -1,7 +1,9 @@
+@import url("http://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;562;600;700&display=swap");
+
 .jumbotron-wrapper {
     height: 700px;
     //background: linear-gradient(#e66465, #9198e5);
-    background: url('../../assets/images/Banner.jpg');
+    background: url("../../assets/images/Banner.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,13 +17,14 @@
     }
 
     .title span {
-            font-family: 'Arial';
-            font-weight: bold;
-        .surprise {
-            color: #f3d0a3;
-        }
-        .delight {
-            color: #f9dc2f;
-        }
+        font-family: "Dancing Script", cursive;
+        font-weight: bold;
+        text-transform: none;
+    }
+    .surprise {
+        color: #f3d0a3;
+    }
+    .delight {
+        color: #f9dc2f;
     }
 }
