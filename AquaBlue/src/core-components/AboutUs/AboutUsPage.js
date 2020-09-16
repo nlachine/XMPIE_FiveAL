@@ -1,13 +1,17 @@
 import React, { Component } from 'react'
 import {withStyles} from '@material-ui/core/styles'
 import { Grid, Button, Typography, Box } from '@material-ui/core';
+import './AboutUsPage.scss';
+import FounderMsg from './FounderMsg';
+import FiveSteps from './FiveSteps';
 
 const TheTitle = withStyles((theme) => ({
     root: {
         fontSize: '3rem',
         fontFamily: 'Montserrat, Arial, sans-serif',
+        textTransform: 'uppercase',
         color: 'black',
-        paddingBottom: '0px',
+        padding: '75px 0px',
         maxWidth: '70%',
         textAlign: 'center',
         margin: 'auto',
@@ -22,8 +26,17 @@ const TheTitle = withStyles((theme) => ({
 export default class AboutUsPage extends Component {
     render() {
         return (
-            <div>
-                <TheTitle>About Us</TheTitle>
+            <div className="aboutus-wrapper">
+                <TheTitle>This is <span className="our-story">our story.</span></TheTitle>
+                <FounderMsg 
+                    title="Hi, I'm Audrey!"
+                    subtitle="This is a body of text that signifies what audrey would be writing here, possibly something about how great Noah is and how 5am Lemon is so cool."
+                    Img=""
+                />
+                <TheTitle>Canadian business <span className="based-in-the-gta">based in the GTA.</span></TheTitle>
+                <div className="aboutus-image-div"/>
+                <TheTitle>From design to print. In <span className="easy-steps">5 easy steps.</span></TheTitle>
+                <FiveSteps/>
             </div>
         )
     }

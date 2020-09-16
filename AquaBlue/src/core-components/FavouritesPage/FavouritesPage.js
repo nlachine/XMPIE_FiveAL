@@ -25,7 +25,7 @@ export default class FavouritesPage extends Component {
         return (
             <div>
                 <TheTitle>Favourites</TheTitle>
-                <TopCategories />            
+                <TopCategories />       
             </div>
         )
     }
