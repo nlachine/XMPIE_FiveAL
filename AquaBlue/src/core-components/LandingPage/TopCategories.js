@@ -26,6 +26,18 @@ const TopCategoriesLabel = withStyles((theme) => ({
     },
 }))(Typography);
 
+const CategoryLabel = withStyles((theme) => ({
+    root: {
+        fontSize: '2rem',
+        color: 'white',
+        fontStyle: 'none',
+        textDecoration: 'none',
+        textAlign: 'center',
+        lineHeight: '190px',
+        fontFamily: '"Dancing Script", cursive'
+    },
+}))(Typography);
+
 export default function TopCategories() {
     return (
         <div className="topcategories-wrapper">
@@ -35,7 +47,8 @@ export default function TopCategories() {
                         {/* Thank you */}
                         <ButtonBase className="grid-button-base" href="http://vpn.marketingkitchen.ca/ustorethemes/FALVersionOne/7/en-US/category/33">
                             <div className="icon-button-container">
-                                <HoverImage className="icon" src={ImgOne} hoverSrc={ImgOneHover}></HoverImage>
+                                <CategoryLabel>Thank you</CategoryLabel>
+                                {/* <HoverImage className="icon" src={ImgOne} hoverSrc={ImgOneHover}></HoverImage> */}
                                 {/* <TopCategoriesLabel>Birthday</TopCategoriesLabel> */}
                             </div>
                         </ButtonBase>
@@ -44,7 +57,8 @@ export default function TopCategories() {
                         {/* Sympathy */}
                         <ButtonBase className="grid-button-base" href="http://vpn.marketingkitchen.ca/ustorethemes/FALVersionOne/7/en-US/category/32">
                             <div className="icon-button-container">
-                                <HoverImage className="icon" src={ImgTwo} hoverSrc={ImgTwoHover}></HoverImage>
+                                <CategoryLabel>Sympathy</CategoryLabel>
+                                {/* <HoverImage className="icon" src={ImgTwo} hoverSrc={ImgTwoHover}></HoverImage> */}
                                 {/* <TopCategoriesLabel>New Born</TopCategoriesLabel> */}
                             </div>
                         </ButtonBase>
@@ -53,7 +67,8 @@ export default function TopCategories() {
                         {/* Friendship */}
                         <ButtonBase className="grid-button-base" href="http://vpn.marketingkitchen.ca/ustorethemes/FALVersionOne/7/en-US/category/30">
                             <div className="icon-button-container">
-                                <HoverImage className="icon" src={ImgThre} hoverSrc={ImgThreeHover}></HoverImage>
+                                <CategoryLabel>Friendship</CategoryLabel>
+                                {/* <HoverImage className="icon" src={ImgThre} hoverSrc={ImgThreeHover}></HoverImage> */}
                                 {/* <TopCategoriesLabel>Christmas</TopCategoriesLabel> */}
                             </div>
                         </ButtonBase>
@@ -62,7 +77,8 @@ export default function TopCategories() {
                         {/* Birthday */}
                         <ButtonBase className="grid-button-base" href="http://vpn.marketingkitchen.ca/ustorethemes/FALVersionOne/7/en-US/category/27/">
                             <div className="icon-button-container">
-                                <HoverImage className="icon" src={ImgFour} hoverSrc={ImgFourHover}></HoverImage>
+                                <CategoryLabel>Birthday</CategoryLabel>
+                                {/* <HoverImage className="icon" src={ImgFour} hoverSrc={ImgFourHover}></HoverImage> */}
                                 {/* <TopCategoriesLabel>Easter</TopCategoriesLabel> */}
                             </div>
                         </ButtonBase>
@@ -71,7 +87,8 @@ export default function TopCategories() {
                         {/* Congratulations */}
                         <ButtonBase className="grid-button-base" href="http://vpn.marketingkitchen.ca/ustorethemes/FALVersionOne/7/en-US/category/28/">
                             <div className="icon-button-container">
-                                <HoverImage className="icon" src={ImgFive} hoverSrc={ImgFiveHover}></HoverImage>
+                                <CategoryLabel>Congratulations</CategoryLabel>
+                                {/* <HoverImage className="icon" src={ImgFive} hoverSrc={ImgFiveHover}></HoverImage> */}
                                 {/* <TopCategoriesLabel>Friendship</TopCategoriesLabel> */}
                             </div>
                         </ButtonBase>
@@ -80,7 +97,8 @@ export default function TopCategories() {
                         {/* Holiday */}
                         <ButtonBase className="grid-button-base" href="http://vpn.marketingkitchen.ca/ustorethemes/FALVersionOne/7/en-US/category/29/">
                             <div className="icon-button-container">
-                                <HoverImage className="icon" src={ImgSix} hoverSrc={ImgSixHover}></HoverImage>
+                                <CategoryLabel>Holiday</CategoryLabel>
+                                {/* <HoverImage className="icon" src={ImgSix} hoverSrc={ImgSixHover}></HoverImage> */}
                                 {/* <TopCategoriesLabel>Corporate</TopCategoriesLabel> */}
                             </div>
                         </ButtonBase>
@@ -89,7 +107,8 @@ export default function TopCategories() {
 
                         <ButtonBase className="grid-button-base">
                             <div className="icon-button-container">
-                                <HoverImage className="icon" src={ImgFive} hoverSrc={ImgFiveHover}></HoverImage>
+                                <CategoryLabel>Placeholder</CategoryLabel>
+                                {/* <HoverImage className="icon" src={ImgFive} hoverSrc={ImgFiveHover}></HoverImage> */}
                                 {/* <TopCategoriesLabel>Friendship</TopCategoriesLabel> */}
                             </div>
                         </ButtonBase>
@@ -97,7 +116,8 @@ export default function TopCategories() {
                     <Grid item xs={6} sm={3}>
                         <ButtonBase className="grid-button-base">
                             <div className="icon-button-container">
-                                <HoverImage className="icon" src={ImgSix} hoverSrc={ImgSixHover}></HoverImage>
+                                <CategoryLabel>Placeholder</CategoryLabel>
+                                {/* <HoverImage className="icon" src={ImgSix} hoverSrc={ImgSixHover}></HoverImage> */}
                                 {/* <TopCategoriesLabel>Corporate</TopCategoriesLabel> */}
                             </div>
                         </ButtonBase>

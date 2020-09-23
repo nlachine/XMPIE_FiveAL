@@ -1,3 +1,5 @@
+@import url("http://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;562;600;700&display=swap");
+
 .topcategories-wrapper {
     background: #fff;
     background-position: center;
@@ -11,26 +13,27 @@
     padding: 5px 0px;
 
     .topcategories-container {
-        background: #fff;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
         width: 100%;
         max-width: 1000px;
         margin: auto;
-        padding: 20px;
 
         .grid-button-base {
+            text-decoration: none !important;
             .icon-button-container {
-                .icon {
-                    width: 100%;
-                    height: auto;
-                }
+                width: 200px;
+                height: 200px;
+                background: #ec5f58;
+                text-align: center;
+                border: salmon 4px solid;
+                border-radius: 10px;
+            }
+            .icon-button-container:hover, .icon-button-container:active{
+                background: #bc4c46;
             }
         }
     }
 }
 
-.MuiButtonBase-root{
+.MuiButtonBase-root {
     outline: none !important;
 }

@@ -5,7 +5,7 @@ import SplitDescriptionRight1 from './SplitDescriptionRight1';
 import SplitDescriptionLeft2 from './SplitDescriptionLeft2';
 import SplitDescriptionRight2 from './SplitDescriptionRight2';
 import BoxGif from '../../assets/images/BoxBannerGif.gif';
-
+import TopCategories from './TopCategories';
 import BGimg1 from '../../assets/images/Split_Birthday.png';
 import BGimg2 from '../../assets/images/Split_Sympathy.png';
 import BGimg3 from '../../assets/images/Split_Valentines.png';
@@ -24,6 +24,7 @@ export default class LandingPage extends Component {
                 />
                 <div style={{padding: "20px 0px"}}/>
                 <FiveSteps />
+                <TopCategories />
                 <div style={{padding: "20px 0px"}}/>
                 {/* <TopCategories /> */}
                 <SplitDescriptionRight1
