@@ -2,7 +2,11 @@ import React, { Component } from 'react'
 import {withStyles} from '@material-ui/core/styles'
 import { Grid, Button, Typography, Box } from '@material-ui/core';
 import './FiveSteps.scss';
-import Steps1Img from '../../assets/images/BoxBannerGif.gif';
+import step1img from '../../assets/images/Steps_1.png';
+import step2img from '../../assets/images/Steps_2.png';
+import step3img from '../../assets/images/Steps_3.png';
+import step4img from '../../assets/images/Steps_4.png';
+import step5img from '../../assets/images/Steps_5.png';
 
 const Description = withStyles((theme) => ({
     root: {
@@ -64,23 +68,23 @@ export default class FiveSteps extends Component {
                 <Grid className="fivesteps-container" container direction="row" justify="center" alignItems="center" alignContent="center">
                     <Grid item xs={1} md={1}/>
                     <Grid item xs={2} md={2}>
-                        <img className="steps-img" src={Steps1Img} alt="Step1"/>
+                        <img className="steps-img" src={step1img} alt="Step1"/>
                         <Description>This is the First Step</Description>
                     </Grid>
                     <Grid item xs={2} md={2}>
-                        <img className="steps-img" src={Steps1Img} alt="Step2"/>
+                        <img className="steps-img" src={step2img} alt="Step2"/>
                         <Description>This is the Second Step</Description>
                     </Grid>
                     <Grid item xs={2} md={2}>
-                        <img className="steps-img" src={Steps1Img} alt="Step3"/>
+                        <img className="steps-img" src={step3img} alt="Step3"/>
                         <Description>This is the Third Step</Description>
                     </Grid>
                     <Grid item xs={2} md={2}>
-                        <img className="steps-img" src={Steps1Img} alt="Step4"/>
+                        <img className="steps-img" src={step4img} alt="Step4"/>
                         <Description>This is the Fourth Step</Description>
                     </Grid>
                     <Grid item xs={2} md={2}>
-                        <img className="steps-img" src={Steps1Img} alt="Step5"/>
+                        <img className="steps-img" src={step5img} alt="Step5"/>
                         <Description>This is the Fifth Step</Description>
                     </Grid>
                     <Grid item xs={1} md={1}/>

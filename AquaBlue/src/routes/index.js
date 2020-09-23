@@ -32,9 +32,11 @@ import FAQ from './FAQ'
 import Business from './Business'
 import Occasions from './Occasions'
 import Favourites from './Favourites'
+import Home2 from './Home2'
 
 export default {
   Home,
+  Home2,
   Category,
   Product,
   Products,
