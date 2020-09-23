@@ -1,9 +1,9 @@
 @import url("http://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;562;600;700&display=swap");
 
 .jumbotron-wrapper {
-    height: 700px;
+    height: 800px;
     //background: linear-gradient(#e66465, #9198e5);
-    background: url("../../assets/images/Banner.jpg");
+    background: url("../../assets/images/NewBanner2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,5 +26,23 @@
     }
     .delight {
         color: #f9dc2f;
+    }
+}
+
+@media (max-width: 600px) {
+    .jumbotron-wrapper {
+        height: 500px;
+        .fivesteps {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .jumbotron-wrapper {
+        height: 500px;
+        .fivesteps {
+            display: none;
+        }
     }
 }

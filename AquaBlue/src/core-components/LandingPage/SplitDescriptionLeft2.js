@@ -10,7 +10,7 @@ const SplitDescriptionButton = withStyles((theme) => ({
         fontFamily: 'Montserrat, Arial, sans-serif',
         fontWeight: 'bold',
         typeTransform: 'uppercase',
-        width: '40%',
+        width: '50%',
         marginTop: '100px',
         color: '#fff',
         backgroundColor: "#f9dc2f",
@@ -32,6 +32,11 @@ const SplitDescriptionButton = withStyles((theme) => ({
         root: {
             fontSize: '0.75rem',
             marginTop: '25px',
+        },
+    },
+    '@media (max-width: 400px)': {
+        root: {
+            fontSize: '0.6rem',
         },
     }
 }))(Button);
@@ -57,6 +62,11 @@ const BoxTitle = withStyles((theme) => ({
     '@media (max-width: 600px)': {
         root: {
             fontSize: '1.5rem',
+        },
+    },
+    '@media (max-width: 400px)': {
+        root: {
+            fontSize: '1.25rem',
         },
     }
 }))(Typography);

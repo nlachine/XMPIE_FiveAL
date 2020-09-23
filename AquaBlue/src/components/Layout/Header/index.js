@@ -168,9 +168,7 @@ class Header extends Component {
             </Link>
           </div>
 
-          <a className="navbar-link" href={urlGenerator.get({ page: 'Favourites' })}>Favourites</a>
           <Dropdown />
-          <a className="navbar-link" href={urlGenerator.get({ page: 'Business' })}>Business</a>
           <a className="navbar-link" href={urlGenerator.get({ page: 'AboutUs' })}>About Us</a>
           <a className="navbar-link" href={urlGenerator.get({ page: 'FAQ' })}>FAQ</a>
           {/* <a className="navbar-link" href="http://localhost:5000/ustorethemes/AquaBlue/7/en-US/Favourites/">Favourites</a>
@@ -186,9 +184,7 @@ class Header extends Component {
           <div className="drawer-wrapper">
             {currentUser && currentUser.IsAnonymous ? <SignIn showTitle={false} /> : <SignOut currentUser={currentUser} />}
             <div className="sidebar-link-container">
-              <a className="sidebar-link" href={urlGenerator.get({ page: 'Favourites' })}>Favourites</a>
               <a className="sidebar-link" href={urlGenerator.get({ page: 'Occasions' })}>Occasions</a>
-              <a className="sidebar-link" href={urlGenerator.get({ page: 'Business' })}>Business</a>
               <a className="sidebar-link" href={urlGenerator.get({ page: 'AboutUs' })}>About Us</a>
               <a className="sidebar-link" href={urlGenerator.get({ page: 'FAQ' })}>FAQ</a>
             </div>

@@ -3,6 +3,7 @@ import { withStyles } from '@material-ui/core/styles';
 import { Grid, Button, Typography, Box } from '@material-ui/core';
 import urlGenerator from '$ustoreinternal/services/urlGenerator'
 import './Jumbotron2.scss';
+import FiveSteps from './FiveSteps';
 
 const JumbotronButton = withStyles((theme) => ({
     root: {
@@ -28,6 +29,16 @@ const JumbotronTitle = withStyles((theme) => ({
         paddingBottom: '0px',
         maxWidth: '70%',
         textAlign: 'center'
+    },
+    '@media (max-width: 1200px)': {
+        root: {
+            fontSize: '2.5rem',
+        },
+    },
+    '@media (max-width: 949px)': {
+        root: {
+            fontSize: '2.5rem',
+        },
     },
     '@media (max-width: 600px)': {
         root: {
@@ -56,8 +67,9 @@ export default function Jumbotron(props) {
     return (
         <div className="jumbotron-wrapper">
             <JumbotronTitle className="title">
-                Personalized Gift Boxes<br/>That <span className="surprise">Surprise</span> & <span className="delight">Delight</span>
+                Personalized Gift Boxes That <span className="surprise">Surprise</span> & <span className="delight">Delight</span>
             </JumbotronTitle>
+            <FiveSteps className="fivesteps"/>
             <JumbotronSubtitle className="subtitle">{props.subtitle}</JumbotronSubtitle>
             <JumbotronButton variant="contained" color="primary" className="button" href={urlGenerator.get({ page: 'Occasions' })}>{props.buttonText}</JumbotronButton>
         </div>

@@ -1,0 +1,26 @@
+.fivesteps-wrapper{
+    padding: 10px 0px;
+    .fivesteps-container{
+        padding: 20px 100px 0px;
+    }
+    .steps-img{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .easy-steps {
+        font-weight: bold;
+        font-family: 'Dancing Script', cursive;
+        text-transform: lowercase;
+        color: #ec5f58;
+    }
+
+}
+
+@media(max-width: 600px){
+    .fivesteps-wrapper{
+        display: none;
+    }
+}

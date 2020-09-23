@@ -24,7 +24,7 @@ export default class LandingPage extends Component {
                     subtitle="Start by choosing your occasion."
                     buttonText="Get Started"
                 />
-                <TopCategories />
+                {/* <TopCategories /> */}
                 <SplitDescriptionRight1
                     title="Celebrate their favourite day of the year."
                     subtitle=""

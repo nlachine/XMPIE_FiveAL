@@ -8,7 +8,7 @@ const useStyles = makeStyles((theme) => ({
         width: '40%',
         padding: '50px 0px',
         margin: 'auto',
-    },
+    }, 
     heading: {
         fontSize: theme.typography.pxToRem(15),
         fontFamily: 'Montserrat, Arial, sans-serif',
@@ -16,6 +16,11 @@ const useStyles = makeStyles((theme) => ({
     },
     body: {
         fontFamily: 'Montserrat, Arial, sans-serif',
+    },
+    '@media (max-width: 600px)': {
+        root:{
+            width: '90%',
+        },
     },
 }));
 

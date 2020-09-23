@@ -1,5 +1,10 @@
+
+
 .foundermsg-box-right {
     .foundermsg-box-image-container {
+        background-image: url("https://images.pexels.com/photos/1212600/pexels-photo-1212600.jpeg?cs=srgb&dl=pexels-sasha-martynov-1212600.jpg&fm=jpg");
+        background-position: center;
+        background-size: cover;
         overflow: hidden;
         object-fit: cover;
         object-position: center;
@@ -18,14 +23,13 @@
         align-items: flex-start;
         text-transform: uppercase;
         height: 600px;
-        .title{
+        .title {
             text-transform: none;
         }
-        .subtitle{
-
+        .subtitle {
         }
-        .signature{
-            font-family: cursive;
+        .signature {
+            font-family: "Dancing Script", cursive;
         }
     }
 }

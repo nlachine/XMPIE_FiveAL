@@ -41,7 +41,8 @@ const SubscribeInput = withStyles((theme) => ({
 
     '@media (max-width: 600px)': {
         root: {
-            maxWidth: '250px',
+            fontSize: '0.8rem',
+            maxWidth: '300px',
         },
     }
 }))(TextField);

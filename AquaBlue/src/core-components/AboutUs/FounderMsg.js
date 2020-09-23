@@ -7,6 +7,7 @@ const BoxTitle = withStyles((theme) => ({
     root: {
         fontSize: '4rem',
         fontFamily: 'Montserrat, Arial, sans-serif',
+        fontStyle: 'italic',
         fontWeight: 'bold',
         color: '#fff',
         marginLeft: '-100px',
@@ -53,7 +54,7 @@ const BoxCopy = withStyles((theme) => ({
 const BoxSignature = withStyles((theme) => ({
     root: {
         fontSize: '1.5rem',
-        fontFamily: 'cursive',
+        fontFamily: '"Dancing Script",cursive',
         color: '#666',
         marginLeft: '20px',
         maxWidth: '70%',
@@ -62,13 +63,13 @@ const BoxSignature = withStyles((theme) => ({
 
     '@media (max-width: 959px)': {
         root: {
-            fontSize: '2.25rem',
+            fontSize: '1rem',
         },
     },
 
     '@media (max-width: 600px)': {
         root: {
-            fontSize: '1.5rem',
+            fontSize: '0.75rem',
         },
     }
 }))(Typography);
@@ -91,7 +92,6 @@ function FounderMsg(props) {
             <Grid className="foundermsg-container" container spacing={0} direction="row" justify="center" alignItems="center">
                 <Grid item xs={5}>
                     <BoxColor2 className="foundermsg-box-image-container">
-                        <img className="foundermsg-box-image" src={props.image} alt="LeftImage" />
                     </BoxColor2>
                 </Grid>
                 <Grid item xs={7}>
