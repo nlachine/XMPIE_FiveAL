@@ -48,7 +48,7 @@ export default class AboutUsPage extends Component {
                 <TheTitle>This is <span className="our-story">our story.</span></TheTitle>
                 <FounderMsg
                     title="Hi, I'm Audrey!"
-                    subtitle="This is a body of text that signifies what audrey would be writing here, possibly something about how great Noah is and how 5am Lemon is so cool."
+                    subtitle=""
                     Img=""
                 />
                 <TheTitle>Canadian business <span className="based-in-the-gta">based in the GTA.</span></TheTitle>

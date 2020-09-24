@@ -8,7 +8,7 @@
         overflow: hidden;
         object-fit: cover;
         object-position: center;
-        height: 600px;
+        height: 900px;
         .foundermsg-box-image {
             min-height: 100%;
             max-height: 110%;
@@ -21,12 +21,13 @@
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
-        text-transform: uppercase;
-        height: 600px;
+        height: 900px;
         .title {
             text-transform: none;
         }
-        .subtitle {
+        .subtitle p {
+            text-indent: 20px;
+            
         }
         .signature {
             font-family: "Dancing Script", cursive;

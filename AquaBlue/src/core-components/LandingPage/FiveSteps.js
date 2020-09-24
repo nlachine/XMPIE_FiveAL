@@ -33,11 +33,11 @@ const Description = withStyles((theme) => ({
 
 const FiveStepsTitle = withStyles((theme) => ({
     root: {
-        fontSize: '2rem',
+        fontSize: '2.5rem',
         fontFamily: 'Montserrat, Arial, sans-serif',
         textTransform: 'uppercase',
         color: 'black',
-        padding: '10px 10px 0px 0px',
+        padding: '0px 10px 40px 0px',
         maxWidth: '70%',
         textAlign: 'center',
         margin: 'auto',
@@ -64,7 +64,7 @@ export default class FiveSteps extends Component {
     render() {
         return (
             <div className="fivesteps-wrapper">
-                <FiveStepsTitle>From design to print in <span className="easy-steps">5 easy steps.</span></FiveStepsTitle>
+                <FiveStepsTitle>From design to delivery in <span className="easy-steps">5 easy steps.</span></FiveStepsTitle>
                 <Grid className="fivesteps-container" container direction="row" justify="center" alignItems="center" alignContent="center">
                     <Grid item xs={1} md={1}/>
                     <Grid item xs={2} md={2}>

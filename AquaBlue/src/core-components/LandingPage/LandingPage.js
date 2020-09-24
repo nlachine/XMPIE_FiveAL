@@ -24,7 +24,9 @@ export default class LandingPage extends Component {
                     subtitle="Start by choosing your occasion."
                     buttonText="Get Started"
                 />
-                {/* <TopCategories /> */}
+                <div style={{ padding: "20px 0px" }} />
+                <TopCategories />
+                <div style={{ padding: "20px 0px" }} />
                 <SplitDescriptionRight1
                     title="Celebrate their favourite day of the year."
                     subtitle=""
@@ -53,9 +55,9 @@ export default class LandingPage extends Component {
                     quote={<q>This is a quote to fill this space</q>}
                     author="-Noah Lachine"
                 /> */}
-                <InformationImage
+                {/* <InformationImage
                     image={BoxGif}
-                />
+                /> */}
                 <SubEmail />
             </div>
         )

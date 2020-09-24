@@ -4,6 +4,7 @@ import { Grid, Button, Typography, Box } from '@material-ui/core';
 import urlGenerator from '$ustoreinternal/services/urlGenerator'
 import './Jumbotron2.scss';
 import FiveSteps from './FiveSteps';
+import TopCategories from  './TopCategories';
 
 const JumbotronButton = withStyles((theme) => ({
     root: {
@@ -70,6 +71,7 @@ export default function Jumbotron(props) {
                 Personalized Gift Boxes That <span className="surprise">Surprise</span> & <span className="delight">Delight</span>
             </JumbotronTitle>
             <JumbotronSubtitle className="subtitle">{props.subtitle}</JumbotronSubtitle>
+            <TopCategories />
             <JumbotronButton variant="contained" color="primary" className="button" href={urlGenerator.get({ page: 'Occasions' })}>{props.buttonText}</JumbotronButton>
         </div>
     )
