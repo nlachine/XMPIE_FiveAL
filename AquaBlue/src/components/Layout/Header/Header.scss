@@ -56,7 +56,7 @@
       align-items: flex-start;
 
       .logo {
-        max-width: 200px;
+        max-width: 250px;
         max-height: calc(var(--header-height-desktop) -1 * var(--header-padding-desktop));
 
         @media (max-width: $lg) {
