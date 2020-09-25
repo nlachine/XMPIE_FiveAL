@@ -19,10 +19,10 @@ export default class LandingPage extends Component {
         return (
             <div className="Landing-Page-Wrapper">
                 <Jumbotron2b
-                    subtitle="Start by choosing your occasion."
+                    subtitle="Start by choosing your occasion. ->"
                     buttonText="Get Started"
                 />
-                <div style={{padding: "40px 0px"}}/>
+                <div style={{padding: "50px 0px"}}/>
                 <FiveSteps />
                 <div style={{padding: "40px 0px"}}/>
                 {/* <TopCategories /> */}

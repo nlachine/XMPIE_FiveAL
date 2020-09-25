@@ -68,7 +68,7 @@ export default function Jumbotron(props) {
     return (
         <div className="jumbotron-wrapper">
             <JumbotronTitle className="title">
-                Personalized Gift Boxes That <span className="surprise">Surprise</span> & <span className="delight">Delight</span>
+                Send a Personalized Gift Boxes That <span className="surprise">Surprise</span> & <span className="delight">Delight</span>
             </JumbotronTitle>
             <JumbotronSubtitle className="subtitle">{props.subtitle}</JumbotronSubtitle>
             <TopCategories />

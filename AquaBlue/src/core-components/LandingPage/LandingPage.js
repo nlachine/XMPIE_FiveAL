@@ -12,6 +12,7 @@ import BoxGif from '../../assets/images/BoxBannerGif.gif';
 import BGimg1 from '../../assets/images/Split_Birthday.png';
 import BGimg2 from '../../assets/images/Split_Sympathy.png';
 import BGimg3 from '../../assets/images/Split_Valentines.png';
+
 import InformationImage from './InformationImage';
 import SubEmail from './SubEmail';
 
@@ -24,7 +25,7 @@ export default class LandingPage extends Component {
                     subtitle="Start by choosing your occasion."
                     buttonText="Get Started"
                 />
-                <div style={{ padding: "20px 0px" }} />
+                <div style={{ padding: "40px 0px" }} />
                 <TopCategories />
                 <div style={{ padding: "20px 0px" }} />
                 <SplitDescriptionRight1

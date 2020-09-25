@@ -1,9 +1,9 @@
 @import url("http://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;562;600;700&display=swap");
 
 .jumbotron-wrapper {
-    height: 800px;
+    height: auto!important;
     //background: linear-gradient(#e66465, #9198e5);
-    background: url("../../assets/images/FiveAmLemon_Banner2.png");
+    background: url("../../assets/images/FiveAmLemon_Banner3.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -29,20 +29,53 @@
     }
 }
 
+@media (max-width: 960px) {
+    .jumbotron-wrapper {
+        height: auto!important;
+        //background: linear-gradient(#e66465, #9198e5);
+        background: url("../../assets/images/FiveAmLemon_Banner3.png");
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: #fdf5e6;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+    
+        .title {
+            text-transform: uppercase;
+        }
+    
+        .title span {
+            font-family: "Dancing Script", cursive;
+            font-weight: bold;
+            text-transform: none;
+        }
+        .surprise {
+            color: #f3d0a3;
+        }
+        .delight {
+            color: #f9dc2f;
+        }
+    }
+
+}
+
 @media (max-width: 600px) {
     .jumbotron-wrapper {
-        height: 500px;
-        .fivesteps {
-            display: none;
-        }
+        //height: 500px;
+        // .fivesteps {
+        //     display: none;
+        // }
     }
 }
 
 @media (max-width: 400px) {
     .jumbotron-wrapper {
-        height: 500px;
-        .fivesteps {
-            display: none;
-        }
+        //height: 500px;
+        // .fivesteps {
+        //     display: none;
+        // }
     }
 }
