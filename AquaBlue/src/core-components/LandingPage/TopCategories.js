@@ -17,66 +17,63 @@ import ImgFiveHover from '../../assets/images/Congratulations_Active.png';
 import ImgSix from '../../assets/images/Christmas.png';
 import ImgSixHover from '../../assets/images/Christmas_Active.png';
 
-
-const TopCategoriesLabel = withStyles((theme) => ({
-    root: {
-        fontSize: '1rem',
-        color: 'black',
-        paddingTop: '20px',
-    },
-}))(Typography);
+// const TopCategoriesLabel = withStyles((theme) => ({
+//     root: {
+//         fontSize: '1rem',
+//         color: 'black',
+//         paddingTop: '20px',
+//     },
+// }))(Typography);
 
 const CategoryLabel = withStyles((theme) => ({
     root: {
-        fontSize: '1.5rem',
+        fontSize: '1.55rem',
         color: 'white',
         fontStyle: 'none',
         textDecoration: 'none',
         textAlign: 'center',
-        lineHeight: '90px',
+        lineHeight: '140px',
         fontFamily: 'Montserrat, sans-serif'
     },
     '@media (max-width: 1200px)': {
         root: {
-            fontSize: '1.75rem',
-            lineHeight: '90',
+            lineHeight: '140px'
         },
     },
     '@media (max-width: 949px)': {
         root: {
-            fontSize: '2rem',
-            lineHeight: '190px',
+            lineHeight: '140px'
         },
     },
     '@media (max-width: 600px)': {
         root: {
-            fontSize: '1rem',
-            lineHeight: '90px',
+            lineHeight: '140px',
+            fontSize: '1.2rem'
         },
     }
 }))(Typography);
 
 const CategoryBox = withStyles((theme) => ({
     root: {
-        width: '300px',
-        height: '100px',
+        width: '100%',
+        height: '150px',
     },
     '@media (max-width: 1200px)': {
         root: {
-            width: '150px',
+            width: '100%',
             height: '150px',
         },
     },
     '@media (max-width: 949px)': {
         root: {
-            width: '200px',
-            height: '200px',
+            width: '100%',
+            height: '150px',
         },
     },
     '@media (max-width: 600px)': {
         root: {
-            width: '110px',
-            height: '110px',
+            width: '100%',
+            height: '150px',
         },
     }
 }))(Box);
@@ -85,11 +82,16 @@ const CategoryBox = withStyles((theme) => ({
 export default function TopCategories() {
     return (
         <div className="topcategories-wrapper">
-            <Box className="topcategories-container">
-                <Grid className="topcategories-container" container direction="row" justify="center" alignItems="center" spacing={5}>
+            <Box className="occasions">
+                <Grid container 
+                className="topcategories-container" 
+                direction="row" 
+                justify="space-evenly" 
+                alignItems="center" 
+                spacing={1}>
                     <Grid item xs={6} md={3}>
                         {/* Thank you */}
-                        <ButtonBase className="grid-button-base" href="http://5amLemon.com/ustorethemes/FALVersionOne/7/en-US/category/33">
+                        <ButtonBase className="grid-button-base" href="category/33">
                             <CategoryBox className="icon-button-container">
                                 <CategoryLabel>Thank you</CategoryLabel>
                                 {/* <HoverImage className="icon" src={ImgOne} hoverSrc={ImgOneHover}></HoverImage> */}
@@ -99,7 +101,7 @@ export default function TopCategories() {
                     </Grid>
                     <Grid item xs={6} md={3}>
                         {/* Sympathy */}
-                        <ButtonBase className="grid-button-base" href="http://5amLemon.com/ustorethemes/FALVersionOne/7/en-US/category/32">
+                        <ButtonBase className="grid-button-base" href="category/32">
                             <CategoryBox className="icon-button-container">
                                 <CategoryLabel>Sympathy</CategoryLabel>
                                 {/* <HoverImage className="icon" src={ImgTwo} hoverSrc={ImgTwoHover}></HoverImage> */}
@@ -109,7 +111,7 @@ export default function TopCategories() {
                     </Grid>
                     <Grid item xs={6} md={3}>
                         {/* Friendship */}
-                        <ButtonBase className="grid-button-base" href="http://5amLemon.com/ustorethemes/FALVersionOne/7/en-US/category/30">
+                        <ButtonBase className="grid-button-base" href="category/30">
                             <CategoryBox className="icon-button-container">
                                 <CategoryLabel>Friendship</CategoryLabel>
                                 {/* <HoverImage className="icon" src={ImgThre} hoverSrc={ImgThreeHover}></HoverImage> */}
@@ -119,7 +121,7 @@ export default function TopCategories() {
                     </Grid>
                     <Grid item xs={6} md={3}>
                         {/* Birthday */}
-                        <ButtonBase className="grid-button-base" href="http://5amLemon.com/ustorethemes/FALVersionOne/7/en-US/category/27/">
+                        <ButtonBase className="grid-button-base" href="category/27">
                             <CategoryBox className="icon-button-container">
                                 <CategoryLabel>Birthday</CategoryLabel>
                                 {/* <HoverImage className="icon" src={ImgFour} hoverSrc={ImgFourHover}></HoverImage> */}
@@ -129,7 +131,7 @@ export default function TopCategories() {
                     </Grid>
                     <Grid item xs={6} md={3}>
                         {/* Congratulations */}
-                        <ButtonBase className="grid-button-base" href="http://5amLemon.com/ustorethemes/FALVersionOne/7/en-US/category/28/">
+                        <ButtonBase className="grid-button-base" href="category/28">
                             <CategoryBox className="icon-button-container">
                                 <CategoryLabel>Congratulations</CategoryLabel>
                                 {/* <HoverImage className="icon" src={ImgFive} hoverSrc={ImgFiveHover}></HoverImage> */}
@@ -139,7 +141,7 @@ export default function TopCategories() {
                     </Grid>
                     <Grid item xs={6} md={3}>
                         {/* Holiday */}
-                        <ButtonBase className="grid-button-base" href="http://5amLemon.com/ustorethemes/FALVersionOne/7/en-US/category/29/">
+                        <ButtonBase className="grid-button-base" href="category/29">
                             <CategoryBox className="icon-button-container">
                                 <CategoryLabel>Holiday</CategoryLabel>
                                 {/* <HoverImage className="icon" src={ImgSix} hoverSrc={ImgSixHover}></HoverImage> */}
@@ -148,7 +150,6 @@ export default function TopCategories() {
                         </ButtonBase>
                     </Grid>
                     <Grid item xs={6} md={3}>
-
                         <ButtonBase className="grid-button-base">
                             <CategoryBox className="icon-button-container">
                                 <CategoryLabel>Placeholder</CategoryLabel>

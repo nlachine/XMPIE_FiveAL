@@ -10,24 +10,26 @@
     justify-content: center;
     align-items: center;
     color: #000;
-
+    .occasions {
+        width: 90%;
     .topcategories-container {
         width: 100%;
-        max-width: 80%;
+        max-width: 100%;
         margin: auto;
-
         .grid-button-base {
             text-decoration: none !important;
+            width:100%;
             .icon-button-container {
                 background: #ec5f58;
                 text-align: center;
-                border: salmon 4px solid;
-                border-radius: 10px;
+                border-radius: 7px;
+                transition: 0.3s;
             }
             .icon-button-container:hover, .icon-button-container:active{
                 background: #bc4c46;
             }
         }
+    }
     }
 }
 
