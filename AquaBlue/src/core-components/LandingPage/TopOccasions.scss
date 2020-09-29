@@ -1,0 +1,29 @@
+@import url("http://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;562;600;700&display=swap");
+
+.top-event-wrapper {
+    .top-event-container {
+        max-width: 70%;
+        margin: 0 auto;
+        .events{
+            padding: 50px 0px;
+            .occasion-icon-holder {
+                padding: 20px 12px;
+                .occasion-icon {
+                    display: block;
+                    margin: auto;
+                    width: 100%;
+                    height: auto;
+                    border-radius: S0px;
+                    overflow: hidden;
+                    transition: 0.2s;
+                }
+                .occasion-icon:hover{
+                    box-shadow: 0px 0px 8px #888888;
+                }
+            }
+        }
+        .seeall{
+            margin:0% 30% 0 30%;
+        }
+    }
+}

@@ -88,7 +88,7 @@ function SplitDescriptionRight1(props) {
                 </Grid>
                 <Grid item xs={6}>
                     <BoxColor className="split-box-text">
-                        <BoxTitle gutterBottom="true">{props.title}</BoxTitle>
+                        <BoxTitle>{props.title}</BoxTitle>
                         <SplitDescriptionButton
                             variant="outlined"
                             fullWidth="false"

@@ -30,7 +30,6 @@
     border-bottom: 0px solid var(--color-line);
     color: var(--text-color-header);
     font-size: var(--text-size-regular);
-    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
     z-index: 1;
     height: var(--header-height-desktop);
 
@@ -44,6 +43,8 @@
     .navbar-link:hover {
       color: black;
       text-decoration: none;
+      background-color: #f4f4f4;
+      border-radius: 0px 0px 5px 5px;
     }
 
 

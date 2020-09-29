@@ -33,6 +33,8 @@ import Business from './Business'
 import Occasions from './Occasions'
 import Favourites from './Favourites'
 import Home2 from './Home2'
+import AllBoxPatterns from './AllBoxPatterns'
+import AllCardFronts from './AllCardFronts'
 
 export default {
   Home,
@@ -69,5 +71,7 @@ export default {
   FAQ,
   Business,
   Occasions,
-  Favourites
+  Favourites,
+  AllBoxPatterns,
+  AllCardFronts
 }

@@ -3,7 +3,6 @@ import { withStyles } from '@material-ui/core/styles'
 import { Grid, Button, Typography, Box } from '@material-ui/core';
 import './AboutUsPage.scss';
 import FounderMsg from './FounderMsg';
-import fsimg from '../../assets/images/fivesteps.png';
 
 const TheTitle = withStyles((theme) => ({
     root: {

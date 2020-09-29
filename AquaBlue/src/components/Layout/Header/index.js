@@ -55,7 +55,7 @@ class Header extends Component {
     this.state = {
       drawerOpen: false,						    // Left drawer - opened/closed
       overlayActive: false,	  			    // The overlay - active or not
-      logoImageUrl: require(`$assets/images/logo.png`)
+      logoImageUrl: require(`$assets/images/FiveAm-Logo-Yellow.png`)
     }
   }
 
@@ -79,7 +79,7 @@ class Header extends Component {
   // NOTE: this is not supported in SSR
   setLogoImage = () => {
     const variableForLogoImg = window.matchMedia(`(min-width: ${theme.lg})`).matches ? '--logo-image' : '--logo-image-mobile'
-    this.setState({ logoImageUrl: getVariableValue(variableForLogoImg, require(`$assets/images/logo.png`), true) })
+    this.setState({ logoImageUrl: getVariableValue(variableForLogoImg, require(`$assets/images/FiveAm-Logo-Yellow.png`), true) })
   }
 
   onResize = () => {
@@ -150,7 +150,7 @@ class Header extends Component {
     }
 
     const variableForLogoImg = isServer() ? '--logo-image' : window.matchMedia(`(min-width: ${theme.lg})`).matches ? '--logo-image' : '--logo-image-mobile'
-    const currentLogo = getVariableValue(variableForLogoImg, require(`$assets/images/logo.png`), true)
+    const currentLogo = getVariableValue(variableForLogoImg, require(`$assets/images/FiveAm-Logo-Yellow.png`), true)
 
     return (
       <div className='header' >
@@ -169,6 +169,8 @@ class Header extends Component {
           </div>
 
           <Dropdown />
+          <a className="navbar-link" href={urlGenerator.get({ page: 'AllCardFronts' })}>Cards</a>
+          <a className="navbar-link" href={urlGenerator.get({ page: 'AllBoxPatterns' })}>Patterns</a>
           <a className="navbar-link" href={urlGenerator.get({ page: 'AboutUs' })}>About Us</a>
           <a className="navbar-link" href={urlGenerator.get({ page: 'FAQ' })}>FAQ</a>
           {/* <a className="navbar-link" href="http://localhost:5000/ustorethemes/AquaBlue/7/en-US/Favourites/">Favourites</a>
@@ -185,6 +187,8 @@ class Header extends Component {
             {currentUser && currentUser.IsAnonymous ? <SignIn showTitle={false} /> : <SignOut currentUser={currentUser} />}
             <div className="sidebar-link-container">
               <a className="sidebar-link" href={urlGenerator.get({ page: 'Occasions' })}>Occasions</a>
+              <a className="sidebar-link" href={urlGenerator.get({ page: 'AllCardFronts' })}>Cards</a>
+              <a className="sidebar-link" href={urlGenerator.get({ page: 'AllBoxPatterns' })}>Patterns</a>
               <a className="sidebar-link" href={urlGenerator.get({ page: 'AboutUs' })}>About Us</a>
               <a className="sidebar-link" href={urlGenerator.get({ page: 'FAQ' })}>FAQ</a>
             </div>

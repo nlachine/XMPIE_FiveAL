@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Jumbotron from './Jumbotron';
 import Jumbotron2 from './Jumbotron2';
 import TopCategories from './TopCategories';
+import TopOccasions from '../LandingPage/TopOccasions';
 import SimpleQuote from './SimpleQuote';
 import SplitDescriptionLeft1 from './SplitDescriptionLeft1';
 import SplitDescriptionRight1 from './SplitDescriptionRight1';
@@ -26,7 +27,7 @@ export default class LandingPage extends Component {
                     buttonText="Get Started"
                 />
                 <div style={{ padding: "40px 0px" }} />
-                <TopCategories />
+                <TopOccasions />
                 <div style={{ padding: "40px 0px" }} />
                 <SplitDescriptionRight1
                     title="Celebrate their favourite day of the year."

@@ -1,0 +1,30 @@
+.card-grid-wrapper{
+    background-color:#ffffff;
+    padding: 0px 0px 40px 0px;
+    .card-grid-container {
+        padding: 50px 20% 50px;
+        .card-thumbnail {
+            display: block;
+            margin: auto;
+            width: 100%;
+            height: auto;
+            border-radius: 2px;
+            overflow: hidden;
+            box-shadow: 0px 0px 10px #cecece;
+        }
+    }
+}
+@media(max-width: 1600px){
+    .card-grid-wrapper{
+        .card-grid-container {
+            padding: 50px 20% 0px;
+        }
+    }
+}
+@media(max-width: 1200px){
+    .card-grid-wrapper{
+        .card-grid-container {
+            padding: 50px 10% 0px;
+        }
+    }
+}

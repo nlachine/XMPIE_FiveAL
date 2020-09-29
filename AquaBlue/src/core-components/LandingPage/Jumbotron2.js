@@ -7,7 +7,7 @@ import FiveSteps from './FiveSteps';
 
 const JumbotronButton = withStyles((theme) => ({
     root: {
-        margin:'20px 0px 30px 0px',
+        margin:'20px 0px 100px 0px',
         fontSize: '1rem',
         fontFamily: 'Montserrat, Arial, sans-serif',
         width: '',
@@ -24,49 +24,40 @@ const JumbotronButton = withStyles((theme) => ({
 
 const JumbotronTitle = withStyles((theme) => ({
     root: {
-        fontSize: '3.5rem',
+        fontSize: '2.7rem',
         fontFamily: 'Montserrat, Arial, sans-serif',
         color: 'black',
-        padding: '20px 0px 20px 0px',
+        padding: '100px 0px 90px 0px',
         maxWidth: '70%',
         textAlign: 'center'
     },
     '@media (max-width: 1200px)': {
         root: {
-            
-        padding: '100px 0px 20px 0px',
+            padding: '150px 0px 50px 0px',
             fontSize: '2.5rem',
         },
     },
     '@media (max-width: 949px)': {
-        root: {
-            
-        padding: '100px 0px 20px 0px',
-            fontSize: '2.5rem',
+        root: {    
+            padding: '100px 0px 50px 0px',
+            fontSize: '2.0rem',
         },
     },
     '@media (max-width: 600px)': {
         root: {
-            fontSize: '2rem',
+            padding: '100px 0px 50px 0px',
+            fontSize: '2rem'
+        },
+    },
+    '@media (max-width: 400px)': {
+        root: {
+            padding: '100px 0px 50px 0px',
+            fontSize: '2rem'
         },
     }
 }))(Typography);
 
-const JumbotronSubtitle = withStyles((theme) => ({
-    root: {
-        fontSize: '1.5rem',
-        fontFamily: 'Montserrat, Arial, sans-serif',
-        color: 'black',
-        paddingBottom: '20px',
-        maxWidth: '60%',
-        textAlign: 'center'
-    },
-    '@media (max-width: 600px)': {
-        root: {
-            fontSize: '0.75rem',
-        },
-    }
-}))(Typography);
+
 
 export default function Jumbotron(props) {
     return (

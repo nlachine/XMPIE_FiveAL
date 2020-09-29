@@ -17,7 +17,6 @@ import React, { Component } from "react"
 import theme from '$styles/_theme.scss'
 import { throttle } from 'throttle-debounce'
 
-import Box_LineArt1 from "../assets/images/Stage_a.png";
 
 class PromotionItem extends Component {
   constructor() {

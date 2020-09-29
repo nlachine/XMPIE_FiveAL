@@ -4,18 +4,9 @@ import { Grid, ButtonBase, Box, Typography } from '@material-ui/core';
 import HoverImage from 'react-hover-image';
 import './TopCategories.scss';
 
-import ImgOne from '../../assets/images/ThankYou.png';
-import ImgOneHover from '../../assets/images/ThankYou_Active.png';
-import ImgTwo from '../../assets/images/Sympathy.png';
-import ImgTwoHover from '../../assets/images/Sympathy_Active.png';
-import ImgThre from '../../assets/images/Friendship.png';
-import ImgThreeHover from '../../assets/images/Friendship_Active.png';
-import ImgFour from '../../assets/images/Birthday.png';
-import ImgFourHover from '../../assets/images/Birthday_Active.png';
-import ImgFive from '../../assets/images/Congratulations.png';
-import ImgFiveHover from '../../assets/images/Congratulations_Active.png';
-import ImgSix from '../../assets/images/Christmas.png';
-import ImgSixHover from '../../assets/images/Christmas_Active.png';
+import birthday from '../../assets/images/O-Birthday.png'
+import sympathy from '../../assets/images/O-Sympathy.png'
+
 
 // const TopCategoriesLabel = withStyles((theme) => ({
 //     root: {
@@ -28,7 +19,7 @@ import ImgSixHover from '../../assets/images/Christmas_Active.png';
 const CategoryLabel = withStyles((theme) => ({
     root: {
         fontSize: '1.55rem',
-        color: 'white',
+        color: 'black',
         fontStyle: 'none',
         textDecoration: 'none',
         textAlign: 'center',
@@ -56,7 +47,10 @@ const CategoryLabel = withStyles((theme) => ({
 const CategoryBox = withStyles((theme) => ({
     root: {
         width: '100%',
-        height: '150px',
+        height: '150px',               
+        textAlign: 'center',
+        borderRadius: '7px',
+        transition: '0.35s'
     },
     '@media (max-width: 1200px)': {
         root: {
@@ -94,7 +88,7 @@ export default function TopCategories() {
                         <ButtonBase className="grid-button-base" href="category/33">
                             <CategoryBox className="icon-button-container">
                                 <CategoryLabel>Thank you</CategoryLabel>
-                                {/* <HoverImage className="icon" src={ImgOne} hoverSrc={ImgOneHover}></HoverImage> */}
+                                {/* <HoverImage className="icon" src={ImgOne} hoverSrc{ImgOneHover}></HoverImage> */}
                                 {/* <TopCategoriesLabel>Birthday</TopCategoriesLabel> */}
                             </CategoryBox>
                         </ButtonBase>
@@ -102,9 +96,9 @@ export default function TopCategories() {
                     <Grid item xs={6} md={3}>
                         {/* Sympathy */}
                         <ButtonBase className="grid-button-base" href="category/32">
-                            <CategoryBox className="icon-button-container">
+                            <CategoryBox className="icon-button-container" >
                                 <CategoryLabel>Sympathy</CategoryLabel>
-                                {/* <HoverImage className="icon" src={ImgTwo} hoverSrc={ImgTwoHover}></HoverImage> */}
+                                {/* <HoverImage className="icon" src={ImgTwo} hoverSrc={ImgTwoHover}></HoverImage> 
                                 {/* <TopCategoriesLabel>New Born</TopCategoriesLabel> */}
                             </CategoryBox>
                         </ButtonBase>
@@ -122,7 +116,7 @@ export default function TopCategories() {
                     <Grid item xs={6} md={3}>
                         {/* Birthday */}
                         <ButtonBase className="grid-button-base" href="category/27">
-                            <CategoryBox className="icon-button-container">
+                            <CategoryBox className="icon-button-container-Birthday">
                                 <CategoryLabel>Birthday</CategoryLabel>
                                 {/* <HoverImage className="icon" src={ImgFour} hoverSrc={ImgFourHover}></HoverImage> */}
                                 {/* <TopCategoriesLabel>Easter</TopCategoriesLabel> */}
@@ -142,7 +136,7 @@ export default function TopCategories() {
                     <Grid item xs={6} md={3}>
                         {/* Holiday */}
                         <ButtonBase className="grid-button-base" href="category/29">
-                            <CategoryBox className="icon-button-container">
+                            <CategoryBox className="icon-button-container-Holiday">
                                 <CategoryLabel>Holiday</CategoryLabel>
                                 {/* <HoverImage className="icon" src={ImgSix} hoverSrc={ImgSixHover}></HoverImage> */}
                                 {/* <TopCategoriesLabel>Corporate</TopCategoriesLabel> */}
