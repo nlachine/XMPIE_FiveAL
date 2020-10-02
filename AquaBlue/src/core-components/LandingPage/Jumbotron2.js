@@ -24,7 +24,7 @@ const JumbotronButton = withStyles((theme) => ({
 
 const JumbotronTitle = withStyles((theme) => ({
     root: {
-        fontSize: '2.7rem',
+        fontSize: '2.2rem',
         fontFamily: 'Montserrat, Arial, sans-serif',
         color: 'black',
         padding: '100px 0px 90px 0px',
@@ -33,20 +33,20 @@ const JumbotronTitle = withStyles((theme) => ({
     },
     '@media (max-width: 1200px)': {
         root: {
-            padding: '150px 0px 50px 0px',
-            fontSize: '2.5rem',
+            padding: '190px 0px 50px 0px',
+            fontSize: '2rem',
         },
     },
     '@media (max-width: 949px)': {
         root: {    
-            padding: '100px 0px 50px 0px',
-            fontSize: '2.0rem',
+            padding: '130px 50px 50px 50px',
+            fontSize: '1.5rem',
         },
     },
     '@media (max-width: 600px)': {
         root: {
             padding: '100px 0px 50px 0px',
-            fontSize: '2rem'
+            fontSize: '1.5rem'
         },
     },
     '@media (max-width: 400px)': {
@@ -63,7 +63,7 @@ export default function Jumbotron(props) {
     return (
         <div className="jumbotron-wrapper">
             <JumbotronTitle className="title">
-                Personalized Gift Boxes<br/>That <span className="surprise">Surprise</span> & <span className="delight">Delight</span> Every Time!
+                Personalized Greeting Card Boxes<br/>That <span className="surprise">Surprise</span> & <span className="delight">Delight</span> Every Time!
             </JumbotronTitle>
             <FiveSteps className="fivesteps"/>
             {/* <JumbotronSubtitle className="subtitle">{props.subtitle}</JumbotronSubtitle> */}

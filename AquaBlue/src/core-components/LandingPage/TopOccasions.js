@@ -80,7 +80,7 @@ export default function TopEvent() {
     return (
         <div className="top-event-wrapper">
             <Box className="top-event-container">
-                <Header>Pick an Occasion</Header>
+                <Header>Choose an Occasion</Header>
                 <Grid className="events" container direction="row" justify="space-evenly" alignItems="center" spacing={1}>
                     <Grid className="occasion-icon-holder" item xs={4} md={2}>
                         <ButtonBase href="category/30">

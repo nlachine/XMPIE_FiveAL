@@ -27,7 +27,7 @@ export default class LandingPage extends Component {
                     buttonText="Get Started"
                 />
                 <div style={{ padding: "40px 0px" }} />
-                <TopOccasions />
+                <TopCategories />
                 <div style={{ padding: "40px 0px" }} />
                 <SplitDescriptionRight1
                     title="Celebrate their favourite day of the year."

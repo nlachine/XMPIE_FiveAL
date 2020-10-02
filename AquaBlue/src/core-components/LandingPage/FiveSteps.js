@@ -5,38 +5,46 @@ import { Grid, Button, Typography, Box } from '@material-ui/core';
 import Paper from "@material-ui/core/Paper";
 
 import './FiveSteps.scss';
-import step1img from '../../assets/images/Steps_1.png';
-import step2img from '../../assets/images/Steps_2.png';
-import step3img from '../../assets/images/Steps_3.png';
-import step4img from '../../assets/images/Steps_4.png';
-import step5img from '../../assets/images/Steps_5.png';
-
+import step1img from '../../assets/images/Step_1_holiday.png';
+import step2img from '../../assets/images/Step_2_holiday.png';
+import step3img from '../../assets/images/Step_3_holiday.png';
+import step4img from '../../assets/images/Step_4_holiday.png';
+import step5img from '../../assets/images/Step_5_holiday.png';
+import fal5 from '../../assets/images/FAL_5.png';
 
 
 const Description = withStyles((theme) => ({
     root: {
-        fontSize: '1rem',
+        fontSize: '0.8rem',
         fontFamily: 'Montserrat, Arial, sans-serif',
         fontWeight: 'bold',
         color: 'black',
-        padding: '10px 0px 10px 15px',
+        padding: '10px 0px 10px 20px',
         textAlign: 'center',
+        textTransform: 'uppercase'
     },
     '@media (max-width: 1200px)': {
         root: {
-            fontSize: '1rem',
+            fontSize: '0.8rem',
         },
     },
     '@media (max-width: 949px)': {
         root: {
-            fontSize: '1rem',
+            fontSize: '0.8rem',
+            padding: '10px 0px 40px 20px'
+        },
+    },
+    '@media (max-width: 600px)': {
+        root: {
+            fontSize: '0.8rem',
+            padding: '10px 0px 40px 20px'
         },
     },
 }))(Typography);
 
 const FiveStepsTitle = withStyles((theme) => ({
     root: {
-        fontSize: '2.0rem',
+        fontSize: '1.5rem',
         fontFamily: 'Montserrat, Arial, sans-serif',
         textTransform: 'uppercase',
         color: 'black',
@@ -53,7 +61,7 @@ const FiveStepsTitle = withStyles((theme) => ({
     },
     '@media (max-width: 949px)': {
         root: {
-            fontSize: '2rem',
+            fontSize: '1.5rem',
             maxWidth: '90%',
         },
     },
@@ -72,31 +80,31 @@ export default class FiveSteps extends Component {
             <div className="fivesteps-wrapper">
                 
                 <FiveStepsTitle>
-                    From design to delivery<br/> in <span className="easy-steps">5</span> easy steps!
+                    From design to door in <img src={fal5} className="fal5"/> easy steps!
                 </FiveStepsTitle>
 
 
                 <Grid container spacing={0} className="fivesteps-container" justify="space-evenly">
                     
-                        <Grid item xs={12} sm={6} md={2}>
+                        <Grid item xs={6} sm={6} md={2}>
                             <img className="steps-img" src={step1img} alt="Step1"/>
-                            <Description>Design</Description>
+                            <Description>Pick an Occasion and Box Design</Description>
                         </Grid>
-                        <Grid item xs={12} sm={6} md={2}>
+                        <Grid item xs={6} sm={6} md={2}>
                             <img className="steps-img" src={step3img} alt="Step3"/>
-                            <Description>Enter Message</Description>
+                            <Description>Personalize your Card</Description>
                         </Grid>
-                        <Grid item xs={12} sm={6} md={2}>
+                        <Grid item xs={6} sm={6} md={2}>
                             <img className="steps-img" src={step2img} alt="Step3"/>
                             <Description>Upload Photos</Description>
                         </Grid>
-                        <Grid item xs={12} sm={6} md={2}>
-                            <img className="steps-img" src={step5img} alt="Step4"/>
+                        <Grid item xs={6} sm={6} md={2}>
+                            <img className="steps-img" src={step4img} alt="Step4"/>
                             <Description>Choose Gift(s)</Description>
                         </Grid>
-                        <Grid item xs={12} sm={6} md={2}>
-                            <img className="steps-img" src={step4img} alt="Step4"/>
-                            <Description>Deliver</Description>
+                        <Grid item xs={6} sm={6} md={2}>
+                            <img className="steps-img" src={step5img} alt="Step4"/>
+                            <Description>Its a Wrap</Description>
                         </Grid>
 
                 </Grid>
