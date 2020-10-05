@@ -53,6 +53,7 @@ const Title = withStyles((theme) => ({
         fontFamily: 'Montserrat, Arial, sans-serif',
         fontWeight: 'bold',
         typeTransform: 'uppercase',
+        color: 'black',
         paddingTop: '30px',
         textAlign: 'center'
     },
@@ -77,7 +78,7 @@ export default function SubEmail() {
             <Title>Join the early risers!</Title>
             <div className="email-subscription-container">
                 <form noValidate autoComplete="off">
-                    <SubscribeInput id="outlined-basic" label="Email" variant="outlined" />
+                    <SubscribeInput id="outlined-basic" label="Email" variant="outlined" color="black" />
                 </form>
                 <SubscribeButton variant="contained" color="primary" className="button">Subscribe</SubscribeButton>
             </div>

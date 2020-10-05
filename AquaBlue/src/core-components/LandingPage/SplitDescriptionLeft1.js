@@ -83,9 +83,10 @@ function SplitDescriptionLeft1(props) {
             <Grid className="split-container" container spacing={0} direction="row" justify="center" alignItems="center">
                 <Grid item xs={6}>
                     <BoxColor className="split-box-text">
-                        <BoxTitle>{props.title}</BoxTitle>
+                        <BoxTitle gutterBottom="true">{props.title}</BoxTitle>
                         <SplitDescriptionButton
                             variant="outlined"
+                            fullWidth="false"
                             size="large"
                             disableElevation
                         >{props.buttonText}</SplitDescriptionButton>

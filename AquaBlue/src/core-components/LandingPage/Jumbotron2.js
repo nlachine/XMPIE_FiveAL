@@ -33,7 +33,7 @@ const JumbotronTitle = withStyles((theme) => ({
     },
     '@media (max-width: 1200px)': {
         root: {
-            padding: '190px 0px 50px 0px',
+            padding: '10px 0px 50px 0px',
             fontSize: '2rem',
         },
     },
@@ -68,6 +68,7 @@ export default function Jumbotron(props) {
             <FiveSteps className="fivesteps"/>
             {/* <JumbotronSubtitle className="subtitle">{props.subtitle}</JumbotronSubtitle> */}
             <JumbotronButton variant="contained" color="primary" className="button" href={urlGenerator.get({ page: 'Occasions' })}>{props.buttonText}</JumbotronButton>
+   
         </div>
     )
 }

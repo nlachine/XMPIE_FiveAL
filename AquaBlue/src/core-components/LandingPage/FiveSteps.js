@@ -87,24 +87,29 @@ export default class FiveSteps extends Component {
                 <Grid container spacing={0} className="fivesteps-container" justify="space-evenly">
                     
                         <Grid item xs={6} sm={6} md={2}>
+                            <div className="steps">
                             <img className="steps-img" src={step1img} alt="Step1"/>
-                            <Description>Pick an Occasion and Box Design</Description>
+                            <Description>Pick an Occasion and Box Design</Description></div>
                         </Grid>
                         <Grid item xs={6} sm={6} md={2}>
+                            <div className="steps">
                             <img className="steps-img" src={step3img} alt="Step3"/>
-                            <Description>Personalize your Card</Description>
+                            <Description>Personalize your Card</Description></div>
                         </Grid>
                         <Grid item xs={6} sm={6} md={2}>
+                            <div className="steps">
                             <img className="steps-img" src={step2img} alt="Step3"/>
-                            <Description>Upload Photos</Description>
+                            <Description>Upload Photos</Description></div>
                         </Grid>
                         <Grid item xs={6} sm={6} md={2}>
+                            <div className="steps">
                             <img className="steps-img" src={step4img} alt="Step4"/>
-                            <Description>Choose Gift(s)</Description>
+                            <Description>Choose Gift(s)</Description></div>
                         </Grid>
                         <Grid item xs={6} sm={6} md={2}>
+                            <div className="steps">
                             <img className="steps-img" src={step5img} alt="Step4"/>
-                            <Description>Its a Wrap!</Description>
+                            <Description>Its a Wrap</Description></div>
                         </Grid>
 
                 </Grid>
