@@ -3,6 +3,8 @@ import { withStyles } from '@material-ui/core/styles';
 import { Grid, ButtonBase, Box, Typography } from '@material-ui/core';
 import HoverImage from 'react-hover-image';
 import './TopCategories.scss';
+import {Link} from '$routes';
+import urlGenerator from '$ustoreinternal/services/urlGenerator';
 
 import birthday from '../../assets/images/O-Birthday.png'
 import sympathy from '../../assets/images/O-Sympathy.png'
@@ -85,63 +87,77 @@ export default function TopCategories() {
                 spacing={1}>
                     <Grid item xs={6} md={3}>
                         {/* Thank you */}
-                        <ButtonBase className="grid-button-base" href="category/33">
+                        <Link to={urlGenerator.get({page: "category", id: "33"})}>
+                        <ButtonBase className="grid-button-base">
+                        
                             <CategoryBox className="icon-button-container">
                                 <CategoryLabel>Thank you</CategoryLabel>
                                 {/* <HoverImage className="icon" src={ImgOne} hoverSrc{ImgOneHover}></HoverImage> */}
                                 {/* <TopCategoriesLabel>Birthday</TopCategoriesLabel> */}
                             </CategoryBox>
+                            
                         </ButtonBase>
+                        </Link>
                     </Grid>
                     <Grid item xs={6} md={3}>
                         {/* Sympathy */}
-                        <ButtonBase className="grid-button-base" href="category/32">
+                        <Link to={urlGenerator.get({page: "category", id: "32"})}>
+                        <ButtonBase className="grid-button-base">
                             <CategoryBox className="icon-button-container" >
                                 <CategoryLabel>Sympathy</CategoryLabel>
                                 {/* <HoverImage className="icon" src={ImgTwo} hoverSrc={ImgTwoHover}></HoverImage> 
                                 {/* <TopCategoriesLabel>New Born</TopCategoriesLabel> */}
                             </CategoryBox>
                         </ButtonBase>
+                        </Link>
                     </Grid>
                     <Grid item xs={6} md={3}>
                         {/* Friendship */}
-                        <ButtonBase className="grid-button-base" href="category/30">
+                        <Link to={urlGenerator.get({page: "category", id: "30"})}>
+                        <ButtonBase className="grid-button-base">
                             <CategoryBox className="icon-button-container">
                                 <CategoryLabel>Friendship</CategoryLabel>
                                 {/* <HoverImage className="icon" src={ImgThre} hoverSrc={ImgThreeHover}></HoverImage> */}
                                 {/* <TopCategoriesLabel>Christmas</TopCategoriesLabel> */}
                             </CategoryBox>
                         </ButtonBase>
+                        </Link>
                     </Grid>
                     <Grid item xs={6} md={3}>
                         {/* Birthday */}
-                        <ButtonBase className="grid-button-base" href="category/27">
+                        <Link to={urlGenerator.get({page: "category", id: "27"})}>
+                        <ButtonBase className="grid-button-base">
                             <CategoryBox className="icon-button-container-Birthday">
                                 <CategoryLabel>Birthday</CategoryLabel>
                                 {/* <HoverImage className="icon" src={ImgFour} hoverSrc={ImgFourHover}></HoverImage> */}
                                 {/* <TopCategoriesLabel>Easter</TopCategoriesLabel> */}
                             </CategoryBox>
                         </ButtonBase>
+                        </Link>
                     </Grid>
                     <Grid item xs={6} md={3}>
                         {/* Congratulations */}
-                        <ButtonBase className="grid-button-base" href="category/28">
+                        <Link to={urlGenerator.get({page: "category", id: "28"})}>
+                        <ButtonBase className="grid-button-base">
                             <CategoryBox className="icon-button-container">
                                 <CategoryLabel>Congratulations</CategoryLabel>
                                 {/* <HoverImage className="icon" src={ImgFive} hoverSrc={ImgFiveHover}></HoverImage> */}
                                 {/* <TopCategoriesLabel>Friendship</TopCategoriesLabel> */}
                             </CategoryBox>
                         </ButtonBase>
+                        </Link>
                     </Grid>
                     <Grid item xs={6} md={3}>
                         {/* Holiday */}
-                        <ButtonBase className="grid-button-base" href="category/29">
+                        <Link to={urlGenerator.get({page: "category", id: "29"})}>
+                        <ButtonBase className="grid-button-base">
                             <CategoryBox className="icon-button-container-Holiday">
                                 <CategoryLabel>Holiday</CategoryLabel>
                                 {/* <HoverImage className="icon" src={ImgSix} hoverSrc={ImgSixHover}></HoverImage> */}
                                 {/* <TopCategoriesLabel>Corporate</TopCategoriesLabel> */}
                             </CategoryBox>
                         </ButtonBase>
+                        </Link>
                     </Grid>
                     <Grid item xs={6} md={3}>
                         <ButtonBase className="grid-button-base">

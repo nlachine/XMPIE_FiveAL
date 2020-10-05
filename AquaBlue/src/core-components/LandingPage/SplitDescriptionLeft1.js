@@ -86,7 +86,6 @@ function SplitDescriptionLeft1(props) {
                         <BoxTitle>{props.title}</BoxTitle>
                         <SplitDescriptionButton
                             variant="outlined"
-                            fullWidth="false"
                             size="large"
                             disableElevation
                         >{props.buttonText}</SplitDescriptionButton>

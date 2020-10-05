@@ -104,7 +104,7 @@ export default class FiveSteps extends Component {
                         </Grid>
                         <Grid item xs={6} sm={6} md={2}>
                             <img className="steps-img" src={step5img} alt="Step4"/>
-                            <Description>Its a Wrap</Description>
+                            <Description>Its a Wrap!</Description>
                         </Grid>
 
                 </Grid>
