@@ -65,6 +65,7 @@ const CategoryBox = withStyles((theme) => ({
             height: '150px',
         },
     },
+
     '@media (max-width: 600px)': {
         root: {
             width: '100%',
@@ -87,8 +88,8 @@ export default function TopCategories() {
                     <Grid item xs={6} md={3}>
                         {/* Thank you */}
                         <ButtonBase className="grid-button-base" href={urlGenerator.get({ page: 'Category', id: '33'})}>
-                            <CategoryBox className="icon-button-container">
-                                <CategoryLabel>Thank you</CategoryLabel>
+                            <CategoryBox className="icon-button-container-thankyou">
+                                <CategoryLabel className="catlabel">Thank you</CategoryLabel>
                                 {/* <HoverImage className="icon" src={ImgOne} hoverSrc{ImgOneHover}></HoverImage> */}
                                 {/* <TopCategoriesLabel>Birthday</TopCategoriesLabel> */}
                             </CategoryBox>
@@ -97,7 +98,7 @@ export default function TopCategories() {
                     <Grid item xs={6} md={3}>
                         {/* Sympathy */}
                         <ButtonBase className="grid-button-base" href={urlGenerator.get({ page: 'Category', id: '32'})}>
-                            <CategoryBox className="icon-button-container" >
+                            <CategoryBox className="icon-button-container-sympathy">
                                 <CategoryLabel>Sympathy</CategoryLabel>
                                 {/* <HoverImage className="icon" src={ImgTwo} hoverSrc={ImgTwoHover}></HoverImage> 
                                 {/* <TopCategoriesLabel>New Born</TopCategoriesLabel> */}
@@ -107,7 +108,7 @@ export default function TopCategories() {
                     <Grid item xs={6} md={3}>
                         {/* Friendship */}
                         <ButtonBase className="grid-button-base" href={urlGenerator.get({ page: 'Category', id: '30'})}>
-                            <CategoryBox className="icon-button-container">
+                            <CategoryBox className="icon-button-container-friendship">
                                 <CategoryLabel>Friendship</CategoryLabel>
                                 {/* <HoverImage className="icon" src={ImgThre} hoverSrc={ImgThreeHover}></HoverImage> */}
                                 {/* <TopCategoriesLabel>Christmas</TopCategoriesLabel> */}
@@ -118,7 +119,7 @@ export default function TopCategories() {
                         {/* Birthday */}
                         <ButtonBase className="grid-button-base" href={urlGenerator.get({ page: 'Category', id: '27'})}>
                             <CategoryBox className="icon-button-container-Birthday">
-                                <CategoryLabel>Birthday</CategoryLabel>
+                                <CategoryLabel>Birthdaysd</CategoryLabel>
                                 {/* <HoverImage className="icon" src={ImgFour} hoverSrc={ImgFourHover}></HoverImage> */}
                                 {/* <TopCategoriesLabel>Easter</TopCategoriesLabel> */}
                             </CategoryBox>
@@ -127,7 +128,7 @@ export default function TopCategories() {
                     <Grid item xs={6} md={3}>
                         {/* Congratulations */}
                         <ButtonBase className="grid-button-base" href={urlGenerator.get({ page: 'Category', id: '27'})}>
-                            <CategoryBox className="icon-button-container">
+                            <CategoryBox className="icon-button-container-Congratulations">
                                 <CategoryLabel>Congratulations</CategoryLabel>
                                 {/* <HoverImage className="icon" src={ImgFive} hoverSrc={ImgFiveHover}></HoverImage> */}
                                 {/* <TopCategoriesLabel>Friendship</TopCategoriesLabel> */}
@@ -146,8 +147,8 @@ export default function TopCategories() {
                     </Grid>
                     <Grid item xs={6} md={3}>
                         <ButtonBase className="grid-button-base">
-                            <CategoryBox className="icon-button-container">
-                                <CategoryLabel>Placeholder</CategoryLabel>
+                            <CategoryBox className="icon-button-container-Baby">
+                                <CategoryLabel>Baby</CategoryLabel>
                                 {/* <HoverImage className="icon" src={ImgFive} hoverSrc={ImgFiveHover}></HoverImage> */}
                                 {/* <TopCategoriesLabel>Friendship</TopCategoriesLabel> */}
                             </CategoryBox>

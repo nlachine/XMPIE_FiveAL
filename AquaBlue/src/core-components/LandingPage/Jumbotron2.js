@@ -5,22 +5,10 @@ import urlGenerator from '$ustoreinternal/services/urlGenerator'
 import './Jumbotron2.scss';
 import FiveSteps from './FiveSteps';
 
-const JumbotronButton = withStyles((theme) => ({
-    root: {
-        margin:'20px 0px 100px 0px',
-        fontSize: '1rem',
-        fontFamily: 'Montserrat, Arial, sans-serif',
-        width: '',
-        color: '#fff',
-        backgroundColor: "#ec5f58",
-        '&:hover': {
-            backgroundColor: "#bc4c46",
-            color: theme.palette.getContrastText("#bc4c46"),
-        },
-        border: 'none',
-        outline: 'none'
-    },
-}))(Button);
+
+import fal5 from '../../assets/images/FAL_5.png';
+
+
 
 const JumbotronTitle = withStyles((theme) => ({
     root: {
@@ -57,8 +45,52 @@ const JumbotronTitle = withStyles((theme) => ({
     }
 }))(Typography);
 
+const FiveStepsTitle = withStyles((theme) => ({
+    root: {
+        fontSize: '1.5rem',
+        fontFamily: 'Montserrat, Arial, sans-serif',
+        color: 'black',
+        padding: '20px 0px 10px 0px', 
+        maxWidth: '100%',
+        textAlign: 'center',
+        margin: 'auto',
+    },
+    '@media (max-width: 1200px)': {
+        root: {
+            fontSize: '2rem',
+            maxWidth: '80%'
+        },
+    },
+    '@media (max-width: 949px)': {
+        root: {
+            fontSize: '1.5rem',
+            maxWidth: '90%',
+        },
+    },
+    '@media (max-width: 600px)': {
+        root: {
+            fontSize: '1rem',
+            maxWidth: '100%',
+        },
+    }
+}))(Typography);
 
-
+const JumbotronButton = withStyles((theme) => ({
+    root: {
+        margin:'20px 0px 100px 0px',
+        fontSize: '1rem',
+        fontFamily: 'Montserrat, Arial, sans-serif',
+        width: '',
+        color: '#fff',
+        backgroundColor: "#ec5f58",
+        '&:hover': {
+            backgroundColor: "#bc4c46",
+            color: theme.palette.getContrastText("#bc4c46"),
+        },
+        border: 'none',
+        outline: 'none'
+    },
+}))(Button);
 export default function Jumbotron(props) {
     return (
         <div className="jumbotron-wrapper">
@@ -67,6 +99,10 @@ export default function Jumbotron(props) {
             </JumbotronTitle>
             <FiveSteps className="fivesteps"/>
             {/* <JumbotronSubtitle className="subtitle">{props.subtitle}</JumbotronSubtitle> */}
+            <FiveStepsTitle>
+                    Your design to their doorstep in <img src={fal5} className="fal5"/> simple steps
+            </FiveStepsTitle>
+            
             <JumbotronButton variant="contained" color="primary" className="button" href={urlGenerator.get({ page: 'Occasions' })}>{props.buttonText}</JumbotronButton>
    
         </div>

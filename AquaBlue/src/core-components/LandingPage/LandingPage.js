@@ -24,11 +24,9 @@ export default class LandingPage extends Component {
             <div className="Landing-Page-Wrapper">
                 <Jumbotron2
                     subtitle="Start by choosing your occasion."
-                    buttonText="Get Started"
+                    buttonText="Start Now"
                 />
-                <div style={{ padding: "40px 0px" }} />
-                <TopCategories />
-                <div style={{ padding: "40px 0px" }} />
+                <TopOccasions />
                 <SplitDescriptionRight1
                     title="Celebrate their favourite day of the year."
                     subtitle=""

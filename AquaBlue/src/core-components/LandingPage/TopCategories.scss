@@ -21,40 +21,83 @@
             text-decoration: none !important;
             width:100%;
             .icon-button-container {
-                background-image: url("../../assets/images/O-Sympathy.png");
+                background-image: url("");
                 background-position: center;
                 background-size: cover;
                 opacity: .4;
+                .catlabel {
+                    opacity: 1;
+                }
             }
             .icon-button-container:hover, .icon-button-container:active{
-                border: 4px!important;
                 opacity: 1;
+                background-image: url("");
+                background-position: center;
+                background-size: cover;
+            }
+            .icon-button-container-sympathy {
                 background-image: url("../../assets/images/O-Sympathy.png");
                 background-position: center;
                 background-size: cover;
-            }
+                opacity: .4;
+                }
+                .icon-button-container-sympathy:hover, .icon-button-container-sympathy:active{
+                opacity: 1;
+                }            
             .icon-button-container-Birthday {
-                background-image: url("../../assets/images/O-Birthday.png");
+                background-image: url("../../assets/images/O-BirthdayCard.png");
                 background-position: center;
                 background-size: cover;
                 opacity: .4;
-            }
-            .icon-button-container-Birthday:hover, .icon-button-container-Birthday:active{
-                border: 4px!important;
+                }
+                .icon-button-container-Birthday:hover, .icon-button-container-Birthday:active{
                 opacity: 1;
-                background-image: url("../../assets/images/O-Birthday.png");
-                background-position: center;
-                background-size: cover;
-            }
+                }
             .icon-button-container-Holiday {
                 background-image: url("../../assets/images/O-Holiday.png");
                 background-position: center;
                 background-size: cover;
                 opacity: .4;
-            }
-            .icon-button-container-Holiday:hover, .icon-button-container-Holiday:active{
+                }
+                .icon-button-container-Holiday:hover, .icon-button-container-Holiday:active{
+                    opacity: 1;
+            }    
+            .icon-button-container-Congratulations {
+                background-image: url("../../assets/images/O-Congratulations.png");
+                background-position: center;
+                background-size: cover;
+                opacity: .4;
+                }
+                .icon-button-container-Congratulations:hover, .icon-button-container-Congratulations:active{
                 opacity: 1;
-            }            
+                }          
+            .icon-button-container-Baby {
+                background-image: url("../../assets/images/O-Baby.png");
+                background-position: center;
+                background-size: cover;
+                opacity: .4;
+                }
+                .icon-button-container-Baby:hover, .icon-button-container-Baby:active{
+                opacity: 1;
+                }      
+            .icon-button-container-thankyou {
+                background-image: url("../../assets/images/O-ThankYou.png");
+                background-position: center;
+                background-size: cover;
+                opacity: .4;
+                }
+                .icon-button-container-thankyou:hover, .icon-button-container-thankyou:active{
+                opacity: 1;
+                }  
+            .icon-button-container-friendship {
+                background-image: url("../../assets/images/O-JustBecause.png");
+                background-position: center;
+                background-size: cover;
+                opacity: .4;
+                }
+                .icon-button-container-friendship:hover, .icon-button-container-friendship:active{
+                opacity: 1;
+                }                                               
         }
     }
     }

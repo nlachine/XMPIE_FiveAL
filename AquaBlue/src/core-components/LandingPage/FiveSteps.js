@@ -10,7 +10,6 @@ import step2img from '../../assets/images/Step_2_holiday.png';
 import step3img from '../../assets/images/Step_3_holiday.png';
 import step4img from '../../assets/images/Step_4_holiday.png';
 import step5img from '../../assets/images/Step_5_holiday.png';
-import fal5 from '../../assets/images/FAL_5.png';
 
 
 const Description = withStyles((theme) => ({
@@ -42,36 +41,7 @@ const Description = withStyles((theme) => ({
     },
 }))(Typography);
 
-const FiveStepsTitle = withStyles((theme) => ({
-    root: {
-        fontSize: '1.5rem',
-        fontFamily: 'Montserrat, Arial, sans-serif',
-        textTransform: 'uppercase',
-        color: 'black',
-        padding: '20px 0px 10px 0px', 
-        maxWidth: '100%',
-        textAlign: 'center',
-        margin: 'auto',
-    },
-    '@media (max-width: 1200px)': {
-        root: {
-            fontSize: '2rem',
-            maxWidth: '80%'
-        },
-    },
-    '@media (max-width: 949px)': {
-        root: {
-            fontSize: '1.5rem',
-            maxWidth: '90%',
-        },
-    },
-    '@media (max-width: 600px)': {
-        root: {
-            fontSize: '1rem',
-            maxWidth: '100%',
-        },
-    }
-}))(Typography);
+
 
 
 export default class FiveSteps extends Component {
@@ -79,9 +49,7 @@ export default class FiveSteps extends Component {
         return (
             <div className="fivesteps-wrapper">
                 
-                <FiveStepsTitle>
-                    From design to door in <img src={fal5} className="fal5"/> easy steps!
-                </FiveStepsTitle>
+
 
 
                 <Grid container spacing={0} className="fivesteps-container" justify="space-evenly">
