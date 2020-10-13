@@ -12,35 +12,41 @@ import fal5 from '../../assets/images/FAL_5.png';
 
 const JumbotronTitle = withStyles((theme) => ({
     root: {
-        fontSize: '2.2rem',
+        fontSize: '3.5rem',
         fontFamily: 'Montserrat, Arial, sans-serif',
         color: 'black',
-        padding: '100px 0px 90px 0px',
+        padding: '80px 0px 90px 0px',
         maxWidth: '70%',
         textAlign: 'center'
     },
-    '@media (max-width: 1200px)': {
+    '@media (max-width: 1400px)': {
         root: {
-            padding: '10px 0px 50px 0px',
-            fontSize: '2rem',
+            padding: '80px 0px 50px 0px',
+            fontSize: '3.1rem',
+        },
+    },
+    '@media (max-width: 1240px)': {
+        root: {
+            padding: '100px 0px 50px 0px',
+            fontSize: '2.7rem',
         },
     },
     '@media (max-width: 949px)': {
         root: {    
-            padding: '130px 50px 50px 50px',
-            fontSize: '1.5rem',
+            padding: '150px 50px 50px 50px',
+            fontSize: '2.5rem',
         },
     },
     '@media (max-width: 600px)': {
         root: {
-            padding: '100px 0px 50px 0px',
-            fontSize: '1.5rem'
+            padding: '70px 0px 50px 0px',
+            fontSize: '2.0rem'
         },
     },
     '@media (max-width: 400px)': {
         root: {
             padding: '100px 0px 50px 0px',
-            fontSize: '2rem'
+            fontSize: '2.0rem'
         },
     }
 }))(Typography);

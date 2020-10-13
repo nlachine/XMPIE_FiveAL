@@ -52,6 +52,7 @@
     "react-hover-image": "^2.0.1",
     "react-infinite-scroller": "file:./npm_packages/react-infinite-scroller-1.2.4.tgz",
     "react-lines-ellipsis": "file:./npm_packages/react-lines-ellipsis-0.14.0.tgz",
+    "react-mailchimp-form": "^1.0.2",
     "react-markdown": "file:./npm_packages/react-markdown-3.3.0.tgz",
     "react-perfect-scrollbar": "file:./npm_packages/react-perfect-scrollbar-1.4.4.tgz",
     "react-scripts": "file:./npm_packages/react-scripts-3.2.0.tgz",

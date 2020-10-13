@@ -1,21 +1,17 @@
 import React, { Component } from 'react';
 import Jumbotron from './Jumbotron';
 import Jumbotron2 from './Jumbotron2';
-import TopCategories from './TopCategories';
 import TopOccasions from '../LandingPage/TopOccasions';
-import SimpleQuote from './SimpleQuote';
 import SplitDescriptionLeft1 from './SplitDescriptionLeft1';
 import SplitDescriptionRight1 from './SplitDescriptionRight1';
 import SplitDescriptionLeft2 from './SplitDescriptionLeft2';
 import SplitDescriptionRight2 from './SplitDescriptionRight2';
-import BoxGif from '../../assets/images/BoxBannerGif.gif';
 
 import BGimg1 from '../../assets/images/Split_Birthday.png';
 import BGimg2 from '../../assets/images/Split_Sympathy.png';
 import BGimg3 from '../../assets/images/Split_Valentines.png';
 
-import InformationImage from './InformationImage';
-import SubEmail from './SubEmail';
+import SubEmail2 from './SubEmail2';
 
 export default class LandingPage extends Component {
 
@@ -45,20 +41,7 @@ export default class LandingPage extends Component {
                     buttonText="For Her"
                     image={BGimg3}
                 />
-                {/* <SplitDescriptionLeft2
-                    title="Custom Boxes"
-                    subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-                    buttonText="Get Started"
-                    image={BGimg3}
-                /> */}
-                {/* <SimpleQuote
-                    quote={<q>This is a quote to fill this space</q>}
-                    author="-Noah Lachine"
-                /> */}
-                {/* <InformationImage
-                    image={BoxGif}
-                /> */}
-                <SubEmail />
+                <SubEmail2 />
             </div>
         )
     }

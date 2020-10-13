@@ -54,7 +54,7 @@ export default class LandingPage extends Component {
                     quote={<q>This is a quote to fill this space</q>}
                     author="-Noah Lachine"
                 /> */}
-                <SubEmail />
+                <SubEmail2 />
             </div>
         )
     }

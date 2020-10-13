@@ -26,7 +26,7 @@ export default class OccasionsPage extends Component {
             <div>
                 <TheTitle>Occasions</TheTitle>
                 <div style={{ padding: "20px 0px" }} />
-                <TopCategories />            
+                <TopOccasions />            
             </div>
         )
     }

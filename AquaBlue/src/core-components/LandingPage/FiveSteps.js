@@ -57,12 +57,12 @@ export default class FiveSteps extends Component {
                         <Grid item xs={6} sm={6} md={2}>
                             <div className="steps">
                             <img className="steps-img" src={step1img} alt="Step1"/>
-                            <Description>Pick an Occasion and Box Design</Description></div>
+                            <Description>Design it</Description></div>
                         </Grid>
                         <Grid item xs={6} sm={6} md={2}>
                             <div className="steps">
                             <img className="steps-img" src={step3img} alt="Step3"/>
-                            <Description>Personalize your Card</Description></div>
+                            <Description>Personalize it</Description></div>
                         </Grid>
                         <Grid item xs={6} sm={6} md={2}>
                             <div className="steps">
@@ -77,7 +77,7 @@ export default class FiveSteps extends Component {
                         <Grid item xs={6} sm={6} md={2}>
                             <div className="steps">
                             <img className="steps-img" src={step5img} alt="Step4"/>
-                            <Description>Its a Wrap</Description></div>
+                            <Description>Its a Wrap!</Description></div>
                         </Grid>
 
                 </Grid>
