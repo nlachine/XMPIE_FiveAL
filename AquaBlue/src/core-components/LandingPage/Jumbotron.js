@@ -21,9 +21,10 @@ const JumbotronButton = withStyles((theme) => ({
 
 const JumbotronTitle = withStyles((theme) => ({
     root: {
-        fontSize: '4rem',
+        fontSize: '3.0rem',
         color: 'black',
         paddingBottom: '0px',
+        textTransform: 'uppercase'
     },
 }))(Typography);
 

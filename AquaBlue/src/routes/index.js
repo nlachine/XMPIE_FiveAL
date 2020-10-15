@@ -35,6 +35,9 @@ import Favourites from './Favourites'
 import Home2 from './Home2'
 import AllBoxPatterns from './AllBoxPatterns'
 import AllCardFronts from './AllCardFronts'
+import Corporate from './Corporate'
+import Terms from './Terms'
+import Privacy from './Privacy'
 
 export default {
   Home,
@@ -73,5 +76,8 @@ export default {
   Occasions,
   Favourites,
   AllBoxPatterns,
-  AllCardFronts
+  AllCardFronts,
+  Corporate,
+  Terms,
+  Privacy
 }

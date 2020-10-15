@@ -171,6 +171,7 @@ class Header extends Component {
           <Dropdown />
           <a className="navbar-link" href={urlGenerator.get({ page: 'AllCardFronts' })}>Cards</a>
           <a className="navbar-link" href={urlGenerator.get({ page: 'AllBoxPatterns' })}>Patterns</a>
+          <a className="navbar-link" href={urlGenerator.get({ page: 'Corporate' })}>Corporate</a>
           <a className="navbar-link" href={urlGenerator.get({ page: 'AboutUs' })}>About Us</a>
           <a className="navbar-link" href={urlGenerator.get({ page: 'FAQ' })}>FAQ</a>
           {/* <a className="navbar-link" href="http://localhost:5000/ustorethemes/AquaBlue/7/en-US/Favourites/">Favourites</a>
@@ -189,6 +190,7 @@ class Header extends Component {
               <a className="sidebar-link" href={urlGenerator.get({ page: 'Occasions' })}>Occasions</a>
               <a className="sidebar-link" href={urlGenerator.get({ page: 'AllCardFronts' })}>Cards</a>
               <a className="sidebar-link" href={urlGenerator.get({ page: 'AllBoxPatterns' })}>Patterns</a>
+              <a className="sidebar-link" href={urlGenerator.get({ page: 'Corporate' })}>Corporate</a>
               <a className="sidebar-link" href={urlGenerator.get({ page: 'AboutUs' })}>About Us</a>
               <a className="sidebar-link" href={urlGenerator.get({ page: 'FAQ' })}>FAQ</a>
             </div>

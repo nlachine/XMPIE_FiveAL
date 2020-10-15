@@ -1,0 +1,28 @@
+.infobar-wrapper {
+    background-color: #8bd2d8;
+    .infobar-container {
+        max-width: 60%;
+        margin: 0 auto;
+        padding: 35px 0px;
+        .info-text {
+            font-family: Montserrat, Arial, sans-serif;
+            font-size: 32px;
+            text-align: center;
+            font-weight: 500;
+            color: white;
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .infobar-wrapper {
+        background-color: #8bd2d8;
+        .infobar-container {
+            max-width: 80%;
+            margin: 0 auto;
+            .info-text {
+                font-size: 25px;
+            }
+        }
+    }
+}

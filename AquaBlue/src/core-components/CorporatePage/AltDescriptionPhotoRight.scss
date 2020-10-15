@@ -1,0 +1,56 @@
+.Altphoto-wrapper-right {
+    .altphoto-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 70px 0;
+
+        .description-holder {
+            width: 500px;
+            padding: 0 20px;
+            .description-title {
+                color: #333;
+                font-family: Montserrat, Arial, sans-serif;
+                font-size: 25px;
+                font-weight: 600;
+            }
+            .description-p {
+                color: #333;
+                font-family: Montserrat, Arial, sans-serif;
+                font-size: 18px;
+                font-weight: normal;
+            }
+        }
+
+        .photo-holder {
+            width: 500px;
+            padding: 0 20px;
+            img {
+                width: 100%;
+                box-shadow: 0px 3px 6px rgba($color: #333333, $alpha: 0.3);
+            }
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .Altphoto-wrapper-right {
+        .altphoto-container {
+            display: block;
+            margin: 0 auto;
+            width: 80%;
+            .description-holder {
+                width: 100%;
+                text-align: center;
+                padding: 0px;
+            }
+            .photo-holder {
+                width: 100%;
+                padding: 0px;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

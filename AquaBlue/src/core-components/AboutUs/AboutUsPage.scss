@@ -1,6 +1,9 @@
 @import url('http://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;562;600;700&display=swap');
 
 .aboutus-wrapper {
+    .alt-photos-div{
+        padding: 70px 0;
+    }
     .our-story
     {
         font-weight: bold;
@@ -20,6 +23,9 @@
         height: 400px;
         background-image: url('https://images.pexels.com/photos/2208836/pexels-photo-2208836.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
         background-position: center;
+    }
+    .squote{
+        background-color:#ececec;
     }
 }
 

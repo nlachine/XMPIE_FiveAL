@@ -1,0 +1,27 @@
+.terms-wrapper{
+    font-family: Montserrat;
+    padding: 35px 0px;
+    .content-wrapper{
+        margin: 0 auto;
+        max-width: 1100px;
+        border-radius: 0px;
+        box-shadow: 0px 0px 6px rgba($color: #333333, $alpha: 0.3);
+    }
+    .content-container 
+    {
+        padding: 20px;
+    }
+
+    .legal-copy, p {
+        font-size: 16px;
+    }
+
+    .legal-heading, h1 {
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .legal-subheading, h2 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+}

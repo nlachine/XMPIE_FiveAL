@@ -1,0 +1,53 @@
+.foundermsg-wrapper {
+    .foundermsg-container {
+        padding: 0px 0px 70px 0px;
+        .foundermsg-card {
+            margin: 0 auto;
+            max-width: 70%;
+            padding: 20px;
+            box-shadow: 0px 0px 6px rgba($color: #333333, $alpha: 0.3);
+            img {
+                width: 100%;
+            }
+            .founder-message {
+                .text {
+                    color: #333;
+                    font-size: 20px;
+                    font-family: Montserrat, Arial, Helvetica, sans-serif;
+                    margin: auto 0;
+                }
+                .signature {
+                    color: #1C8283;
+                    font-size: 32px;
+                    line-height: 60px;
+                    font-family: Dancing Script;
+                }
+                .postscript{
+                    color: #333;
+                    font-size: 16px;
+                    font-family: Montserrat, Arial, Helvetica, sans-serif;
+                    margin: auto 0;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 959px) {
+    .foundermsg-wrapper {
+        .foundermsg-container {
+            padding: 70px 0;
+            .foundermsg-card {
+                margin: 0 auto;
+                max-width: 80%;
+                padding: 20px;
+                .founder-image {
+                    height: 400px;
+                    overflow: hidden;
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

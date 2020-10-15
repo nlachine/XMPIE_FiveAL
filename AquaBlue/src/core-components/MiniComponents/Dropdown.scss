@@ -1,22 +1,33 @@
 .dropdown {
     padding: 1.5%;
     .dropdown-button {
-        color: #666;
-        font-size: 1rem;
+        color: #333;
+        font-size: 0.9rem;
+        letter-spacing: 1px;
         font-weight: bold;
         font-family: Montserrat, Arial, sans-serif;
         text-transform: uppercase;
         background: none;
     }
-    .dropdown-button:hover {
+    .dropdown-button li:hover {
         color: black;
         background: none;
+        text-decoration: none;}
+
+    .MuiMenuItem-root {
+        text-decoration: none;
+        font-family: Montserrat, Arial, sans-serif;
+        font-weight: 400;
+        font-size: 0.9rem;
+        letter-spacing: 1px;
+        color: #333;
     }
 
-    .dropdown-link {
+    
+    .MuiMenuItem-root:hover {
         text-decoration: none;
-        color: #666;
     }
+
     @media (max-width: 1200px) {
         display: none !important;
     }
