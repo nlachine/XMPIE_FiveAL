@@ -20,7 +20,7 @@ export default class LandingPage extends Component {
             <div className="Landing-Page-Wrapper">
                 <Jumbotron2
                     subtitle="Start by choosing your occasion."
-                    buttonText="Start Now"
+                    buttonText="Start Now!"
                 />
                 <TopOccasions />
                 <SplitDescriptionRight1

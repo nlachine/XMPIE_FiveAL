@@ -13,12 +13,8 @@
     color: #fff;
     // text-transform: uppercase;
 
-    .title {
-    }
-
     .title span {
-        font-family: "Dancing Script", cursive;
-        font-weight: bold;
+        font-family: "Shakies";
         text-transform: none;
     }
     .surprise {
@@ -63,19 +59,19 @@
 }
 
 @media (max-width: 600px) {
-    .jumbotron-wrapper {
-        //height: 500px;
-        // .fivesteps {
-        //     display: none;
-        // }
-    }
+    // .jumbotron-wrapper {
+    //     //height: 500px;
+    //     // .fivesteps {
+    //     //     display: none;
+    //     // }
+    // }
 }
 
 @media (max-width: 400px) {
-    .jumbotron-wrapper {
-        //height: 500px;
-        // .fivesteps {
-        //     display: none;
-        // }
-    }
+    // .jumbotron-wrapper {
+    //     //height: 500px;
+    //     // .fivesteps {
+    //     //     display: none;
+    //     // }
+    // }
 }

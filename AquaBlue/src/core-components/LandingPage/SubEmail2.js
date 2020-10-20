@@ -38,7 +38,7 @@ export default function SubEmail() {
         <div className="email-subscription-wrapper">
             
             <div className="email-subscription-container">
-            <Title>Join the early risers</Title>
+            <Title>Join the <span className="earlyrisers">early risers</span></Title>
             <Mailchimp
                 action='https://5amlemon.us2.list-manage.com/subscribe/post?u=ac366de6605f1529b50e05c73&id=2d8d0c340e'
                 fields={[

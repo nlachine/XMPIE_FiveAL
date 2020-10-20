@@ -1,5 +1,26 @@
 @import '_theme.scss';
 
+@font-face {
+  font-family: 'Shakies';
+  font-style: normal;
+  src: url('../assets/fonts/Shakies-Web-TT.eot'); /* IE9 Compat Modes */
+  src: local('Shakies'), local('Shakies'),
+      url('../assets/fonts/Shakies-Web-TT.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+      url('../assets/fonts/Shakies-Web-TT.woff') format('woff'), /* IE6-IE8 */
+      url('../assets/fonts/Shakies-Web-PS.woff2') format('woff2'), /* Super Modern Browsers */
+      url('../assets/fonts/Shakies-Web-TT.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'Shakies Swash';
+  font-style: normal;
+  src: url('../assets/fonts/ShakiesSwash-Web-TT.eot'); /* IE9 Compat Modes */
+  src: local('Shakies Swash'), local('ShakiesSwash'),
+      url('../assets/fonts/ShakiesSwash-Web-TT.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+      url('../assets/fonts/ShakiesSwash-Web-TT.woff') format('woff'), /* IE6-IE8 */
+      url('../assets/fonts/ShakiesSwash-Web-PS.woff2') format('woff2'), /* Super Modern Browsers */
+      url('../assets/fonts/ShakiesSwash-Web-TT.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
 .home{
   .middle-section {
     margin: 0 auto;
@@ -11,6 +32,7 @@
     @media (min-width: $md) and (max-width: $lg) {
       width: 727px;
     }
+
 
     @media (min-width: $sm) and (max-width: $md) {
       width: 536px;

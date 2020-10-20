@@ -97,6 +97,7 @@ const JumbotronButton = withStyles((theme) => ({
         outline: 'none'
     },
 }))(Button);
+
 export default function Jumbotron(props) {
     return (
         <div className="jumbotron-wrapper">

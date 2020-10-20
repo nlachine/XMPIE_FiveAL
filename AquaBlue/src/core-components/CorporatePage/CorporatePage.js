@@ -6,20 +6,23 @@ import AltDescriptionPhotoRight from './AltDescriptionPhotoRight';
 import AltDescriptionPhotoLeft from './AltDescriptionPhotoLeft';
 import InfoBar from './InfoBar';
 import CorpInquiry from './CorpInquiry';
+import TilesCorp1 from './TilesCorp1';
+
 // https://dummyimage.com/1920x1080/000/fff
 export default class BoxDesignsPage extends Component {
 
     render() {
         return (
             <div className="corporate-page-wrapper">
-                <Infographic
+                {/* <Infographic
                     iconOne="https://www.flaticon.com/svg/static/icons/svg/2301/2301129.svg"
                     textOne="Minimum order quantity of 25 units."
                     iconTwo="https://www.flaticon.com/svg/static/icons/svg/2301/2301129.svg"
                     textTwo="Completely customize the box and contents."
                     iconThree="https://www.flaticon.com/svg/static/icons/svg/2301/2301129.svg"
                     textThree="Each box can be personalized for each recipient."
-                />
+                /> */}
+                <TilesCorp1 />
                 <FindSolutions />
                 <div className="alt-photos-div">
                     <AltDescriptionPhotoRight

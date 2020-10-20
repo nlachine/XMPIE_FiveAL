@@ -2,6 +2,7 @@ import { Card, TextField } from '@material-ui/core';
 import React from 'react'
 
 import './CorpInquiry.scss';
+import Email from './Form';
 
 export default function CorpInquiry() {
     return (
@@ -12,7 +13,7 @@ export default function CorpInquiry() {
                         <h2 className="inquiry-title-text">Send an Inquiry</h2>
                     </div>
                     <div className="inquiry-container-form">
-                        
+                        <Email></Email>
                     </div>
                 </Card>
             </div>

@@ -5,8 +5,8 @@
         object-position: center;
         height: 600px;
         .split-box-image {
+            min-width: 100%;
             min-height: 100%;
-            max-height: 110%;
             //background-image: url(https://images.pexels.com/photos/1797428/pexels-photo-1797428.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
         }
     }

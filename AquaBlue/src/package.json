@@ -37,6 +37,7 @@
     "chalk": "file:./npm_packages/chalk-3.0.0.tgz",
     "datauri": "file:./npm_packages/datauri-1.1.0.tgz",
     "deepcopy": "file:./npm_packages/deepcopy-0.6.3.tgz",
+    "emailjs-com": "^2.6.3",
     "helmet": "file:./npm_packages/helmet-3.12.0.tgz",
     "isomorphic-unfetch": "file:./npm_packages/isomorphic-unfetch-2.0.0.tgz",
     "logdown": "file:./npm_packages/logdown-3.2.7.tgz",
@@ -61,6 +62,7 @@
     "redux": "file:./npm_packages/redux-4.0.1.tgz",
     "redux-thunk": "file:./npm_packages/redux-thunk-2.3.0.tgz",
     "roddeh-i18n": "file:./npm_packages/roddeh-i18n-1.1.1.tgz",
+    "sweetalert2": "^10.6.1",
     "throttle-debounce": "file:./npm_packages/throttle-debounce-2.0.1.tgz",
     "tls": "file:./npm_packages/tls-0.0.1.tgz"
   },

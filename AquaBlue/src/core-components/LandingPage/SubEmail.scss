@@ -16,6 +16,15 @@
         .button {
             margin:5px;
         }
+        .earlyrisers{
+            font-family: "Shakies";
+            position: relative;
+            top:2px;
+            background: linear-gradient(90deg, rgba(232,83,80,1) 0%, rgba(232,140,80,1) 51%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            padding: 0 5px 0px 5px;
+        }
     }
     @media (max-width: 1800px) {
         .email-subscription-container {
