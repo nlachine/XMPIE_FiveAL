@@ -6,7 +6,7 @@ import './SimpleQuote.scss';
 const Quote = withStyles((theme) => ({
     root: {
         fontSize: '1.5rem',
-        fontFamily: 'Montserrat, Arial, sans-serif',
+        // fontFamily: 'Montserrat, Arial, sans-serif',
         color: 'black',
         textAlign: 'center'
     },
@@ -15,7 +15,7 @@ const Quote = withStyles((theme) => ({
 const Author = withStyles((theme) => ({
     root: {
         fontSize: '1.5rem',
-        fontFamily: 'Montserrat, Arial, sans-serif',
+        // fontFamily: 'Montserrat, Arial, sans-serif',
         color: 'black',
         textAlign: 'center'
     },

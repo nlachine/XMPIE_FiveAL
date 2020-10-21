@@ -10,7 +10,7 @@ const SendFormButton = withStyles((theme) => ({
     root: {
         margin:'0px 0px 0px 0px',
         fontSize: '1rem',
-        fontFamily: 'Montserrat, Arial, sans-serif',
+        // fontFamily: 'Montserrat, Arial, sans-serif',
         width: '100%',
         color: '#fff',
         backgroundColor: "#ec5f58",

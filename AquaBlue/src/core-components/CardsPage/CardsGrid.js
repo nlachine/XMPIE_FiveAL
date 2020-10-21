@@ -18,7 +18,7 @@ import Card11 from '../../assets/images/Card_YoureAClassic.png';
 const PatternLabel = withStyles((theme) => ({
     root: {
         fontSize: '1rem',
-        fontFamily: 'Montserrat, Arial, sans-serif',
+        // fontFamily: 'Montserrat, Arial, sans-serif',
         color: 'black',
         paddingTop: '10px',
         textAlign: 'center'

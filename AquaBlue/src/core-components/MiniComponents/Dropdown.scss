@@ -4,8 +4,8 @@
         color: #333;
         font-size: 0.9rem;
         letter-spacing: 1px;
-        font-weight: bold;
-        font-family: Montserrat, Arial, sans-serif;
+        font-weight: normal;
+        // font-family: Montserrat, Arial, sans-serif;
         text-transform: uppercase;
         background: none;
     }
@@ -16,7 +16,7 @@
 
     .MuiMenuItem-root {
         text-decoration: none;
-        font-family: Montserrat, Arial, sans-serif;
+        // font-family: Montserrat, Arial, sans-serif;
         font-weight: 400;
         font-size: 0.9rem;
         letter-spacing: 1px;
@@ -25,7 +25,7 @@
 
     
     .MuiMenuItem-root:hover {
-        text-decoration: none;
+        text-decoration: none!important;
     }
 
     @media (max-width: 1200px) {

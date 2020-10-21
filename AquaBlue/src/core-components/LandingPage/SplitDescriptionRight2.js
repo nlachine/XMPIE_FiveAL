@@ -6,8 +6,7 @@ import { withStyles } from '@material-ui/core/styles';
 const SplitDescriptionButton = withStyles((theme) => ({
     root: {
         fontSize: '1rem',
-        fontFamily: 'Montserrat, Arial, sans-serif',
-        fontWeight: 'bold',
+        // fontFamily: 'Montserrat, Arial, sans-serif',
         typeTransform: 'uppercase',
         width: '50%',
         marginTop: '100px',
@@ -42,8 +41,7 @@ const SplitDescriptionButton = withStyles((theme) => ({
 const BoxTitle = withStyles((theme) => ({
     root: {
         fontSize: '3rem',
-        fontFamily: 'Montserrat, Arial, sans-serif',
-        fontWeight: 'bold',
+        // fontFamily: 'Montserrat, Arial, sans-serif',
         typeTransform: 'uppercase',
         color: 'white',
         paddingBottom: '0px',

@@ -6,7 +6,7 @@ import './Quote1.scss';
 const Quote = withStyles((theme) => ({
     root: {
         fontSize: '2rem',
-        fontFamily: 'Montserrat, Arial, sans-serif',
+        // fontFamily: 'Montserrat, Arial, sans-serif',
         color: 'black',
         textAlign: 'center',
         padding: '0px 20%',

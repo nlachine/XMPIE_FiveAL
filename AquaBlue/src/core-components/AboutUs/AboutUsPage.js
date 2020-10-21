@@ -29,7 +29,7 @@ const TheTitle = withStyles((theme) => ({
 const FiveStepsTitle = withStyles((theme) => ({
     root: {
         fontSize: '3rem',
-        fontFamily: 'Montserrat, Arial, sans-serif',
+        // fontFamily: 'Montserrat, Arial, sans-serif',
         textTransform: 'uppercase',
         color: 'black',
         padding: '75px 0px 0px 0px',

@@ -7,9 +7,8 @@ import Quote1 from '../PatternsPage/Quote1.js'
 const TheTitle = withStyles((theme) => ({
     root: {
         fontSize: '3rem',
-        fontFamily: 'Montserrat, Arial, sans-serif',
         color: 'black',
-        paddingBottom: '0px',
+        paddingTop: '20px',
         textAlign: 'center',
         margin: 'auto',
     },

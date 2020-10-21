@@ -6,9 +6,8 @@ import { withStyles } from '@material-ui/core/styles';
 const BoxTitle = withStyles((theme) => ({
     root: {
         fontSize: '4rem',
-        fontFamily: 'Montserrat, Arial, sans-serif',
+        // fontFamily: 'Montserrat, Arial, sans-serif',
         fontStyle: 'italic',
-        fontWeight: 'bold',
         color: '#fff',
         marginLeft: '-100px',
         maxWidth: '100%',
@@ -31,7 +30,7 @@ const BoxTitle = withStyles((theme) => ({
 const BoxCopy = withStyles((theme) => ({
     root: {
         fontSize: '1rem',
-        fontFamily: 'Montserrat, Arial, sans-serif',
+        // fontFamily: 'Montserrat, Arial, sans-serif',
         color: '#666',
         marginLeft: '20px',
         maxWidth: '70%',

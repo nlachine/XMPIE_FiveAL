@@ -18,7 +18,7 @@ import Pattern11 from '../../assets/images/BoxPattern_ThankYou01.png';
 const PatternLabel = withStyles((theme) => ({
     root: {
         fontSize: '1rem',
-        fontFamily: 'Montserrat, Arial, sans-serif',
+        fontFamily: 'proxima-nova, sans-serif',
         color: 'black',
         paddingTop: '10px',
         textAlign: 'center'

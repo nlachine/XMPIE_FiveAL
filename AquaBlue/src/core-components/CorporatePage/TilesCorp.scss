@@ -1,0 +1,106 @@
+.tiles-wrapper {
+    background: #ffffff;
+    display: flex;
+    .tiles-container-txt {
+        position: relative;
+        width: 50%;
+        height: 600px;
+        &.blue {background-color: #C4E6E7;}
+        &.pink {background-color: #FAD7D5;}
+        &.yellow {background-color: #FFEFCC;}
+        .tiles-txt{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            .tiles-title {
+                font-family: "Shakies";
+                font-size: 3rem;
+            }
+            .tiles-p {
+                font-size: 2em;
+            }
+        }
+    }
+    .tiles-container-img{
+        width: 50%;
+        .tiles-bg-img{
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;   
+            min-height: 100%;
+            &.sympathy{background: url("../../assets/images/Split_Sympathy.png");}
+            &.welcomeback{background: url("../../assets/images/Split_Valentines.png");}
+            &.cliapp{background: url("../../assets/images/Split_Birthday.png");}
+            .tiles-img{
+                text-align: center;
+            }
+        }
+    }
+}
+
+
+
+
+
+@media (max-width: 1550px) {
+    .tiles-wrapper{
+        .tiles-container-txt{
+            
+        height: 500px;
+            .tiles-txt{
+                .tiles-title{
+                    font-size: 2.5rem;
+                }
+                .tiles-p{
+                    font-size: 1.5em;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1250px) {
+    .tiles-wrapper{
+        .tiles-container-txt{
+        height: 500px;
+            .tiles-txt{
+                .tiles-title{
+                    font-size: 2.0rem;
+                }
+                .tiles-p{
+                    font-size: 1.25em;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1000px) {
+    .tiles-wrapper{
+        .tiles-container-txt{
+        height: 400px;
+            .tiles-txt{
+                .tiles-title{
+                    font-size: 2.0rem;
+                }
+                .tiles-p{
+                    font-size: 1.25em;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 600px) {
+    .tiles-wrapper{
+        .tiles-container-txt{
+            .tiles-txt{
+                .tiles-title{
+                    font-size: 1.5rem;
+                }
+                .tiles-p{
+                    font-size: 1em;
+                }
+            }
+        }
+    }
+}

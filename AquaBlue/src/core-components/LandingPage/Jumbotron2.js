@@ -13,8 +13,10 @@ import fal5 from '../../assets/images/FAL_5.png';
 const JumbotronTitle = withStyles((theme) => ({
     root: {
         fontSize: '3.5rem',
-        fontFamily: 'Montserrat, Arial, sans-serif',
-        color: 'black',
+        //fontFamily: 'Montserrat, Arial, sans-serif',
+        fontWeight: '100',
+        fontStyle: 'normal',
+        color: '#333',
         padding: '80px 0px 90px 0px',
         maxWidth: '70%',
         textAlign: 'center'
@@ -54,8 +56,8 @@ const JumbotronTitle = withStyles((theme) => ({
 const FiveStepsTitle = withStyles((theme) => ({
     root: {
         fontSize: '1.5rem',
-        fontFamily: 'Montserrat, Arial, sans-serif',
-        color: 'black',
+        // fontFamily: 'Montserrat, Arial, sans-serif',
+        color: '#333',
         padding: '20px 0px 10px 0px', 
         maxWidth: '100%',
         textAlign: 'center',
@@ -85,7 +87,7 @@ const JumbotronButton = withStyles((theme) => ({
     root: {
         margin:'20px 0px 100px 0px',
         fontSize: '1rem',
-        fontFamily: 'Montserrat, Arial, sans-serif',
+        // fontFamily: 'Montserrat, Arial, sans-serif',
         width: '',
         color: '#fff',
         backgroundColor: "#ec5f58",

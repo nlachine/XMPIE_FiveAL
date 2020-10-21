@@ -6,7 +6,7 @@ import TopCategories from '../LandingPage/TopCategories';
 const TheTitle = withStyles((theme) => ({
     root: {
         fontSize: '3rem',
-        fontFamily: 'Montserrat, Arial, sans-serif',
+        // fontFamily: 'Montserrat, Arial, sans-serif',
         color: 'black',
         paddingBottom: '0px',
         maxWidth: '70%',

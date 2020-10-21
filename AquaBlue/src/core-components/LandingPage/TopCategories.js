@@ -25,7 +25,7 @@ const CategoryLabel = withStyles((theme) => ({
         textDecoration: 'none',
         textAlign: 'center',
         lineHeight: '140px',
-        fontFamily: 'Montserrat, sans-serif'
+        // fontFamily: 'Montserrat, sans-serif'
     },
     '@media (max-width: 1200px)': {
         root: {

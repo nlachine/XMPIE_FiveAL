@@ -11,11 +11,11 @@ const useStyles = makeStyles((theme) => ({
     }, 
     heading: {
         fontSize: theme.typography.pxToRem(15),
-        fontFamily: 'Montserrat, Arial, sans-serif',
+        // fontFamily: 'Montserrat, Arial, sans-serif',
         fontWeight: theme.typography.fontWeightRegular,
     },
     body: {
-        fontFamily: 'Montserrat, Arial, sans-serif',
+        // fontFamily: 'Montserrat, Arial, sans-serif',
     },
     '@media (max-width: 600px)': {
         root:{

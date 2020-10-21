@@ -7,8 +7,8 @@ import TopCategories from '../LandingPage/TopCategories';
 const TheTitle = withStyles((theme) => ({
     root: {
         fontSize: '3rem',
-        fontFamily: 'Montserrat, Arial, sans-serif',
-        color: 'black',
+        color: '#333',
+        paddingTop: '20px',
         paddingBottom: '0px',
         textAlign: 'center',
         margin: 'auto',
@@ -25,7 +25,7 @@ export default class OccasionsPage extends Component {
         return (
             <div>
                 <TheTitle>Occasions</TheTitle>
-                <div style={{ padding: "20px 0px" }} />
+                <div style={{ padding: "0px 0px" }} />
                 <TopOccasions />            
             </div>
         )

@@ -8,15 +8,17 @@
         .description-holder {
             width: 500px;
             padding: 0 20px;
+            text-align: right;
+            padding-top: 50px;
             .description-title {
                 color: #333;
-                font-family: Montserrat, Arial, sans-serif;
+                // font-family: Montserrat, Arial, sans-serif;
                 font-size: 25px;
                 font-weight: 600;
             }
             .description-p {
                 color: #333;
-                font-family: Montserrat, Arial, sans-serif;
+                // font-family: Montserrat, Arial, sans-serif;
                 font-size: 18px;
                 font-weight: normal;
             }

@@ -12,8 +12,7 @@ import './SubEmail2.scss';
 const Title = withStyles((theme) => ({
     root: {
         fontSize: '3rem',
-        fontFamily: 'Montserrat, Arial, sans-serif',
-        fontWeight: 'bold',
+        // fontFamily: 'Montserrat, Arial, sans-serif',
         typeTransform: 'uppercase',
         color: 'black',
         textAlign: 'center',

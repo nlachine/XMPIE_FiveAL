@@ -15,9 +15,8 @@ import step5img from '../../assets/images/Step_5_holiday.png';
 const Description = withStyles((theme) => ({
     root: {
         fontSize: '0.8rem',
-        fontFamily: 'Montserrat, Arial, sans-serif',
-        fontWeight: 'bold',
-        color: 'black',
+        // fontFamily: 'Montserrat, Arial, sans-serif',
+        color: '#333',
         padding: '10px 0px 10px 20px',
         textAlign: 'center',
         textTransform: 'uppercase'

@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import {withStyles} from '@material-ui/core/styles'
+import { Typography } from '@material-ui/core';
+
 import './CorporatePage.scss';
 import FindSolutions from './FindSolutions';
 import Infographic from './Infographic';
@@ -7,6 +10,27 @@ import AltDescriptionPhotoLeft from './AltDescriptionPhotoLeft';
 import InfoBar from './InfoBar';
 import CorpInquiry from './CorpInquiry';
 import TilesCorp1 from './TilesCorp1';
+import TilesCorp2 from './TilesCorp2';
+import TilesCorp3 from './TilesCorp3';
+import GetinTouch from './GetinTouch';
+
+const TheTitle = withStyles((theme) => ({
+    root: {
+        fontSize: '3rem',
+        // fontFamily: 'Montserrat, Arial, sans-serif',
+        color: '#333',
+        paddingTop: '20px',
+        paddingBottom: '40px',
+        textAlign: 'center',
+        margin: 'auto',
+    },
+    '@media (max-width: 600px)': {
+        root: {
+            fontSize: '2rem',
+            paddingBottom: '20px',
+        },
+    }
+}))(Typography);
 
 // https://dummyimage.com/1920x1080/000/fff
 export default class BoxDesignsPage extends Component {
@@ -22,8 +46,10 @@ export default class BoxDesignsPage extends Component {
                     iconThree="https://www.flaticon.com/svg/static/icons/svg/2301/2301129.svg"
                     textThree="Each box can be personalized for each recipient."
                 /> */}
-                <TilesCorp1 />
-                <FindSolutions />
+               <TheTitle>Corporate</TheTitle>
+               {/* <InfoBar 
+                    text="No matter what the occasion let a 5am Lemon box show people they are special."
+                />
                 <div className="alt-photos-div">
                     <AltDescriptionPhotoRight
                         title="Show you care"
@@ -35,11 +61,14 @@ export default class BoxDesignsPage extends Component {
                         description="Perhaps you are hosting a virtual conference and would like to send out a customized welcome package to each attendee."
                         image="https://dummyimage.com/1920x1080/000/fff"
                     />
-                </div>
-                <InfoBar 
-                    text="No matter what the occasion let a 5am Lemon box show people they are special."
-                />
-                <CorpInquiry />
+                </div> */}
+
+                <TilesCorp1 />
+                <TilesCorp2 />
+                <TilesCorp3 />
+                
+         
+                <GetinTouch />
             </div>
         )
     }

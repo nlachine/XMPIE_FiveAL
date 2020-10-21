@@ -9,7 +9,7 @@ import TopCategories from  './TopCategories';
 const JumbotronButton = withStyles((theme) => ({
     root: {
         fontSize: '1rem',
-        fontFamily: 'Montserrat, Arial, sans-serif',
+        // fontFamily: 'Montserrat, Arial, sans-serif',
         width: '300px',
         color: '#fff',
         backgroundColor: "#ec5f58",
@@ -25,7 +25,7 @@ const JumbotronButton = withStyles((theme) => ({
 const JumbotronTitle = withStyles((theme) => ({
     root: {
         fontSize: '4rem',
-        fontFamily: 'Montserrat, Arial, sans-serif',
+        // fontFamily: 'Montserrat, Arial, sans-serif',
         color: 'black',
         paddingBottom: '0px',
         maxWidth: '70%',
@@ -51,7 +51,7 @@ const JumbotronTitle = withStyles((theme) => ({
 const JumbotronSubtitle = withStyles((theme) => ({
     root: {
         fontSize: '1.5rem',
-        fontFamily: 'Montserrat, Arial, sans-serif',
+        // fontFamily: 'Montserrat, Arial, sans-serif',
         color: 'black',
         paddingBottom: '20px',
         maxWidth: '60%',

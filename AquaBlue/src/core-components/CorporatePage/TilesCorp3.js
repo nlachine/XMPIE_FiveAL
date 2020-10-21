@@ -2,16 +2,16 @@ import React from 'react'
 
 import './TilesCorp.scss';
 
-export default function TilesCorp1() {
+export default function TilesCorp3() {
     return (
         <div className="tiles-wrapper">
-            <div className="tiles-container-txt blue">
+            <div className="tiles-container-txt yellow">
                 <div className="tiles-txt">
                     <div className="tiles-title">
-                        Employee appreciation!
+                        Client Appreciation!
                     </div>
                     <div className="tiles-p">
-                    Send a  thoughtful card & box packaged beautifully with a candle for rememberance
+                    Send a  thoughtful card & box packaged beautifully.
                     </div>
                 </div>
             </div>
