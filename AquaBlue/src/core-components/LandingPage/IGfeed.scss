@@ -1,0 +1,49 @@
+.email-subscription-wrapper {
+    background: #ffffff;
+    background: url("../../assets/images/BoxCollage.png");
+    background-position: top ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 0px;
+    .Feed{
+        display: flex;
+        flex-direction: row;    
+        flex-wrap: nowrap;
+    }
+    .Feed a {
+        background-color: red;
+        width: 25%;
+    }
+    .Feed img {
+        width: 100%
+    }
+    .email-subscription-container {
+        background: #ffffff;
+        text-align: center;
+        margin: auto;
+        width: 30%;
+        padding: 25px 0px;
+        box-shadow: 0px 0px 4px #b0b0b0;
+        border-radius: 2px;
+    }
+    @media (max-width: 1800px) {
+
+    }
+    @media (max-width: 1300px) {
+
+    }
+    @media (max-width: 1100px) {
+
+    }
+    @media (max-width: 900px) {
+            .Feed{
+                display: flex;
+                flex-direction: row; 
+                flex-wrap: wrap;  
+            }
+                .Feed a {
+                background-color: red;
+                width: 33.3%;
+            }
+    }
+}

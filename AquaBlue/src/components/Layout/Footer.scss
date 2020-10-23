@@ -40,10 +40,18 @@
       margin: 0 auto;
       padding: 70px 0;
       background-color: white;
+      text-align: center;
+      font-size: 10px;;
+      .footer-logo {
+          width: 100px;
+      }
+      .copyright{
+          padding-top:20px;
+      }
       .footer-col {
           img {
               width: 150px;
-              margin: -20px 0 0 0;
+              margin: 20px 0 0 0;
           }
           .title-links {
             //   font-family: Montserrat, Arial, Helvetica, sans-serif;

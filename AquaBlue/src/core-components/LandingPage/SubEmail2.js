@@ -3,7 +3,6 @@ import { TextField, Grid, Button, Box, Typography } from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles';
 import Mailchimp from 'react-mailchimp-form'
 
-
 import './SubEmail2.scss';
 
 
@@ -37,7 +36,9 @@ export default function SubEmail() {
         <div className="email-subscription-wrapper">
             
             <div className="email-subscription-container">
-            <Title>Join the <span className="earlyrisers">early risers</span></Title>
+
+            <Title>JOIN THE <span className="earlyrisers">early risers</span></Title>
+
             <Mailchimp
                 action='https://5amlemon.us2.list-manage.com/subscribe/post?u=ac366de6605f1529b50e05c73&id=2d8d0c340e'
                 fields={[

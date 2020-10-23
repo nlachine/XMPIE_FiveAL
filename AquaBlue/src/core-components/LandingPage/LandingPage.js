@@ -12,6 +12,7 @@ import BGimg2 from '../../assets/images/Split_Sympathy.png';
 import BGimg3 from '../../assets/images/Split_Valentines.png';
 
 import SubEmail2 from './SubEmail2';
+import IGfeed from './IGfeed';
 
 export default class LandingPage extends Component {
 
@@ -42,6 +43,7 @@ export default class LandingPage extends Component {
                     image={BGimg3}
                 />
                 <SubEmail2 />
+                <IGfeed />
             </div>
         )
     }
