@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat2:wght@700&display=swap');
+
+.ComingSoon-Wrapper {
+    background-image: url("https://www.5amlemon.com/uStore/Images/FALVersionOne/FaLimages/ComingSoon.jpg");
+    background-position-x: right;    background-position-y: bottom;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 0px 0px 0px 0px;
+    .ComingSoon-Container{
+        // background-color: red;
+        height: 100vh;
+        width: 60%;
+        margin: 0px;
+        padding: 100px 90px 0px 90px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #707070;
+        .logo{
+            text-align: center;
+            // padding-top:100px;
+        }
+        .intro{
+            padding: 40px 0px;
+            font-family: 'Montserrat2', sans-serif;
+            font-size: 70px;
+            line-height: 100%;
+            .delight {
+                font-family: "Shakies";
+                font-size: 140px;
+                text-transform: lowercase;
+                color: #FFCB58;
+            }
+        }
+        .signup{
+            // background-color: blue;
+            padding: 40px 0px;
+            font-family: 'Montserrat2', sans-serif;
+            text-transform: uppercase;
+            font-size: 23px;
+            width: 100%;
+        }
+    }
+}
+
+    @media (max-width: 1800px) {
+    .ComingSoon-Wrapper {
+        .ComingSoon-Container{
+        width: 60%;
+        padding: 50px 90px 0px 90px;
+        .logo{
+
+        }
+        .intro{
+            padding: 40px 0px;
+            font-family: 'Montserrat2', sans-serif;
+            font-size: 60px;
+            .delight {
+                font-size:110px;
+            }
+        }
+        .signup{
+            width: 100%;
+        }
+        }
+        }
+    }
+    @media (max-width: 1300px) {
+    .ComingSoon-Wrapper {
+        .ComingSoon-Container{
+        width: 80%;
+        padding: 50px 90px 0px 90px;
+        .logo{
+
+        }
+        .intro{
+            padding: 40px 0px;
+            font-family: 'Montserrat2', sans-serif;
+            font-size: 60px;
+            .delight {
+                font-size:110px;
+            }
+        }
+        .signup{
+            width: 100%;
+        }
+        }
+        }
+    }
+    @media (max-width: 1100px) {
+    .ComingSoon-Wrapper {
+        .ComingSoon-Container{
+        width: 80%;
+        padding: 50px 90px 0px 90px;
+        .logo{
+
+        }
+        .intro{
+            padding: 40px 0px;
+            font-family: 'Montserrat2', sans-serif;
+            font-size: 50px;
+            .delight {
+                font-size:90px;
+            }
+        }
+        .signup{
+            width: 100%;
+        }
+        }
+        }
+    }
+    @media (max-width: 900px) {
+    .ComingSoon-Wrapper {
+        .ComingSoon-Container{
+        width: 100%;
+        padding: 50px 20px 0px 20px;
+        .logo{
+
+        }
+        .intro{
+            padding: 40px 0px;
+            font-family: 'Montserrat2', sans-serif;
+            font-size: 50px;
+            .delight {
+                font-size:110px;
+            }
+        }
+        .signup{
+            width: 80%;
+            margin: auto 0;
+        }
+        }
+        }
+    }

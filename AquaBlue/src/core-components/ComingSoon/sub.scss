@@ -1,0 +1,56 @@
+.sublaunch{
+    width:60%;
+    margin: 0 auto;
+    .SubscribeEmail button {
+        font-size: 1rem;
+        // font-Family: Montserrat, Arial, sans-serif;
+        width: 40%;
+        height: 55px;
+        color: #fff;
+        background: #1C8283;
+        border: none;
+        outline: none;
+        margin-top: 20px;
+        border-radius: 2px;
+        transition: 0.2s;
+        box-shadow: 0px 0px 4px #b0b0b0;
+        }
+    .SubscribeEmail button:hover {
+        background-color: #FFCB58;
+        box-shadow: 0px 0px 8px #888888;
+        color: #1C8283
+        }
+    .SubscribeEmail input {
+        font-size: 1rem;
+        // font-family: Montserrat, Arial, sans-serif;
+        width: 60%;
+        height: 55px;
+        padding: 0px 10px 0px 10px;
+        }    
+    .msg-alert {
+        margin: 10px;
+        font-size: 1.5em;
+        // font-Family: Montserrat, Arial, sans-serif;
+    }
+}
+@media (max-width: 1800px) {
+.sublaunch {
+width: 40%;
+}
+}
+@media (max-width: 1300px) {
+.sublaunch {
+width: 50%;
+}
+}
+@media (max-width: 1100px) {
+.sublaunch {
+width: 60%;
+}
+}
+@media (max-width: 900px) {
+.sublaunch {
+width: 100%;
+}
+}
+

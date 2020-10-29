@@ -22,6 +22,7 @@ import { throttle } from 'throttle-debounce'
 import { getIsNGProduct } from '../services/utils'
 import { decodeStringForURL } from '$ustoreinternal/services/utils'
 import LandingPage from '../core-components/LandingPage/LandingPage'
+import ComingSoon from '../core-components/ComingSoon/ComingSoon'
 
 class Home extends Component {
 
@@ -94,9 +95,9 @@ class Home extends Component {
     const promotionItemButtonText = getVariableValue('--homepage-carousel-slide-1-button-text', t('PromotionItem.Button_Text'))
 
     return (
-      <Layout {...this.props} className="home">
-        <LandingPage />
-      </Layout>
+    
+        <ComingSoon />
+ 
     )
   }
 }

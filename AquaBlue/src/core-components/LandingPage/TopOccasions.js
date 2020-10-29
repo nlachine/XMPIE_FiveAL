@@ -5,13 +5,22 @@ import urlGenerator from '$ustoreinternal/services/urlGenerator';
 import './TopOccasions.scss';
 
 
-import img1 from '../../assets/images/O-BirthdayCard.png';
-import img2 from '../../assets/images/O-Holiday.png';
-import img3 from '../../assets/images/O-JustBecause.png';
-import img4 from '../../assets/images/O-Sympathy.png';
-import img5 from '../../assets/images/O-Congratulations.png';
-import img6 from '../../assets/images/O-Thankyou.png';
-import img7 from '../../assets/images/O-Baby.png';
+// import img1 from '../../assets/images/O-BirthdayCard.png';
+// import img2 from '../../assets/images/O-Holiday.png';
+// import img3 from '../../assets/images/O-JustBecause.png';
+// import img4 from '../../assets/images/O-Sympathy.png';
+// import img5 from '../../assets/images/O-Congratulations.png';
+// import img6 from '../../assets/images/O-Thankyou.png';
+// import img7 from '../../assets/images/O-Baby.png';
+
+
+import img1 from '../../assets/images/Occ_Birthday.png';
+import img2 from '../../assets/images/Occ_Holiday.png';
+import img3 from '../../assets/images/Occ_JustBecause.png';
+import img4 from '../../assets/images/Occ_Sympathy.png';
+import img5 from '../../assets/images/Occ_Congratulations.png';
+import img6 from '../../assets/images/Occ_ThankYou.png';
+import img7 from '../../assets/images/Occ_Baby.png';
 
 
 export default function TopEvent() {
