@@ -6,7 +6,6 @@ import SimpleAccordion from './SimpleAccordion'
 const FAQTitle = withStyles(() => ({
     root: {
         fontSize: '4rem',
-        fontFamily: '"Dancing Script", cursive',
         color: 'black',
         paddingBottom: '0px',
         maxWidth: '70%',

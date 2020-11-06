@@ -95,8 +95,10 @@ class Home extends Component {
     const promotionItemButtonText = getVariableValue('--homepage-carousel-slide-1-button-text', t('PromotionItem.Button_Text'))
 
     return (
-    
+      <Layout {...this.props} className="home">
         <ComingSoon />
+     </Layout>
+
  
     )
   }

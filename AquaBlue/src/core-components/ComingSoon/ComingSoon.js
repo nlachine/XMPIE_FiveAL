@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-import Sub from './sub';
-import './comingsoon.scss'
+import Sub from './Sub';
+import './ComingSoon.scss'
 import falLogo from './../../assets/images/FiveAmLemon_Logo_Yellow.png'
 
 export default class ComingSoon extends Component {

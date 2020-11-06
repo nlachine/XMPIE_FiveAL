@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat2:wght@700&display=swap');
-
 .ComingSoon-Wrapper {
     background-image: url("https://www.5amlemon.com/uStore/Images/FALVersionOne/FaLimages/ComingSoon.jpg");
     background-position-x: right;    background-position-y: bottom;
@@ -12,7 +10,7 @@
         height: 100vh;
         width: 60%;
         margin: 0px;
-        padding: 100px 90px 0px 90px;
+        padding: 00px 90px 0px 90px;
         text-align: center;
         text-transform: uppercase;
         color: #707070;
@@ -22,9 +20,10 @@
         }
         .intro{
             padding: 40px 0px;
-            font-family: 'Montserrat2', sans-serif;
+            font-family: 'Montserrat', sans-serif;
             font-size: 70px;
             line-height: 100%;
+            text-shadow: 2px 2px 4px #fff;
             .delight {
                 font-family: "Shakies";
                 font-size: 140px;
@@ -35,10 +34,13 @@
         .signup{
             // background-color: blue;
             padding: 40px 0px;
-            font-family: 'Montserrat2', sans-serif;
+            font-family: 'Montserrat', sans-serif;
             text-transform: uppercase;
             font-size: 23px;
             width: 100%;
+            p {
+            text-shadow: 2px 2px 4px #fff;
+            }
         }
     }
 }
@@ -48,9 +50,6 @@
         .ComingSoon-Container{
         width: 60%;
         padding: 50px 90px 0px 90px;
-        .logo{
-
-        }
         .intro{
             padding: 40px 0px;
             font-family: 'Montserrat2', sans-serif;
@@ -70,9 +69,6 @@
         .ComingSoon-Container{
         width: 80%;
         padding: 50px 90px 0px 90px;
-        .logo{
-
-        }
         .intro{
             padding: 40px 0px;
             font-family: 'Montserrat2', sans-serif;
@@ -92,9 +88,6 @@
         .ComingSoon-Container{
         width: 80%;
         padding: 50px 90px 0px 90px;
-        .logo{
-
-        }
         .intro{
             padding: 40px 0px;
             font-family: 'Montserrat2', sans-serif;
@@ -105,6 +98,9 @@
         }
         .signup{
             width: 100%;
+            p {
+                width: 90%;
+            }
         }
         }
         }
@@ -114,9 +110,6 @@
         .ComingSoon-Container{
         width: 100%;
         padding: 50px 20px 0px 20px;
-        .logo{
-
-        }
         .intro{
             padding: 40px 0px;
             font-family: 'Montserrat2', sans-serif;
@@ -126,8 +119,11 @@
             }
         }
         .signup{
-            width: 80%;
+            width: 100%;
             margin: auto 0;
+            p {
+                width: 60%;
+            }
         }
         }
         }

@@ -32,7 +32,6 @@ const Quote = withStyles((theme) => ({
 const Author = withStyles((theme) => ({
     root: {
         fontSize: '2.5rem',
-        fontFamily: 'Dancing Script, cursive',
         color: '#ec5f58',
         paddingTop: '10px',
         textAlign: 'center',

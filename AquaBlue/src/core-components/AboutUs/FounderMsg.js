@@ -53,7 +53,6 @@ const BoxCopy = withStyles((theme) => ({
 const BoxSignature = withStyles((theme) => ({
     root: {
         fontSize: '1.5rem',
-        fontFamily: '"Dancing Script",cursive',
         color: '#666',
         marginLeft: '20px',
         maxWidth: '70%',

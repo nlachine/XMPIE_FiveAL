@@ -3,7 +3,7 @@ import { TextField, Grid, Button, Box, Typography } from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles';
 import Mailchimp from 'react-mailchimp-form'
 
-import './sub.scss';
+import './Sub.scss';
 
 
 //const url = "https://5amlemon.us2.list-manage.com/subscribe/post?u=ac366de6605f1529b50e05c73&id=2d8d0c340e";
