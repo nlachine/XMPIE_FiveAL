@@ -55,7 +55,7 @@ class Header extends Component {
     this.state = {
       drawerOpen: false,						    // Left drawer - opened/closed
       overlayActive: false,	  			    // The overlay - active or not
-      logoImageUrl: require(`$assets/images/FiveAm-Logo-Yellow.png`)
+      logoImageUrl: require(`$assets/images/FiveAm-Logo-Black.png`)
     }
   }
 
@@ -79,7 +79,7 @@ class Header extends Component {
   // NOTE: this is not supported in SSR
   setLogoImage = () => {
     const variableForLogoImg = window.matchMedia(`(min-width: ${theme.lg})`).matches ? '--logo-image' : '--logo-image-mobile'
-    this.setState({ logoImageUrl: getVariableValue(variableForLogoImg, require(`$assets/images/FiveAm-Logo-Yellow.png`), true) })
+    this.setState({ logoImageUrl: getVariableValue(variableForLogoImg, require(`$assets/images/FiveAm-Logo-Black.png`), true) })
   }
 
   onResize = () => {
@@ -150,7 +150,7 @@ class Header extends Component {
     }
 
     const variableForLogoImg = isServer() ? '--logo-image' : window.matchMedia(`(min-width: ${theme.lg})`).matches ? '--logo-image' : '--logo-image-mobile'
-    const currentLogo = getVariableValue(variableForLogoImg, require(`$assets/images/FiveAm-Logo-Yellow.png`), true)
+    const currentLogo = getVariableValue(variableForLogoImg, require(`$assets/images/FiveAm-Logo-Black.png`), true)
 
     return (
       <div className='header' >

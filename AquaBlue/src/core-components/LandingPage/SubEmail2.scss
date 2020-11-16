@@ -1,68 +1,99 @@
-.email-subscription-wrapper {
-    background: #ffffff;
-    background: url("../../assets/images/BoxCollage.png");
+.email-sub-wrapper {
+    
+    margin: 3.6vw;
+    background: url("../../assets/images/SubscribePattern.png");
     background-position: top ;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 250px 0px;
-    .email-subscription-container {
-        background: #ffffff;
+
+    padding: 70px 0px;
+
+    .email-sub-container {
+        background-color:#FBDFDE;
         text-align: center;
         margin: auto;
-        width: 30%;
-        padding: 25px 0px;
+        width: 40%;
+        padding: 20px 20px;
         box-shadow: 0px 0px 4px #b0b0b0;
-        border-radius: 2px;
+        border-radius: 0px;
+        .juicydeets{
+            font-family: "Shakies";
+            position: relative;
+            top:2px;
+            font-size: 3.75rem;
+            color: #ec5f58;
+            padding: 0 5px 0px 5px;
+        }
         .SubscribeEmail button {
             font-size: 1rem;
-            // font-Family: Montserrat, Arial, sans-serif;
-            width: 60%;
-            height: 55px;
+            font-Family: Montserrat, Arial, sans-serif;
+            width: 25%;
+            height: 45px;
             color: #fff;
-            background: #1C8283;
+            background: #ec5f58;
             border: none;
             outline: none;
             margin-top: 20px;
-            border-radius: 2px;
             transition: 0.2s;
             box-shadow: 0px 0px 4px #b0b0b0;
             }
         .SubscribeEmail button:hover {
-            background-color: #F9DC2F;
+            background-color: #ffffff;
             box-shadow: 0px 0px 8px #888888;
-            color: #1C8283
+            color: #ec5f58
             }
         .SubscribeEmail input {
             font-size: 1rem;
-            // font-family: Montserrat, Arial, sans-serif;
-            width: 60%;
-            height: 55px;
+            border: none;
+            font-family: Montserrat, Arial, sans-serif;
+            width: 50%;
+            height: 45px;
             padding: 0px 10px 0px 10px;
             }    
         .msg-alert {
             margin: 10px;
             font-size: 1.5em;
-            // font-Family: Montserrat, Arial, sans-serif;
+            font-Family: Montserrat, Arial, sans-serif;
         }
     }
     @media (max-width: 1800px) {
-        .email-subscription-container {
+        .email-sub-container {
         width: 40%;
         }
     }
     @media (max-width: 1300px) {
-        .email-subscription-container {
+        .email-sub-container {
         width: 50%;
         }
     }
     @media (max-width: 1100px) {
-        .email-subscription-container {
+        .email-sub-container {
         width: 60%;
         }
     }
     @media (max-width: 900px) {
-        .email-subscription-container {
+        .email-sub-container {
         width: 80%;
+        .juicydeets{
+            font-family: "Shakies";
+            position: relative;
+            top:2px;
+            font-size: 2.25rem;
+            color: #ec5f58;
+            padding: 0 5px 0px 5px;
+        }
+        .SubscribeEmail button {
+            font-size: 1rem;
+            width: 100%;
+            height: 45px;
+            margin-top: 0px;
+            }
+        .SubscribeEmail input {
+            font-size: 1rem;
+            width: 100%;
+            height: 45px;
+            padding: 0px 10px 0px 10px;
+            } 
         }
     }
 }

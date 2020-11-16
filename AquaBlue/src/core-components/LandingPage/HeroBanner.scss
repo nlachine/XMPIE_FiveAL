@@ -1,0 +1,135 @@
+.hero-wrapper {
+    background-image: url("../../assets/images/Jumbotron.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 50vw;
+    overflow: hidden;
+    margin-bottom: 3.6vw;
+    color: #63666a;
+    .hero-container {
+        display: table;
+        width: 50%;
+        height: 100%;
+        .hero-table {
+            display: table-cell;
+            vertical-align: middle;
+            width: 100%;
+            padding-left: 3.6vw;
+            // position: absolute;
+            // top: 50%;
+            // transform: translateY(-50%);
+            .hero-cta {
+                font-Family: Montserrat, Arial, sans-serif;
+                font-weight: bold;
+                text-transform: uppercase;
+                font-size: 3.6vw;
+                color: #63666a;
+            }
+            .shakies-line {
+                position: relative;
+                top: -1.3vw;
+            }
+            .hero-cta-shakies {
+                font-family: Shakies;
+                text-transform: lowercase;
+                font-size: 6.5vw;
+                color: #ec5f58;
+                position: relative;
+                top: 0.5vw;
+            }
+            .hero-subcta {
+                font-Family: Montserrat, Arial, sans-serif;
+                font-weight: 500;
+                text-transform: uppercase;
+                font-size: 1.66vw;
+                color: #63666a;
+            }
+            .hero-cta-button {
+                font-Family: Montserrat, Arial, sans-serif;
+                font-weight: 500;
+                border-radius: none;
+                border: none;
+                outline: none;
+                text-transform: uppercase;
+                text-decoration: none;
+                font-size: 1.87vw;
+                padding: 1vw 1.3vw;
+                color: #fff;
+                background-color: #ec5f58;
+                transition-duration: 0.5s;
+            }
+            .hero-cta-button:hover {
+                color: #ec5f58;
+                background-color: #fff;
+                cursor: pointer;
+            }   
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .hero-wrapper {
+        background-image: url("../../assets/images/Jumbotron.png");
+        height: 1000px;
+        margin-bottom: 3.6vw;
+        width: 100%;
+        .hero-container {
+            width: 100%;
+            text-align: center;
+            margin: 0 auto;
+            .hero-table {
+                padding-left: 0;
+                vertical-align: top;
+                padding-top: 70px;
+                .hero-cta {
+                    font-size: 6vw;
+                }
+                .hero-cta-shakies {
+                    font-size: 10vw;
+                }
+                .hero-subcta {
+                    font-size: 3vw;
+                }
+                .hero-cta-button {
+                    font-size: 18.7px;
+                    padding: 10px 13px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .hero-wrapper {
+        background-image: url("../../assets/images/Jumbotron_Mobile.png"); 
+        height: 700px;
+        overflow: hidden;
+        margin-bottom: 3.6vw;
+        width: 100%;
+        .hero-container {
+            width: 100%;
+            text-align: center;
+            margin: 0 auto;
+            .hero-table {
+                padding-left: 0;
+                vertical-align: top;
+                padding-top: 35px;
+                .hero-cta {
+                    font-size: 28px;
+                }
+                .hero-cta-shakies {
+                    font-size: 48px;
+                }
+                .hero-subcta {
+                    font-size: 16px;
+                }
+                .hero-cta-button {
+                    font-size: 18.7px;
+                    padding: 10px 13px;
+                }
+            }
+        }
+    }
+}

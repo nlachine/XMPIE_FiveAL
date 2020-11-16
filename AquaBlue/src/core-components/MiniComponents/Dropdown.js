@@ -79,12 +79,22 @@ export default function Dropdown() {
                         <Paper className="pop-up-menu">
                             <ClickAwayListener onClickAway={handleClose}>
                                 <MenuList autoFocusItem={open} id="menu-list-grow" onKeyDown={handleListKeyDown}>
-                                    {/*Birthday*/}<a className="dropdown-link" href="https://www.5amlemon.com/ustorethemes/FALVersionOne/7/en-US/category/27/"><MenuItem onClick={handleClose}>Birthday</MenuItem></a>
-                                    {/*Congratulations*/}<a className="dropdown-link" href="https://www.5amlemon.com/ustorethemes/FALVersionOne/7/en-US/category/28/"><MenuItem onClick={handleClose}>Congratulations</MenuItem></a>
-                                    {/*Friendship*/}<a className="dropdown-link" href="https://www.5amlemon.com/ustorethemes/FALVersionOne/7/en-US/category/30/"><MenuItem onClick={handleClose}>Friendship</MenuItem></a>
-                                    {/*Holiday*/}<a className="dropdown-link" href="https://www.5amlemon.com/ustorethemes/FALVersionOne/7/en-US/category/29/"><MenuItem onClick={handleClose}>Holiday</MenuItem></a>
-                                    {/*Sympathy*/}<a className="dropdown-link" href="https://www.5amlemon.com/ustorethemes/FALVersionOne/7/en-US/category/32/"><MenuItem onClick={handleClose}>Sympathy</MenuItem></a>
-                                    {/*Thank you*/}<a className="dropdown-link" href="https://www.5amlemon.com/ustorethemes/FALVersionOne/7/en-US/category/33/"><MenuItem onClick={handleClose}>Thank you</MenuItem></a>
+
+                                    
+                                    {/*Birthday*/}<a className="dropdown-link" href={urlGenerator.get({ page: 'Category', id: '51'})}><MenuItem onClick={handleClose}>Birthday</MenuItem></a>
+
+                                    {/*Holiday*/}<a className="dropdown-link" href={urlGenerator.get({ page: 'Category', id: '52'})}><MenuItem onClick={handleClose}>Holiday</MenuItem></a>
+
+                                    {/*Just Because*/}<a className="dropdown-link" href={urlGenerator.get({ page: 'Category', id: '53'})}><MenuItem onClick={handleClose}>Just Because</MenuItem></a>
+
+                                    {/*Sympathy*/}<a className="dropdown-link" href={urlGenerator.get({ page: 'Category', id: '54'})}><MenuItem onClick={handleClose}>Sympathy</MenuItem></a>
+
+                                    {/*Congratulations*/}<a className="dropdown-link" href={urlGenerator.get({ page: 'Category', id: '55'})}><MenuItem onClick={handleClose}>Congrats</MenuItem></a>
+
+                                    {/*Thank you*/}<a className="dropdown-link" href={urlGenerator.get({ page: 'Category', id: '50'})}><MenuItem onClick={handleClose}>Thank you</MenuItem></a>
+
+                                    {/*Baby*/}<a className="dropdown-link" href={urlGenerator.get({ page: 'Category', id: '56'})}><MenuItem onClick={handleClose}>Baby</MenuItem></a>
+
                                     {/*See All Occasions*/}<a className="dropdown-link" href={urlGenerator.get({ page: 'Occasions' })}><MenuItem onClick={handleClose}>All Occasions</MenuItem></a>
                                 </MenuList>
                             </ClickAwayListener>

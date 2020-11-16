@@ -1,0 +1,147 @@
+.steps-wrapper {
+    margin: 3.6vw;
+    color: #63666A;
+    .steps-container {
+        background-color:#e7f5f5;
+        padding: 40px 40px;
+        .steps-title {
+            font-Family: Montserrat, Arial, sans-serif;
+            font-weight: 500;
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 2.1vw;
+            margin-top: 0px;
+            color: #63666A;
+        }
+        .steps-title-shakies{
+            font-family: Shakies;
+            font-weight: 500;
+            text-transform: lowercase;
+            color: #149b9e;
+            margin-top: 0px;
+            font-size: 3.75vw;
+        }
+        .infographics {
+            max-width: 90%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            text-align: center;
+            margin: 0 auto;
+            .steps-infographic {
+                max-width: 200px;
+                img{
+                    width: 50%;
+                }
+                .steps-info-title{
+                    font-Family: Montserrat, Arial, sans-serif;
+                    font-size: 20px;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                    color: #63666A;
+                    
+                }
+                .steps-info-description{
+                    font-Family: Montserrat, Arial, sans-serif;
+                    font-size: 18px;
+                    font-weight: 400;
+                    color: #63666A;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 1600px) {
+    .steps-wrapper {
+        .steps-container {
+            .steps-title {
+                font-size: 34px;
+            }
+            .steps-title-shakies{
+                font-size: 60px;
+            }
+            .infographics {
+                max-width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                text-align: center;
+                margin: 0 auto;
+                .steps-infographic {
+                    max-width: 200px;
+                    padding: 10px;
+                    img{
+                        width: 75%;
+                    }
+                    .steps-info-title{
+                        font-size: 20px;      
+                    }
+                    .steps-info-description{
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 1000px) {
+    .steps-wrapper {
+        .steps-container {
+            .steps-title {
+            }
+            .steps-title-shakies{
+            }
+            .infographics {
+                max-width: 100%;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                .steps-infographic {
+                    margin: 0 auto;
+                    max-width: 60%;
+                    padding: 10px;
+                    img{
+                        width: 50%;
+                    }
+                    .steps-info-title{
+                        font-size: 20px;      
+                    }
+                    .steps-info-description{
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 600px) {
+    .steps-wrapper {
+        margin: 0;
+        .steps-container {
+            .steps-title {
+                font-size: 18px;
+            }
+            .steps-title-shakies{
+                font-size: 32px;
+            }
+            .infographics {
+                .steps-infographic {
+                    max-width: 80%;
+                    padding: 10px;
+                    img{
+                        width: 50%;
+                    }
+                    .steps-info-title{
+                        font-size: 16px;      
+                    }
+                    .steps-info-description{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}

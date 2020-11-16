@@ -96,7 +96,7 @@ class Home extends Component {
 
     return (
       <Layout {...this.props} className="home">
-        <ComingSoon />
+        <LandingPage />
      </Layout>
 
  

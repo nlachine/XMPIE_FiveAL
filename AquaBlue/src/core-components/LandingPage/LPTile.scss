@@ -1,0 +1,188 @@
+.tile-wrapper {
+    margin: 3.6vw;
+    color: #63666a;
+    .tile-container {
+        display: flex;
+        padding: 40px 10%;
+        height: 30vw;
+
+        &.LightTeal {
+            background-color: #e7f5f5;
+        }
+        &.LightRed {
+            background-color: #fbdfde;
+        }
+        &.LightYellow {
+            background-color: #fff5de;
+        }
+
+        .mobile-table {
+            margin: 0 auto;
+            width: 100%;
+            display: flex;
+            &.TextLeft {
+                flex-direction: row-reverse;
+                text-align: left;
+            }
+            &.TextRight {
+                flex-direction: row;
+                text-align: right;
+            }
+        }
+        .tile-table {
+            display: table;
+            max-width: 45%;
+            height: 100%;
+            .tile-text {
+                display: table-cell;
+                vertical-align: middle;
+                .tile-title {
+                    margin-top: 0;
+                    font-Family: Montserrat, Arial, sans-serif;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    font-size: 2.5vw;
+                    &.Teal {
+                        color: #149b9e;
+                    }
+                    &.Red {
+                        color: #ec5f58;
+                    }
+                    &.Yellow {
+                        color: #ffc600;
+                    }
+                }
+                .tile-title-shakies {
+                    font-family: Shakies;
+                    font-weight: 500;
+                    text-transform: lowercase;
+                    margin-top: 0px;
+                    font-size: 4.1vw;
+
+                    &.Teal {
+                        color: #149b9e;
+                    }
+                    &.Red {
+                        color: #ec5f58;
+                    }
+                    &.Yellow {
+                        color: #ffc600;
+                    }
+                }
+                .tile-cta-button {
+                    font-Family: Montserrat, Arial, sans-serif;
+                    font-weight: 500;
+                    border-radius: none;
+                    border: none;
+                    outline: none;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    font-size: 1.5vw;
+                    padding: 1.5vw 1.6vw;
+                    color: #fff;
+                    transition-duration: 0.5s;
+                    &.Teal {
+                        background-color: #149b9e;
+                    }
+                    &.Red {
+                        background-color: #ec5f58;
+                    }
+                }
+                .tile-cta-button:hover {
+                    background-color: #fff;
+                    cursor: pointer;
+
+                    &.Teal {
+                        color: #149b9e;
+                    }
+                    &.Red {
+                        color: #ec5f58;
+                    }
+                }
+            }
+        }
+        .tile-image {
+            max-width: 50%;
+            max-height: 100%;
+            display: block;
+            &.Vcenter {
+                margin: auto 0;
+            }
+            &.ImgLeft {
+                text-align: left;
+                margin-right: auto;
+            }
+            &.ImgRight {
+                margin-left: auto;
+            }
+            img {
+                max-width: 100%;
+                height: auto;
+                max-height: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .tile-wrapper {
+        margin: 3.6vw 0;
+        .tile-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0;
+            height: 500px;
+            .mobile-table {
+                display: block;
+                &.TextLeft {
+                    text-align: center;
+                }
+                &.TextRight {
+                    text-align: center;
+                }
+            }
+
+            .tile-table {
+                display: block;
+                margin: 0 auto;
+                max-width: 90%;
+                .tile-text {
+                    .tile-title {
+                        font-size: 22px;
+                        .break {
+                            display: none;
+                        }
+                    }
+                    .tile-title-shakies {
+                        font-size: 40px;
+                    }
+                    .tile-cta-button {
+                        font-size: 14px;
+                        padding: 1.5vw 1.6vw;
+                    }
+                }
+            }
+            .tile-image {
+                max-width: 50%;
+                &.Vcenter {
+                    margin: 0 auto;
+                }
+                &.ImgLeft {
+                    text-align: center;
+                    margin-left: auto;
+                }
+                &.ImgRight {
+                    margin-left: auto;
+                }
+                img {
+                    max-width: 100%;
+                    height: auto;
+                    max-height: 100%;
+                    padding: 0px 0px 35px 0px;
+                }
+            }
+        }
+    }
+}

@@ -10,41 +10,64 @@ import './SubEmail2.scss';
 
 const Title = withStyles((theme) => ({
     root: {
-        fontSize: '3rem',
-        // fontFamily: 'Montserrat, Arial, sans-serif',
-        typeTransform: 'uppercase',
+        fontSize: '2.4rem',
+        fontFamily: 'Montserrat, Arial, sans-serif',        
         color: 'black',
         textAlign: 'center',
-        paddingBottom: '20px'
+        paddingBottom: '0px'
     },
 
     '@media (max-width: 959px)': {
         root: {
-            fontSize: '2.25rem',
+            fontSize: '1.75rem',
         },
     },
 
     '@media (max-width: 600px)': {
         root: {
-            fontSize: '1.5rem',
+            fontSize: '1.25rem',
+        },
+    }
+}))(Typography);
+
+const SubTitle = withStyles((theme) => ({
+    root: {
+        fontSize: '1rem',
+        fontFamily: 'Montserrat, Arial, sans-serif',        
+        color: 'black',
+        textAlign: 'center',
+        paddingBottom: '10px'
+    },
+
+    '@media (max-width: 959px)': {
+        root: {
+            fontSize: '1rem',
+        },
+    },
+
+    '@media (max-width: 600px)': {
+        root: {
+            fontSize: '0.8rem',
         },
     }
 }))(Typography);
 
 export default function SubEmail() {
     return (
-        <div className="email-subscription-wrapper">
+        <div className="email-sub-wrapper">
             
-            <div className="email-subscription-container">
+            <div className="email-sub-container">
 
-            <Title>JOIN THE <span className="earlyrisers">early risers</span></Title>
+            <Title>GET ALL THE <span className="juicydeets">juicy deets</span></Title>
+
+            <SubTitle>NEW PRODUCTS, SPECIAL OFFERS AND PROMOTIONS</SubTitle>
 
             <Mailchimp
                 action='https://5amlemon.us2.list-manage.com/subscribe/post?u=ac366de6605f1529b50e05c73&id=2d8d0c340e'
                 fields={[
                 {
                     name: 'EMAIL',
-                    placeholder: 'Email',
+                    placeholder: 'ENTER YOUR EMAIL',
                     type: 'email',
                     required: true
                 }
@@ -56,7 +79,7 @@ export default function SubEmail() {
                     error: "An unexpected internal error has occurred.",
                     empty: "You must write an e-mail.",
                     duplicate: "Too many subscribe attempts for this email address",
-                    button: "Subscribe!"
+                    button: "SIGN ME UP!"
                 }
                 }
                 className='SubscribeEmail'

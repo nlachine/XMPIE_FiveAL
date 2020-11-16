@@ -4,13 +4,13 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 80vh;
 
   .main-content {
     flex: 1 auto;
 
     @media (min-width: $lg) {
-      padding-top: 100px;
+      padding-top: 80px;
     }
 
 
@@ -19,7 +19,7 @@
     }
 
     @media (min-width: $md) {
-      padding-top: 100px;
+      padding-top: 80px;
     }
   }
 }

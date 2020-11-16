@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <div className="footer-wrapper">
     <div className="footer-container">    
-        <img className="footer-logo" src="https://www.5amlemon.com/uStoreThemeCustomizations/78503b7d-68c2-4477-a7e6-c90b6b93b93b/Published/Assets/FiveAm-Logo-Yellow.png" alt="5amLemon"/>
+        <img className="footer-logo" src="https://www.5amlemon.com/ustorethemes/FALVersionOne/assets/images/FiveAmLemon_Logo_Yellow.png" alt="5amLemon"/>
 
 
         <h3 className="copyright">Copyright 2020 | <a href={urlGenerator.get({ page: 'Terms' })}>Terms of Use</a> | <a href={urlGenerator.get({ page: 'Privacy' })}>Privacy Policy</a></h3>   
