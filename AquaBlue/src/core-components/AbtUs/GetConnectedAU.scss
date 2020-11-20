@@ -1,0 +1,53 @@
+.au-gc-wrapper {
+    margin: 3.6vw;
+    .gc-container {
+        display: table;
+        width: 100%;
+        background: #88cdcf;
+        height: 200px;
+        .gc-table {
+            display: table-cell;
+            vertical-align: middle;
+            height: 100%;
+            .gc-flexed {
+                display: flex;
+                justify-content: center;
+
+                .gc-title {
+                    margin: auto 0;
+                    font-family: Montserrat;
+                    font-size: 40px;
+                    font-weight: 600;
+                    text-align: center;
+                    color: white;
+                    text-transform: uppercase;
+                    padding-right: 20px;
+                }
+                .gc-icons {
+                    text-align: center;
+                    .icon img {
+                        padding: 1vw;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .au-gc-wrapper {
+        margin: 0;
+        .gc-container {
+            .gc-table {
+                width: 100%;
+                .gc-flexed {
+                    flex-direction: column;
+                    .gc-title {
+                        font-size: 30px;
+                        padding-right: 0px;
+                    }
+                }
+            }
+        }
+    }
+}

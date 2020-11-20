@@ -1,0 +1,82 @@
+.msg-wrapper {
+    margin: 3.6vw;
+    color: #63666a;
+    .msg-container {
+        text-align: center;
+        .msg-text {
+            margin: 0 auto;
+            width: 70%;
+            .msg-title {
+                font-weight: 600;
+                font-family: Montserrat, Arial, sans-serif;
+                font-size: 2.5vw;
+                .shakies {
+                    font-family: Shakies;
+                    font-size: 4.6vw;
+                    &.Teal {
+                        color: #149b9e;
+                    }
+                    &.Red {
+                        color: #ec5f58;
+                    }
+                    &.Yellow {
+                        color: #ffc600;
+                    }
+                }
+            }
+            .msg-message {
+                font-weight: 400;
+                font-family: Montserrat, Arial, sans-serif;
+                font-size: 1.25vw;
+            }
+            .msg-audreySig {
+                width: 30%;
+            }
+        }
+        .msg-polaroids {
+            width: 100%;
+        }
+        .msg-polaroids-mobile {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .msg-wrapper {
+        .msg-container {
+            .msg-text {
+                width: 80%;
+                .msg-title {
+                    font-size: 25px;
+                    .shakies {
+                        font-family: Shakies;
+                        font-size: 46px;
+                    }
+                }
+                .msg-message {
+                    font-size: 12.5px;
+                }
+                .msg-audreySig {
+                    width: 200px;
+                }
+            }
+            .msg-polaroids {
+                display: none;
+            }
+            .msg-polaroids-mobile {
+                display: block;
+                width: 100%;
+            }
+        }
+    }
+}
+// &.LightTeal {
+//     background-color: #e7f5f5;
+// }
+// &.LightRed {
+//     background-color: #fbdfde;
+// }
+// &.LightYellow {
+//     background-color: #fff5de;
+// }

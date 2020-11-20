@@ -10,6 +10,7 @@ import LPTile3 from './LPTile3';
 
 import SubEmail2 from './SubEmail2';
 import IGfeed from './IGfeed';
+import GetConnectedCorp from './GetConnectedCorp';
 
 export default class LandingPage extends Component {
 
@@ -23,6 +24,7 @@ export default class LandingPage extends Component {
                 <LPTile2 />
                 <LPTile3 />
                 <SubEmail2 />
+                <GetConnectedCorp />
                 <IGfeed />
             </div>
         )

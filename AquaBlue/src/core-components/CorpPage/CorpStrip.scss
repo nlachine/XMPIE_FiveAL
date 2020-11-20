@@ -1,0 +1,202 @@
+.strip-wrapper {
+    margin-bottom: 3.6vw;
+    &.outsideMargin {
+        margin: 3.6vw;
+    }
+    color: #63666a;
+    .strip-container {
+        display: flex;
+        height: 36.5vw;
+        justify-content: center;
+        margin: 0 auto;
+        width: 100%;
+        &.TextLeft {
+            flex-direction: row-reverse;
+            text-align: left;
+        }
+        &.TextRight {
+            flex-direction: row;
+            text-align: right;
+        }
+        .strip-table {
+            display: table;
+            width: 55%;
+            padding: 40px 10%;
+            height: 100%;
+
+            &.LightTeal {
+                background-color: #e7f5f5;
+            }
+            &.LightRed {
+                background-color: #fbdfde;
+            }
+            &.LightYellow {
+                background-color: #fff5de;
+            }
+            .strip-text {
+                display: table-cell;
+                vertical-align: middle;
+                .strip-title {
+                    margin-top: 0;
+                    font-family: Montserrat;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    font-size: 2.5vw;
+                    &.Teal {
+                        color: #149b9e;
+                    }
+                    &.Red {
+                        color: #ec5f58;
+                    }
+                    &.Yellow {
+                        color: #ffc600;
+                    }
+                }
+                .strip-subtitle {
+                    margin-top: 0;
+                    font-family: Montserrat;
+                    font-weight: 500;
+                    text-transform: none;
+                    font-size: 1.7vw;
+                }
+                .strip-title-shakies {
+                    font-family: Shakies;
+                    font-weight: 500;
+                    text-transform: lowercase;
+                    margin-top: 0px;
+                    font-size: 4.1vw;
+
+                    &.Teal {
+                        color: #149b9e;
+                    }
+                    &.Red {
+                        color: #ec5f58;
+                    }
+                    &.Yellow {
+                        color: #ffc600;
+                    }
+                }
+            }
+            .strip-cta-button {
+                font-family: Montserrat;
+                font-weight: 500;
+                border-radius: none;
+                border: none;
+                outline: none;
+                text-transform: uppercase;
+                font-size: 0.9vw;
+                padding: 0.9vw 2vw;
+                color: #fff;
+                transition-duration: 0.5s;
+                &.Teal {
+                    background-color: #149b9e;
+                }
+                &.Red {
+                    background-color: #ec5f58;
+                }
+            }
+            .strip-cta-button:hover {
+                background-color: #fff;
+                cursor: pointer;
+
+                &.Teal {
+                    color: #149b9e;
+                }
+                &.Red {
+                    color: #ec5f58;
+                }
+            }
+        }
+        .strip-image {
+            &.Corp1 {
+                background: url("../../assets/images/Corporate_RecognizeClients_Desktop.jpg");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            &.Corp2 {
+                background: url("../../assets/images/Corporate_VirtualConference_Desktop.jpg");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            &.Corp3 {
+                background: url("../../assets/images/Corporate_RecognizeEmployees_Desktop.jpg");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            height: 100%;
+            width: 45%;
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .strip-wrapper {
+        margin-bottom: 3.6vw;
+        &.outsideMargin {
+            margin: 3.6vw 0;
+        }
+        color: #63666a;
+        .strip-container {
+            margin: 0 auto;
+            height: 100%;
+            width: 100%;
+            &.TextLeft {
+                flex-direction: column;
+                text-align: center;
+            }
+            &.TextRight {
+                flex-direction: column;
+                text-align: center;
+            }
+            .strip-table {
+                display: table;
+                width: 100%;
+                padding: 40px 10%;
+                height: 100%;
+                .strip-text {
+                    display: table-cell;
+                    vertical-align: middle;
+                    .strip-title {
+                        margin-top: 0;
+                        font-size: 28px;
+                    }
+                    .strip-subtitle {
+                        display: none;
+                    }
+                    .strip-title-shakies {
+                        margin: 0;
+                        font-size: 48px;
+                    }
+                }
+                .strip-cta-button {
+                    font-size: 14px;
+                }
+            }
+            .strip-image {
+                &.Corp1 {
+                    background: url("../../assets/images/Corporate_RecognizeClients_Mobile.jpg");
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                &.Corp2 {
+                    background: url("../../assets/images/Corporate_VirtualConference_Mobile.jpg");
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                &.Corp3 {
+                    background: url("../../assets/images/Corporate_RecognizeEmployees_Mobile.jpg");
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                height: 250px;
+                width: 100%;
+            }
+        }
+    }
+}

@@ -34,7 +34,7 @@ const Title = withStyles((theme) => ({
 export default function IGFeed() {
     return (
         <div className="igfeed-wrapper">
-            <Feed userName="thegoodboxgifts" className="Feed" classNameLoading="Loading" limit="6"/>           
+            <Feed userName="5amlemon" className="Feed" classNameLoading="Loading" limit="6"/>           
         </div>
     )
 }

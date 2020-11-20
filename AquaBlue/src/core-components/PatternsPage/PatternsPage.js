@@ -11,6 +11,7 @@ const TheTitle = withStyles((theme) => ({
         paddingTop: '20px',
         textAlign: 'center',
         margin: 'auto',
+        fontFamily: 'Montserrat'
     },
     '@media (max-width: 600px)': {
         root: {
@@ -25,9 +26,6 @@ export default class OccasionsPage extends Component {
             <div>
                 <TheTitle>Our Patterns</TheTitle>
                 <PatternGrid />
-                <Quote1 
-                    quote="Whatever you are, be a good one"
-                    author="Abraham Lincoln"/>
             </div>
         )
     }

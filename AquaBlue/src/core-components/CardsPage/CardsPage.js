@@ -11,6 +11,7 @@ const TheTitle = withStyles((theme) => ({
         paddingTop: '20px',
         textAlign: 'center',
         margin: 'auto',
+        fontFamily: 'Montserrat'
     },
     '@media (max-width: 600px)': {
         root: {
@@ -23,11 +24,9 @@ export default class OccasionsPage extends Component {
     render() {
         return (
             <div>
-                <TheTitle>Our Cards</TheTitle>
+                <TheTitle>Our Card</TheTitle>
                 <CardGrid />
-                <Quote1 
-                    quote="In the middle of every difficulty lies opportunity"
-                    author="Albert Einstein"/>
+
             </div>
         )
     }
