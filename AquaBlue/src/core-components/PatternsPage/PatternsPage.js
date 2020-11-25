@@ -24,7 +24,7 @@ export default class OccasionsPage extends Component {
     render() {
         return (
             <div>
-                <TheTitle>Our Patterns</TheTitle>
+                <TheTitle>Box Patterns</TheTitle>
                 <PatternGrid />
             </div>
         )

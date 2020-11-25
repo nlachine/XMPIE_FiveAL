@@ -3,9 +3,9 @@
     .dropdown-button {
         color: #333;
         font-size: 0.9rem;
-        letter-spacing: 1px;
+        letter-spacing: 2px;
         font-weight: normal;
-        // font-family: Montserrat, Arial, sans-serif;
+        font-family: Montserrat, Arial, sans-serif;
         text-transform: uppercase;
         background: none;
     }
@@ -15,12 +15,12 @@
         text-decoration: none;}
 
     .MuiMenuItem-root {
-        text-decoration: none;
-        // font-family: Montserrat, Arial, sans-serif;
-        font-weight: 400;
-        font-size: 0.9rem;
-        letter-spacing: 1px;
         color: #333;
+        font-size: 0.9rem;
+        letter-spacing: 2px;
+        font-weight: normal;
+        font-family: Montserrat, Arial, sans-serif;
+        background: none;
     }
 
     

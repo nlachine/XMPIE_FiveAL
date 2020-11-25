@@ -2,6 +2,8 @@ import './Footer.scss'
 import {Grid} from '@material-ui/core';
 import React, { Component } from 'react';
 
+import logo from '../../assets/images/FiveAmLemon_Logo_Yellow.png';
+
 import urlGenerator from '$ustoreinternal/services/urlGenerator'
 
 /**
@@ -11,10 +13,42 @@ const Footer = () => {
   return (
     <div className="footer-wrapper">
     <div className="footer-container">    
-        <img className="footer-logo" src="https://www.5amlemon.com/ustorethemes/FALVersionOne/assets/images/FiveAmLemon_Logo_Yellow.png" alt="5amLemon"/>
+
+    <Grid container className="footer-row" direction="row" justify="center" spacing={6}>
+                    {/*Footer Col 1*/}
+                    <Grid item className="footer-col" id="one" xs={12} sm={4}>
+                        <img className="footer-logo" src={logo} alt="5amLemon" />
+                    </Grid>
+                    {/*Footer Col 2*/}
+                    <Grid item className="footer-col" xs={4} sm={2}>
+                        <ul>
+                    <li><a href={urlGenerator.get({ page: 'AllGifts' })}>Gift Collections</a></li>
+                    <li><a href={urlGenerator.get({ page: 'AllBoxPatterns' })}>Box Patterns</a></li>
+                    <li><a href={urlGenerator.get({ page: 'Corporate' })}>Corporate</a></li>
+                    <li><a href={urlGenerator.get({ page: 'AboutUs' })}>About Us</a></li>
+                    <li><a href={urlGenerator.get({ page: 'FAQ' })}>FAQ</a></li>
+                        </ul>
+                    </Grid>
+                    {/*Footer Col 3*/}
+                    <Grid item className="footer-col" xs={8} sm={6}>
+                        <div style= {{height: "100%"}} />
+                        {/* Put in email subscribe here! */}
+                    </Grid>
+                </Grid>
+                <div className="admin-bar">
+                    <h3>
+                        ©<span className="bold">5am Lemon</span> All rights reserved. | <a href={urlGenerator.get({ page: 'Privacy' })}>Privacy Policy</a> | <a href={urlGenerator.get({ page: 'Terms' })}>Terms of Use</a></h3>
+                </div>
+
+{/* V2 of the Footer */}
+
+        {/* <img className="footer-logo" src="https://www.5amlemon.com/ustorethemes/FALVersionOne/assets/images/FiveAmLemon_Logo_Yellow.png" alt="5amLemon"/>
 
 
-        <h3 className="copyright">Copyright 2020 | <a href={urlGenerator.get({ page: 'Terms' })}>Terms of Use</a> | <a href={urlGenerator.get({ page: 'Privacy' })}>Privacy Policy</a></h3>   
+        <h3 className="copyright">Copyright 2020 | <a href={urlGenerator.get({ page: 'Terms' })}>Terms of Use</a> | <a href={urlGenerator.get({ page: 'Privacy' })}>Privacy Policy</a></h3>    */}
+
+{/* v2 of the footer end */}
+
 
         {/* <Grid container className="footer-row" direction="row" justify="space-evenly" spacing={6}>
             //Footer Col 1

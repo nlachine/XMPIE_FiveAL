@@ -37,6 +37,7 @@
                 display: table-cell;
                 vertical-align: middle;
                 .strip-title {
+                    line-height:3.5vw;
                     margin-top: 0;
                     font-family: Montserrat;
                     font-weight: 600;
@@ -57,7 +58,7 @@
                     font-family: Montserrat;
                     font-weight: 500;
                     text-transform: none;
-                    font-size: 1.7vw;
+                    font-size: 1.5vw;
                 }
                 .strip-title-shakies {
                     font-family: Shakies;
@@ -162,6 +163,7 @@
                     .strip-title {
                         margin-top: 0;
                         font-size: 28px;
+                        line-height:8vw;
                     }
                     .strip-subtitle {
                         display: none;

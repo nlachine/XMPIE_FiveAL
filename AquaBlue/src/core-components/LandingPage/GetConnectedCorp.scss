@@ -27,7 +27,7 @@
                     text-align: center;
                     .icon img {
                         padding: 1vw;
-                        width:100px;
+                        width:65px;
                     }
                 }
             }
@@ -35,6 +35,29 @@
     }
 }
 
+@media (max-width: 1400px) {
+    .corp-gc-wrapper {
+        margin: 0;
+        .gc-container {
+            .gc-table {
+                width: 100%;
+                .gc-flexed {
+                    flex-direction: column;
+                    .gc-title {
+                        font-size: 30px;
+                        padding:30px 0px 0px 0px;
+                    }
+                    .gc-icons {
+                        padding: 10px 0px 20px 0px;
+                        .icon img {
+                            width: 55px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 @media (max-width: 1200px) {
     .corp-gc-wrapper {
         margin: 0;
@@ -50,7 +73,7 @@
                     .gc-icons {
                         padding: 10px 0px 20px 0px;
                         .icon img {
-                            width: 90px;
+                            width: 50px;
                         }
                     }
                 }
@@ -73,7 +96,7 @@
                     .gc-icons {
                         padding: 20px 0px 20px 0px;
                         .icon img {
-                            width: 70px;
+                            width: 40px;
                         }
                     }
                 }

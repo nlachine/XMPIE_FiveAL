@@ -24,7 +24,7 @@ export default class OccasionsPage extends Component {
     render() {
         return (
             <div>
-                <TheTitle>Our Card</TheTitle>
+                <TheTitle>Card Collection</TheTitle>
                 <CardGrid />
 
             </div>

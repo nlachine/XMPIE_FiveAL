@@ -24,7 +24,7 @@ const JumbotronTitle = withStyles((theme) => ({
         fontSize: '3.0rem',
         color: 'black',
         paddingBottom: '0px',
-        textTransform: 'uppercase'
+        textTransform: 'uppercase',
     },
 }))(Typography);
 
@@ -33,6 +33,7 @@ const JumbotronSubtitle = withStyles((theme) => ({
         fontSize: '1rem',
         color: 'black',
         paddingBottom: '20px',
+        letterSpacing: '1px!important'
     },
 }))(Typography);
 

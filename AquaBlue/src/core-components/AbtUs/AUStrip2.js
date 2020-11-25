@@ -11,7 +11,7 @@ export default function AUStrip2() {
                 <div className="au-image AU2"/>
                 <div className="au-table LightTeal">
                     <div className="au-text">
-                        <h2 className="au-title">We love working with new and local <span className="au-title-shakies Teal">brands!</span></h2>
+                        <h2 className="au-title">We love working with new and local <span className="au-title-shakies Teal">brands</span></h2>
                         <ButtonBase className="au-cta-button Teal">Email us here</ButtonBase>
                     </div>
                 </div>

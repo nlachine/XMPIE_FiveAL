@@ -15,7 +15,9 @@ export default function LPTile2() {
                     </div>
                     <div className="tile-table">
                         <div className="tile-text">
-                            <h2 className="tile-title Teal">Celebrate <span className="tile-title-shakies Yellow">birthdays</span> by sending the most <span className="tile-title-shakies Yellow">thoughtful</span> gift ever!</h2>
+                            <h2 className="tile-title Teal">Celebrate <span className="tile-title-shakies Yellow">birthdays</span>
+                            <br className="break" /> by sending the most
+                            <br className="break" /> <span className="tile-title-shakies Yellow">thoughtful</span> gift ever!</h2>
                             <ButtonBase className="tile-cta-button Teal" href={urlGenerator.get({ page: 'Category', id: '51' })}>Birthday Boxes</ButtonBase>
                         </div>
                     </div>

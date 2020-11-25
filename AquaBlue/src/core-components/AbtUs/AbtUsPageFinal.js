@@ -11,6 +11,7 @@ export default class AboutUsPageFinal extends Component {
         return (
             <div className="AboutUs-Page-Main">
                 <AudreyMsg />
+                <AUStrip2 />
                 <AUStrip1 />
                 <AUStrip2 />
                 <GetConnectedAU />

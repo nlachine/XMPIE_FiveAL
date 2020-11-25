@@ -12,7 +12,7 @@ const Title = withStyles((theme) => ({
     root: {
         fontSize: '2.4rem',
         fontFamily: 'Montserrat, Arial, sans-serif',        
-        color: 'black',
+        color: '#63666A',
         textAlign: 'center',
         paddingBottom: '0px'
     },
@@ -34,7 +34,7 @@ const SubTitle = withStyles((theme) => ({
     root: {
         fontSize: '1rem',
         fontFamily: 'Montserrat, Arial, sans-serif',        
-        color: 'black',
+        color: '#63666A',
         textAlign: 'center',
         paddingBottom: '10px'
     },

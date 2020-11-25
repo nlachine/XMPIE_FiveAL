@@ -26,18 +26,21 @@
                 text-transform: uppercase;
                 font-size: 3.6vw;
                 color: #63666a;
+                line-height: 5vw;
+                padding-bottom: 50px;
             }
             .shakies-line {
                 position: relative;
-                top: -1.3vw;
+                top: 0vw;
             }
             .hero-cta-shakies {
                 font-family: Shakies;
                 text-transform: lowercase;
-                font-size: 6.5vw;
+                font-size: 6vw;
                 color: #ec5f58;
                 position: relative;
                 top: 0.5vw;
+                font-weight: normal;
             }
             .hero-subcta {
                 font-Family: Montserrat, Arial, sans-serif;
@@ -45,6 +48,7 @@
                 text-transform: uppercase;
                 font-size: 1.66vw;
                 color: #63666a;
+                letter-spacing: 1px;
             }
             .hero-cta-button {
                 font-Family: Montserrat, Arial, sans-serif;
@@ -54,7 +58,8 @@
                 outline: none;
                 text-transform: uppercase;
                 text-decoration: none;
-                font-size: 1.87vw;
+                font-size: 1.4vw;
+                margin-top: 10px;
                 padding: 1vw 1.3vw;
                 color: #fff;
                 background-color: #ec5f58;

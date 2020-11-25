@@ -38,6 +38,7 @@ import AllCardFronts from './AllCardFronts'
 import Corporate from './Corporate'
 import Terms from './Terms'
 import Privacy from './Privacy'
+import AllGifts from './AllGifts'
 
 export default {
   Home,
@@ -79,5 +80,6 @@ export default {
   AllCardFronts,
   Corporate,
   Terms,
-  Privacy
+  Privacy,
+  AllGifts
 }

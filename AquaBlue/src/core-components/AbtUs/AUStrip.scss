@@ -20,7 +20,7 @@
         }
         .au-table {
             display: table;
-            width: 50%;
+            width: 60%;
             padding: 40px 10%;
             height: 100%;
 
@@ -37,6 +37,7 @@
                 display: table-cell;
                 vertical-align: middle;
                 .au-title {
+                    line-height:3.50vw;
                     margin-top: 0;
                     font-family: Montserrat;
                     font-weight: 600;
@@ -57,14 +58,17 @@
                     font-family: Montserrat;
                     font-weight: 500;
                     text-transform: none;
-                    font-size: 1.7vw;
+                    font-size: 1.2vw;
+                    letter-spacing: 1px;
                 }
                 .au-title-shakies {
                     font-family: Shakies;
                     font-weight: 500;
                     text-transform: lowercase;
-                    margin-top: 0px;
                     font-size: 4.1vw;
+                    margin: 0px 0px 0px 0px;
+                    position: relative;
+                    top:5px;
 
                     &.Teal {
                         color: #149b9e;
@@ -88,6 +92,7 @@
                 padding: 0.9vw 2vw;
                 color: #fff;
                 transition-duration: 0.5s;
+                margin-top: 20px;
                 &.Teal {
                     background-color: #149b9e;
                 }
@@ -121,7 +126,7 @@
                 background-size: cover;
             }
             height: 100%;
-            width: 50%;
+            width: 40%;
         }
     }
 }

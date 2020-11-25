@@ -37,11 +37,12 @@
                 display: table-cell;
                 vertical-align: middle;
                 .tile-title {
+                    line-height:3.50vw;
                     margin-top: 0;
                     font-Family: Montserrat, Arial, sans-serif;
                     font-weight: 600;
                     text-transform: uppercase;
-                    font-size: 2.5vw;
+                    font-size: 2.1vw;
                     &.Teal {
                         color: #149b9e;
                     }
@@ -56,9 +57,10 @@
                     font-family: Shakies;
                     font-weight: 500;
                     text-transform: lowercase;
-                    margin-top: 0px;
                     font-size: 4.1vw;
-
+                    margin: 0px 0px 0px 0px;
+                    position: relative;
+                    top:5px;
                     &.Teal {
                         color: #149b9e;
                     }
@@ -68,7 +70,7 @@
                     &.Yellow {
                         color: #ffc600;
                     }
-                }
+                }               
                 .tile-cta-button {
                     font-Family: Montserrat, Arial, sans-serif;
                     font-weight: 500;
@@ -77,8 +79,8 @@
                     outline: none;
                     text-transform: uppercase;
                     text-decoration: none;
-                    font-size: 1.5vw;
-                    padding: 1.5vw 1.6vw;
+                    font-size: 1.0vw;
+                    padding: 1.0vw 1.0vw;
                     color: #fff;
                     transition-duration: 0.5s;
                     &.Teal {
@@ -151,6 +153,7 @@
                 .tile-text {
                     .tile-title {
                         font-size: 22px;
+                        line-height: 8vw;
                         .break {
                             display: none;
                         }
