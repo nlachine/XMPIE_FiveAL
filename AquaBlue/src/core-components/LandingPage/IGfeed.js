@@ -2,7 +2,7 @@ import React from 'react'
 import { TextField, Grid, Button, Box, Typography } from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles';
 import Mailchimp from 'react-mailchimp-form'
-import Feed from "react-instagram-authless-feed"
+// import Feed from "react-instagram-authless-feed"
 
 import './IGfeed.scss';
 
@@ -31,10 +31,12 @@ const Title = withStyles((theme) => ({
     }
 }))(Typography);
 
+
+
 export default function IGFeed() {
     return (
         <div className="igfeed-wrapper">
-            <Feed userName="5amlemon" className="Feed" classNameLoading="Loading" limit="6"/>           
+            {/* <Feed userName="5amlemon" className="Feed" classNameLoading="Loading" limit="6"/>            */}
         </div>
     )
 }

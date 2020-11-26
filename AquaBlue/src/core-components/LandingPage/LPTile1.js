@@ -10,7 +10,7 @@ export default function LPTile1() {
         <div className="tile-wrapper">
             <div className="tile-container LightTeal">
                 <div className="mobile-table TextLeft">
-                    <div className="tile-image ImgRight Vcenter">
+                    <div className="tile-image ImgRight">
                         <img src={imgTile1} alt="tileImage" />
                     </div>
                     <div className="tile-table">

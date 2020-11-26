@@ -32,7 +32,7 @@ export default function SimpleAccordion() {
     return (
         <div className={classes.root}>
             {/* First */}
-            <h1>Shipping Your 5am Lemom Box</h1>
+            <h1>Shipping Your 5am Lemon Box</h1>
             <Accordion>
                 <AccordionSummary
                     expandIcon={<ExpandMoreIcon />}

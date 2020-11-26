@@ -20,7 +20,7 @@
         }
         .strip-table {
             display: table;
-            width: 55%;
+            width: 75%;
             padding: 40px 10%;
             height: 100%;
 
@@ -42,7 +42,7 @@
                     font-family: Montserrat;
                     font-weight: 600;
                     text-transform: uppercase;
-                    font-size: 2.5vw;
+                    font-size: 2.2vw;
                     &.Teal {
                         color: #149b9e;
                     }
@@ -56,16 +56,19 @@
                 .strip-subtitle {
                     margin-top: 0;
                     font-family: Montserrat;
-                    font-weight: 500;
+                    font-weight: normal;
                     text-transform: none;
-                    font-size: 1.5vw;
+                    font-size: 1.3vw;
+                    letter-spacing: px;
                 }
                 .strip-title-shakies {
                     font-family: Shakies;
                     font-weight: 500;
                     text-transform: lowercase;
-                    margin-top: 0px;
                     font-size: 4.1vw;
+                    margin: 0px 0px 0px 0px;
+                    position: relative;
+                    top:5px;
 
                     &.Teal {
                         color: #149b9e;
@@ -89,6 +92,7 @@
                 padding: 0.9vw 2vw;
                 color: #fff;
                 transition-duration: 0.5s;
+                margin-top: 20px;
                 &.Teal {
                     background-color: #149b9e;
                 }

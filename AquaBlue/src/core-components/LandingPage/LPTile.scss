@@ -55,7 +55,7 @@
                 }
                 .tile-title-shakies {
                     font-family: Shakies;
-                    font-weight: 500;
+                    font-weight: normal;
                     text-transform: lowercase;
                     font-size: 4.1vw;
                     margin: 0px 0px 0px 0px;
@@ -83,6 +83,7 @@
                     padding: 1.0vw 1.0vw;
                     color: #fff;
                     transition-duration: 0.5s;
+                    margin-top: 20px;
                     &.Teal {
                         background-color: #149b9e;
                     }
@@ -118,7 +119,6 @@
                 margin-left: auto;
             }
             img {
-                max-width: 100%;
                 height: auto;
                 max-height: 100%;
             }

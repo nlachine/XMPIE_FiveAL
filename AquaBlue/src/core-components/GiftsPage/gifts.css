@@ -1,0 +1,79 @@
+.nggifts {
+    margin: 3.6vw;
+}
+.nggiftItems {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.nggiftItem {
+  width: 100%;
+  max-width: 250px;
+	text-align: center;
+	padding: 0px;
+	margin: 10px;
+	background-color: #ffffff;
+}
+.ngimageContainer{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-height: 250px;
+    max-width: 250px;
+  }
+
+.ngimageContainer img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+
+.nggiftInfo{
+position: absolute;
+top: 0;
+background: #88cdcf;
+color: #fff;
+width: 100%;
+height: 100%;
+transition: .5s ease;
+opacity:0;
+font-family: 'Montserrat';
+font-size: 14px;
+line-height: 1.2;
+padding: 5%;
+text-align: justify;
+}
+
+.nggiftInfo:hover {
+opacity: 1;
+box-shadow: 0 0 5pt 2pt #b2b2b2;
+}
+
+p{
+margin: auto;
+}
+.disableBox {
+opacity: 0.5;
+}
+
+
+.nggiftDesciption {
+  font-family: 'Montserrat';
+	padding: 10px 0px 10px 0px;
+}
+.nggiftSubTitle {
+  font-family: 'Montserrat';
+	font-size: 20px;
+	font-weight: bold!important;
+}
+.nggiftPrice {
+  font-family: 'Montserrat';
+	padding: 5px 0px;
+	font-size: 16px;
+}
+
+
+
+
+
