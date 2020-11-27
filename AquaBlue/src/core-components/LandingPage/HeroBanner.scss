@@ -76,7 +76,7 @@
 
 @media (max-width: 1000px) {
     .hero-wrapper {
-        background-image: url("../../assets/images/Jumbotron.png");
+        background-image: url("../../assets/images/Jumbotron_Mobile.png");
         height: 1000px;
         margin-bottom: 3.6vw;
         width: 100%;
@@ -90,6 +90,7 @@
                 padding-top: 70px;
                 .hero-cta {
                     font-size: 6vw;
+                    line-height: 7vw;
                 }
                 .hero-cta-shakies {
                     font-size: 10vw;
@@ -123,6 +124,7 @@
                 padding-top: 35px;
                 .hero-cta {
                     font-size: 28px;
+                    line-height: 7vw;
                 }
                 .hero-cta-shakies {
                     font-size: 48px;

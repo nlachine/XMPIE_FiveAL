@@ -22,10 +22,10 @@ const CategoryItem = ({ model, url, className }) => {
     <Link to={url}>
       <a className={`category-item ${className || ''}`} data-qaautomationinfo={model.FriendlyID}>
         <div className="image-wrapper">
-          <img src={imageUrl} />
+          <img src={imageUrl} /><h1>Hello</h1>
         </div>
         <div className="category-name">
-          <HTMLLinesEllipsis style={{ whiteSpace: 'pre-wrap' }} unsafeHTML={model.Name} maxLine={2} basedOn='words' />
+          {/* <HTMLLinesEllipsis style={{ whiteSpace: 'pre-wrap' }} unsafeHTML={model.Name} maxLine={2} basedOn='words' /> */}
         </div>
       </a>
     </Link>

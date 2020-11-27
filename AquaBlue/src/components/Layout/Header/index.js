@@ -169,8 +169,8 @@ class Header extends Component {
           </div>
 
           <Dropdown />
-          <a className="navbar-link" href={urlGenerator.get({ page: 'AllGifts' })}>Gifts</a>
           <a className="navbar-link" href={urlGenerator.get({ page: 'AllBoxPatterns' })}>Patterns</a>
+          <a className="navbar-link" href={urlGenerator.get({ page: 'AllGifts' })}>Gifts</a>
           <a className="navbar-link" href={urlGenerator.get({ page: 'Corporate' })}>Corporate</a>
           <a className="navbar-link" href={urlGenerator.get({ page: 'AboutUs' })}>About Us</a>
           <a className="navbar-link" href={urlGenerator.get({ page: 'FAQ' })}>FAQ</a>
@@ -188,8 +188,8 @@ class Header extends Component {
             {currentUser && currentUser.IsAnonymous ? <SignIn showTitle={false} /> : <SignOut currentUser={currentUser} />}
             <div className="sidebar-link-container">
               <a className="sidebar-link" href={urlGenerator.get({ page: 'Occasions' })}>Occasions</a>
-              <a className="sidebar-link" href={urlGenerator.get({ page: 'AllGifts' })}>Gifts</a>
               <a className="sidebar-link" href={urlGenerator.get({ page: 'AllBoxPatterns' })}>Patterns</a>
+              <a className="sidebar-link" href={urlGenerator.get({ page: 'AllGifts' })}>Gifts</a>
               <a className="sidebar-link" href={urlGenerator.get({ page: 'Corporate' })}>Corporate</a>
               <a className="sidebar-link" href={urlGenerator.get({ page: 'AboutUs' })}>About Us</a>
               <a className="sidebar-link" href={urlGenerator.get({ page: 'FAQ' })}>FAQ</a>

@@ -1,5 +1,16 @@
 @import '_theme.scss';
-
+.gallery{
+  .top{
+    .main-title.scrollable-title{
+      visibility: hidden;
+    }
+    .main-title.scrollable-title:before{
+      visibility: visible;
+      letter-spacing: 1px!important;
+      content:'(after selecting a card your next step will be to pick a pattern for your box)';
+    }
+  }
+}
 .category-item {
   display: flex;
   flex-direction: column;
@@ -31,6 +42,7 @@
 
     .category-name {
       width: 180px;
+      display: none;
     }
   }
 
